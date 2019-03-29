@@ -1,0 +1,70 @@
+body {
+    background-color: #BBBBBB;
+}
+
+div.message {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+}
+
+p.normal {
+    color: #7d7d7d;
+    font-weight: 500;
+    line-height: 16px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+p.author {
+    color: #777777;
+    font-weight: 600;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+div.logo {
+    text-align: center;
+    opacity: 0.4;
+}
+
+div.clicked {
+    color: #777777;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 20px;
+}
+
+a:link {
+    color: #777777;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #909090;
+    font-weight: 600; 
+}
+
+a.recovery {
+    text-decoration: underline;
+    text-align: center;
+}
+
+i {
+    color: #777777;
+}
+
+img {
+    zoom: 8%;
+    -moz-transform: scale(0.08); /* Firefox */
+    -moz-transform-origin:top left;
+}

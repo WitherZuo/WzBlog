@@ -1,0 +1,33 @@
+image: node:8.11.3
+pages:
+  cache:
+    paths:
+    - node_modules/
+  script:
+  - git config --global user.name "WitherZuo"
+  - git config --global user.email "openworld189@gmail.com"
+  - npm install hexo-cli -g
+  - npm install 
+  - npm install hexo-util --save
+  - npm install hexo-renderer-stylus --save
+  - npm install hexo-renderer-marked --save
+  - npm install hexo-generator-feed --save
+  - npm install hexo-generator-sitemap --save
+  - npm install hexo-generator-baidu-sitemap --save
+  - npm install hexo-generator-index --save
+  - npm install hexo-generator-archive --save
+  - npm install hexo-generator-tag --save
+  - npm install hexo-wordcount --save
+  - npm install hexo-symbols-count-time --save
+  - npm install hexo-service-worker --save
+  - npm install hexo-filter-optimize --save
+  - npm install hexo-abbrlink --save
+  - hexo clean
+  - hexo g
+  - cd public/
+  - curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://www.wzblog.fun&token=TwFhN5gM4BMIe0a9" 
+  artifacts:
+    paths:
+    - public
+  only:
+  - master

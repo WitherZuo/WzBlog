@@ -1,0 +1,19 @@
+{
+    "name": "WzBlog",
+    "short_name": "WzBlog",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "description": "WzBlog PWA Preview",
+    "orientation": "portrait",
+    "prefer_related_applications": false,
+    "theme_color": "#222",
+    "background_color": "#222",
+    "icons": [
+        {
+            "src": "/images/favicon.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        }
+    ],
+    "scope": "/"
+}

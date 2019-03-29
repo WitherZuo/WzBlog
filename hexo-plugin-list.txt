@@ -1,0 +1,14 @@
+hexo-generator-feed
+hexo-generator-sitemap
+hexo-generator-baidu-sitemap
+hexo-baidu-url-submit
+hexo-deployer-git
+hexo-generator-search
+hexo-generator-index (?)
+hexo-generator-archive
+hexo-generator-tag
+hexo-wordcount (?) (Maybe removable)
+hexo-symbols-count-time
+hexo-service-worker (Can use it but need to add cdn link!)
+hexo-filter-optimize (?) (Can use it but need to add cdn link!)
+hexo-abbrlink
