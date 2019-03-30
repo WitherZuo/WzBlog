@@ -169,29 +169,26 @@ service_worker:
       options:
         origin: aixinxi.net
 
-# Hexo Filter Optimize Plugim Settings
-filter_optimize:
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
   enable: true
-  # remove static resource query string
-  #   - like `?v=1.0.0`
-  remove_query_string: true
-  # remove the surrounding comments in each of the bundled files
-  remove_comments: false
-  css:
-    enable: true
-    # bundle loaded css file into the one
-    bundle: true
-    # use a script block to load css elements dynamically
-    delivery: true
-    # make specific css content inline into the html page
-    #   - only support the full path
-    #   - default is ['css/main.css']
-    inlines:
-    excludes:
-  js:
-    # bundle loaded js file into the one
-    bundle: true
-    excludes: reading_progress.min.js
-  # set the priority of this plugin,
-  # lower means it will be executed first, default is 10
-  priority: 12
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'  
+    - '**/love.js'
