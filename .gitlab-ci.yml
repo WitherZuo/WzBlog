@@ -20,8 +20,8 @@ pages:
   - npm install hexo-wordcount --save
   - npm install hexo-symbols-count-time --save
   - npm install hexo-service-worker --save
-  - npm install hexo-filter-optimize --save
   - npm install hexo-abbrlink --save
+  - npm install hexo-neat --save
   - hexo clean
   - hexo g
   - cd public/
