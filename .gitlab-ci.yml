@@ -7,10 +7,7 @@ pages:
   - git config --global user.name "WitherZuo"
   - git config --global user.email "openworld189@gmail.com"
   - npm install hexo-cli -g
-  - npm install 
-  - npm install hexo-util --save
-  - npm install hexo-renderer-stylus --save
-  - npm install hexo-renderer-marked --save
+  - npm install
   - npm install hexo-generator-feed --save
   - npm install hexo-generator-sitemap --save
   - npm install hexo-generator-baidu-sitemap --save
