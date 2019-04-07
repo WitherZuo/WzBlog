@@ -1,7 +1,7 @@
 hexo-generator-feed
 hexo-generator-sitemap
 hexo-generator-baidu-sitemap
-hexo-baidu-url-submit
+hexo-baidu-url-submit  (with curl)
 hexo-deployer-git
 hexo-generator-search
 hexo-generator-index

@@ -1,0 +1,30 @@
+<! doctype=<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>来自旁观者的内心独白</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="https://www.wzblog.fun/404.css" />
+    <link href="https://fonts.loli.net/css?family=ZCOOL+KuaiLe" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+    crossorigin="anonymous">
+</head>
+<body>
+<div class="message">
+    <div class="logo">
+        <img src="https://www.wzblog.fun/logo.png" alt="witherzuo-logo"></img>
+    </div>
+    <p class="normal">您好，欢迎来到这里</p>
+    <p class="normal">这里是待建工地</p>
+    <p class="normal">我们正在努力发送信号给对方</p>
+    <p class="normal">但他们只能回复<strong>[404]</strong>给我们</p>
+    <p class="normal">这是什么信号？</p>
+    <p class="normal">&nbsp;</p>
+    <div class="clicked">
+        <p class="author">以上信息来源于未知的旁观者</p>
+        <a href="https://www.wzblog.fun" class="recovery"><i class="fas fa-chevron-circle-right"></i>&nbsp;单击此处，让一切回归原位</a>
+    </div>
+</div>  
+</body>
+</html>

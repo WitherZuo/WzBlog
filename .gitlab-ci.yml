@@ -14,6 +14,7 @@ pages:
   - npm install hexo-generator-index --save
   - npm install hexo-generator-archive --save
   - npm install hexo-generator-tag --save
+  - npm install hexo-generator-search --save
   - npm install hexo-wordcount --save
   - npm install hexo-symbols-count-time --save
   - npm install hexo-service-worker --save
@@ -23,6 +24,7 @@ pages:
   - hexo g
   - cd public/
   - curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://www.wzblog.fun&token=TwFhN5gM4BMIe0a9" 
+  - sh ./github.sh
   artifacts:
     paths:
     - public

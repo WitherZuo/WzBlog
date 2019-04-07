@@ -358,7 +358,7 @@ post_edit:
 # ---------------------------------------------------------------
 
 # Disable Baidu tranformation on mobile devices.
-disable_baidu_tranformation: false
+disable_baidu_tranformation: true
 
 # Reduce padding / margin indents on devices with narrow width.
 mobile_layout_economy: false
@@ -805,7 +805,7 @@ tabs:
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
   enable: true
-  color: "#37c6c0"
+  color: "#5A69EC"
   height: 2px
 
 
@@ -849,14 +849,14 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: true
 # Themes list:
 # pace-theme-big-counter | pace-theme-bounce | pace-theme-barber-shop | pace-theme-center-atom
 # pace-theme-center-circle | pace-theme-center-radar | pace-theme-center-simple | pace-theme-corner-indicator
 # pace-theme-fill-left | pace-theme-flash | pace-theme-loading-bar | pace-theme-mac-osx | pace-theme-minimal
 # For example
 # pace_theme: pace-theme-center-simple
-pace_theme: pace-theme-minimal
+pace_theme: pace-theme-center-atom
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
@@ -1056,10 +1056,6 @@ vendors:
   # Example:
   # md5: //cdn.jsdelivr.net/npm/js-md5@0/src/md5.min.js
   md5:
-
-  #Share
-  sharesdk: true
-  shareSDKappkey: 2a91a13fda3f8
 
 # Assets
 css: css
