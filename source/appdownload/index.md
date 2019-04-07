@@ -13,13 +13,13 @@ comments: true
 
 由于本人没钱买水果再加上众所周知的原因，此客户端目前只有安卓端版本，可能很长一段时间都不会有水果版本，只能对各位水果用户说一句Sorry了。  
 
-单击此按钮获取应用&nbsp;(适用于<i class="fab fa-android"></i>&nbsp;Android):&nbsp;&nbsp;<a class="btn" href=https://www.lanzous.com/i3p4kah"><i class="fas fa-file-download"></i>&nbsp;获取应用</a>    
+单击此按钮获取应用&nbsp;(适用于<i class="fab fa-android"></i>&nbsp;Android):&nbsp;&nbsp;<a class="btn" href="https://www.lanzous.com/i3p4kah"><i class="fas fa-file-download"></i>&nbsp;获取应用</a>    
 
 单击此按钮查看应用的更新日志&nbsp;(适用于<i class="fab fa-android"></i>&nbsp;Android):&nbsp;&nbsp;<a class="btn" href="releasenotes.html"><i class="fas fa-file-alt"></i>&nbsp;查看更新日志</a>
 
 或者扫二维码下载：（请在确保安全的情况下扫码）   
 
-![qrcode.png](https://www.wzblog.fun/qrcode.png)  
+![qrcode.png](https://storage.live.com/items/5582C1D07E2893FB!133427?authkey=APiqr1tjl5KIc1Q)  
 
 <head> 
     <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> 
