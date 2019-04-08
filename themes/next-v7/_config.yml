@@ -598,16 +598,16 @@ add_this_id:
 # Weibo,Wechat,Douban,QQZone,Twitter,Linkedin,Mailto,Reddit,Delicious,StumbleUpon,Pinterest,Facebook,GooglePlus,
 # Slashdot,Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2:
-  enable: true
+  enable: false
   postbottom:
-    enable: true
+    enable: false
     options:
       iconStyle: box
       boxForm: horizontal
       position: top
       networks: Weibo,Wechat,Douban,Twitter,Facebook,Mailto
   float:
-    enable: true
+    enable: false
     options:
       iconStyle: box
       boxForm: horizontal

@@ -84,4 +84,4 @@ UWP的生态目前的境况很多人都是有目共睹，而这种情况下Img S
 
 **12月22日更新：部分图片添加为外链后可能不是HTTPS链接，浏览器控制台会报https错误，解决方法为自行在图片外链接中将http改为https即可。 **  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><!-- AddToAny BEGIN --><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_douban"></a><a class="a2a_button_copy_link"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script><!-- AddToAny END -->

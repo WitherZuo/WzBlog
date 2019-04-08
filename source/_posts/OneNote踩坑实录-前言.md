@@ -132,4 +132,4 @@ emmmmm，好吧（同情这位用户）
 
 <i class="fa fa-globe-americas"></i>&nbsp;<u>**单击此处，转到下一篇文章：OneNote踩坑实录 - 这么多坑，你踩过哪一个（仍在编辑中）**</u>  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><!-- AddToAny BEGIN --><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_douban"></a><a class="a2a_button_copy_link"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script><!-- AddToAny END -->
