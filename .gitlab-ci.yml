@@ -20,12 +20,10 @@ pages:
   - npm install hexo-service-worker --save
   - npm install hexo-abbrlink --save
   - npm install hexo-neat --save
-  - npm install hexo-deployer-git --save
   - hexo clean
   - hexo g
   - cd public/
   - curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://www.wzblog.fun&token=TwFhN5gM4BMIe0a9" 
-  - sh github.sh
   artifacts:
     paths:
     - public
