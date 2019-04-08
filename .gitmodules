@@ -1,0 +1,6 @@
+[submodule "source/lib/pace"]
+	path = source/lib/pace
+	url = https://github.com/theme-next/theme-next-pace
+[submodule "themes/next-v7/theme-next-pace"]
+	path = themes/next-v7/theme-next-pace
+	url = https://github.com/theme-next/theme-next-pace
