@@ -6,7 +6,6 @@ pages:
   script:
   - git config --global user.name "WitherZuo"
   - git config --global user.email "openworld189@gmail.com"
-  - git config --global core.autocrlf input
   - npm install hexo-cli -g
   - npm install
   - npm install hexo-generator-feed --save
