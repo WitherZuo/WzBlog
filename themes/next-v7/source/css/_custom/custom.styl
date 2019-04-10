@@ -249,6 +249,7 @@ div.post-body p {
         text-align: justify;
         word-break: break-all;
         word-wrap: break-word;
+        white-space: pre-line;
     }
 
 	+tablet() {
@@ -257,8 +258,19 @@ div.post-body p {
         text-align: justify;
         word-break: break-all;
         word-wrap: break-word;
+        white-space: pre-line;
     }
 }
+
+div.post-body li {
+    font-size: 15px;
+    text-align: justify;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+div.post-body ol {padding-left: 12px;}
 
 a,button,input,textarea{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
