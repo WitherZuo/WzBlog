@@ -13,9 +13,9 @@ comments: false
 
 好吧...  
 
-你觉得一个业余Minecraft生存玩家，一个默默无闻的Windows Insider需要自我介绍？  
+你觉得一个业余 Minecraft 生存玩家，一个默默无闻的 Windows Insider 需要自我介绍？  
 
-从来不会准时按点更新此Blog，  
+从来不会准时按点更新此 Blog，  
 
 目前状态：在校，专业：网络与新媒体  
 

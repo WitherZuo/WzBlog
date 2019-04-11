@@ -7,7 +7,7 @@ comments: true
 
 是的，你没看错！在经历了一周时间的爆肝折腾后，博客的移动端应用已正式上线开始测试！撒花*★,°*:.☆(￣▽￣)/$:*.°★* 。  
 
-由于本人没钱买水果再加上众所周知的原因，此客户端目前只有安卓端版本，可能很长一段时间都不会有水果版本，只能对各位水果用户说一句Sorry了。  
+由于本人没钱买水果再加上众所周知的原因，此客户端目前只有安卓端版本，可能很长一段时间都不会有水果版本，只能对各位水果用户说一句 Sorry 了。  
 
 单击此按钮获取应用&nbsp;(适用于<i class="fab fa-android"></i>&nbsp;Android):&nbsp;&nbsp;<a class="btn" href="https://www.lanzous.com/i3p4kah"><i class="fas fa-file-download"></i>&nbsp;获取应用</a>    
 

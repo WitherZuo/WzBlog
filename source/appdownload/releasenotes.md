@@ -3,9 +3,9 @@ date: 2018-12-02 11:51:18
 comments: false
 ---
 
-## WzBlog移动端更新日志（Android）  
+## WzBlog 移动端更新日志（Android）  
 
-注意：由于本应用是WebApp，因此部分改动无需更新应用，仅需刷新页面即可完成更新。  
+注意：由于本应用是 WebApp，因此部分改动无需更新应用，仅需刷新页面即可完成更新。  
   
 
 ### 版本：1.2.9 (build 149)  
@@ -25,7 +25,7 @@ comments: false
 
 ### 版本：0.2.66  
 
-- 初步支持Service Worker  
+- 初步支持 Service Worker  
 - 性能优化  
 
 ### 版本：0.2.59  
@@ -63,7 +63,7 @@ comments: false
 
 ### 版本：0.1.47  
 
-- 更新了Target SDK，将目标API升级为26，适配较新Android版本的特性  
+- 更新了 Target SDK，将目标 API 升级为 26，适配较新 Android 版本的特性  
 - 微调界面  
 
 ### 版本：0.1.25  
