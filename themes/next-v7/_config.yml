@@ -417,7 +417,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Noto Sans SC
+    family: Ubuntu Sans SC
     size:
 
   # Font settings for posts.
@@ -804,7 +804,7 @@ tabs:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: true
+  enable: false
   color: "#5A69EC"
   height: 2px
 
