@@ -1,6 +1,6 @@
 echo Publishing blog to GitHub Pages.
 echo *****WARNING!*****
-echo This blog also have GitLab repo, PLEASE REMENBER PUSH ALL COMMITS TO GITLAB!
+echo This blog also have GitLab repo, PLEASE REMENBER TO PUSH ALL COMMITS TO GITLAB!
 echo ======BEGIN!======
 echo Cleaning public repo cache.
 hexo clean
@@ -15,4 +15,4 @@ curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.
 cd /g/HexoBlog
 echo ======FINISHED!======
 echo *****WARNING!*****
-echo This blog also have GitLab repo, PLEASE REMENBER PUSH ALL COMMITS TO GITLAB!
+echo This blog also have GitLab repo, PLEASE REMENBER TO PUSH ALL COMMITS TO GITLAB!
