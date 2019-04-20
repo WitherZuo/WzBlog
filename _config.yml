@@ -151,10 +151,6 @@ service_worker:
     - urlPattern: /*
       handler: cacheFirst
       options:
-        origin: music.163.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
         origin: i.loli.net
     - urlPattern: /*
       handler: cacheFirst
