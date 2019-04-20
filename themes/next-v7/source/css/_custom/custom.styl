@@ -251,7 +251,7 @@ div.post-body p {
         white-space: pre-line;
         text-justify: inter-ideograph;
         letter-spacing: 0.1px;
-        word-spacing: -1px;
+        word-spacing: -1.5px;
     }
 
 	+tablet() {
@@ -262,7 +262,7 @@ div.post-body p {
         white-space: pre-line;
         text-justify: inter-ideograph;
         letter-spacing: 0.1px;
-        word-spacing: -1px;
+        word-spacing: -1.5px;
     }
 }
 
@@ -274,7 +274,7 @@ div.post-body li {
     white-space: pre-line;
     text-justify: inter-ideograph;
     letter-spacing: 0.1px;
-    word-spacing: -1px;
+    word-spacing: -1.5px;
 }
 
 div.post-body ol {padding-left: 12px;}
@@ -309,4 +309,10 @@ div#about-content div#app-about-info hr {
 /* 优化评论区显示效果 */
 textarea#veditor.veditor.vinput {
     +mobile() {height: 100px;}
+}
+
+/* 优化归档页面显示效果 */
+div.post-block.archive {
+    +mobile() {padding: 26px 24px 25px 24px;}
+    +tablet() {padding: 26px 24px 25px 24px;}   
 }
