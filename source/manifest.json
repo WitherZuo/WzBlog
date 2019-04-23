@@ -1,9 +1,9 @@
 {
-  "name": "WzBlog",
-  "short_name": "witherzuo's homepage",
+  "name": "witherzuo's homepage",
+  "short_name": "WzBlog",
   "theme_color": "#222222",
   "background_color": "#222222",
-  "display": "minimal-ui",
+  "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/index.html",

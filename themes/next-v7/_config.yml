@@ -417,7 +417,7 @@ font:
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Ubuntu Sans SC
+    family: Noto Sans SC
     size:
 
   # Font settings for posts.
