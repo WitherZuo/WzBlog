@@ -144,7 +144,7 @@ menu:
   archives: /archives/ || circle
   #schedule: /schedule/ || circle
   sitemap: /sitemap.xml || circle
-  commonweal: /404/ || circle
+  #commonweal: /404/ || circle
   #Download App: appdownload || circle
 
 # Enable/Disable menu icons / item badges.
