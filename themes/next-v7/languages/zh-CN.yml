@@ -5,14 +5,14 @@ title:
   tag: 标签
   schedule: 日程表
 menu:
-  home: <strong>▷</strong>&nbsp;&nbsp;&nbsp;首页 - Home
-  archives: <strong>▷</strong>&nbsp;&nbsp;&nbsp;归档 - Archives
-  categories: <strong>▷</strong>&nbsp;&nbsp;&nbsp;分类 - Categories
-  tags: <strong>▷</strong>&nbsp;&nbsp;&nbsp;标签 - Tags
-  about: <strong>▷</strong>&nbsp;&nbsp;&nbsp;关于 - About Myself
+  home: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;首页 - Home
+  archives: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;归档 - Archives
+  categories: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;分类 - Categories
+  tags: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;标签 - Tags
+  about: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;关于 - About Myself
   search: 搜索文章
   schedule: 日程表 - Schedule
-  sitemap: <strong>▷</strong>&nbsp;&nbsp;&nbsp;站点地图 - Sitemap
+  sitemap: <strong>⇨</strong>&nbsp;&nbsp;&nbsp;站点地图 - Sitemap
   commonweal: ▶&nbsp;&nbsp;&nbsp;公益 404
 sidebar:
   overview: 站点概览
