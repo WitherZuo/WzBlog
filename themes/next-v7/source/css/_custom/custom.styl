@@ -45,19 +45,7 @@ div.post-body p:last-child {display: none;}
     }
 }
 
-/* 更改菜单项目字号 */
-.menu .menu-item a, .menu .menu-item span.exturl {
-    display: block;
-    font-size: 15.5px;
-    line-height: inherit;
-    border-bottom: 1px solid transparent;
-    transition-property: border-color;
-    transition-duration: 0.2s;
-    transition-timing-function: ease-in-out;
-    transition-delay: 0s;
-}
-
-.btn {font-size: 15px;}
+/* 修改侧边栏右侧徽标字号 */
 span.archive-page-counter {font-size: 15px;}
 
 /* 优化移动端顶栏显示效果 */
@@ -74,7 +62,6 @@ span.archive-page-counter {font-size: 15px;}
 /* 强化移动端三点菜单导航按钮显示效果 */
 .site-nav-toggle button {
     outline: none !important;
-
     +mobile() {margin-top: 1px;}    
     +tablet() {margin-top: 1px;}
 }
@@ -139,6 +126,8 @@ ul.menu#menu li.menu-item.menu-item-sitemap a {
     font-size: 15.5px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
+    +mobile() {font-size: 16px;}
+    +tablet() {font-size: 16px;}
 }
 
 li.menu-item.menu-item-search a {
@@ -157,7 +146,6 @@ li.menu-item.menu-item-search a {
 
 li.menu-item.menu-item-search a {
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
-
     +mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
     +tablet() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
 }
@@ -190,12 +178,6 @@ li.menu-item.menu-item-search {
     }
 }
 
-ul.menu#menu li a svg {
-    padding-left: 0px;
-    margin-right: 8px;
-    width: 13px;
-}
-
 ul.menu#menu li {
     padding-left: 8px;
     padding-right: 8px;
@@ -216,8 +198,7 @@ ul.menu#menu li.menu-item.menu-item-about.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-tags.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-categories.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a,
-ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a,
-ul.menu#menu li.menu-item.menu-item-download-app.menu-item-active a, {
+ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a, {
     background-color: #F0F0F0;
     color: black;
     font-weight: 700;
@@ -225,6 +206,8 @@ ul.menu#menu li.menu-item.menu-item-download-app.menu-item-active a, {
     border-radius: 6px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
+    +mobile() {font-size: 16x;}
+    +tablet() {font-size: 16px;}
 }
 
 /* 调整“阅读全文”按钮外边距 */
@@ -285,7 +268,7 @@ div.post-body li {
 
 div.post-body ol {padding-left: 12px;}
 
-a,button,input,textarea{
+a, button, input, textarea {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
@@ -323,8 +306,12 @@ div.post-block.archive {
     +tablet() {padding: 26px 24px 25px 24px;}   
 }
 
-/* 按钮边框调整 */
-a.btn {border: 1px solid #555;}
+/* 按钮样式调整 */
+a.btn {
+    border: 1px solid #222;
+    color: #222;
+    font-size: 15px;
+}
 
 /* 底部文字样式 */
 div.theme-info strong {
@@ -336,6 +323,7 @@ div.theme-info strong {
     padding: 1px;
 }
 
+/* 侧边栏按钮显示图标 */
 ul.menu#menu strong {font-size: 16px;}
 
 /* 底部文字优化 */
