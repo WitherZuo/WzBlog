@@ -5,15 +5,15 @@ title:
   tag: 标签
   schedule: 日程表
 menu:
-  home: ▶&nbsp;&nbsp;&nbsp;首页 - Home
-  archives: ▶&nbsp;&nbsp;&nbsp;归档 - Archives
-  categories: ▶&nbsp;&nbsp;&nbsp;分类 - Categories
-  tags: ▶&nbsp;&nbsp;&nbsp;标签 - Tags
-  about: ▶&nbsp;&nbsp;&nbsp;关于 - About Myself
+  home: <strong>首</strong>&nbsp;&nbsp;&nbsp;首页 - Home
+  archives: <strong>归</strong>&nbsp;&nbsp;&nbsp;归档 - Archives
+  categories: <strong>分</strong>&nbsp;&nbsp;&nbsp;分类 - Categories
+  tags: <strong>标</strong>&nbsp;&nbsp;&nbsp;标签 - Tags
+  about: <strong>关</strong>&nbsp;&nbsp;&nbsp;关于 - About Myself
   search: 搜索文章
   schedule: 日程表 - Schedule
-  sitemap: ▶&nbsp;&nbsp;&nbsp;站点地图 - Sitemap
-  commonweal: ▶&nbsp;&nbsp;&nbsp;公益 404
+  sitemap: <strong>站</strong>&nbsp;&nbsp;&nbsp;站点地图 - Sitemap
+  commonweal: &nbsp;&nbsp;&nbsp;公益 404
 sidebar:
   overview: 站点概览
   toc: 文章目录

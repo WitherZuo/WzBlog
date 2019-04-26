@@ -49,7 +49,7 @@
 
 {% if theme.footer.theme.enable %}
   <div class="theme-info">
-    <strong><u>😂&nbsp;这个站点也是有底线的!&nbsp;😁</u></strong>
+    <strong><u>😂这个站点也是有底线的#认真脸😁</u></strong>
   </div>
 {% endif %}
 
