@@ -13,7 +13,7 @@ menu:
   search: 搜索文章
   schedule: 日程表 - Schedule
   sitemap: <strong>站</strong>&nbsp;&nbsp;&nbsp;站点地图 - Sitemap
-  commonweal: &nbsp;&nbsp;&nbsp;公益 404
+  commonweal: <strong></strong>&nbsp;&nbsp;&nbsp;公益 404
 sidebar:
   overview: 站点概览
   toc: 文章目录
