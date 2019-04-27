@@ -126,8 +126,8 @@ ul.menu#menu li.menu-item.menu-item-sitemap a {
     font-size: 15.5px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 16.5px;}
-    +tablet() {font-size: 16.5px;}
+    +mobile() {font-size: 16px;}
+    +tablet() {font-size: 16px;}
 }
 
 li.menu-item.menu-item-search a {
@@ -138,15 +138,12 @@ li.menu-item.menu-item-search a {
     color: white;
     padding-top: 1px;
     padding-bottom: 1px;
-    border: 1px solid #282828;
+    border: 0px solid #282828;
     border-radius: 17px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 15px;}
-    +tablet() {font-size: 15px;}
-}
-
-li.menu-item.menu-item-search a {
+    +mobile() {font-size: 14px;}
+    +tablet() {font-size: 14px;}
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
     +mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
     +tablet() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
@@ -155,7 +152,7 @@ li.menu-item.menu-item-search a {
 li.menu-item.menu-item-search a:hover {
     background-color: #424242;
     color: white;
-    border: 1px solid #282828;
+    border: 0px solid #282828;
     border-radius: 17px;
 }
 
@@ -208,8 +205,8 @@ ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a, {
     border-radius: 6px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 16.5px;}
-    +tablet() {font-size: 16.5px;}
+    +mobile() {font-size: 16px;}
+    +tablet() {font-size: 16px;}
 }
 
 /* 调整“阅读全文”按钮外边距 */
@@ -270,9 +267,7 @@ div.post-body li {
 
 div.post-body ol {padding-left: 12px;}
 
-a, button, input, textarea {
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
+a, button, input, textarea {-webkit-tap-highlight-color: rgba(0,0,0,0);}
 
 /* 关于页面优化 */
 div#about-content {
