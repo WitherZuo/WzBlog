@@ -37,7 +37,7 @@ keyword:
 
 ![m7ctSupZ8X.png](https://storage.live.com/items/5582C1D07E2893FB!132996?authkey=APiqr1tjl5KIc1Q)
 
-> 门罗币（Monero）是一个诞生于 2014 年 4 月的开源加密货币，其注重可替代性、隐私和去中心化。    ——来源> 于 Wikipedia
+> 门罗币（Monero）是一个诞生于 2014 年 4 月的开源加密货币，其注重可替代性、隐私和去中心化。    ——来源于 Wikipedia
 
 而 CoinHive 正是通过加载一段 JS 脚本，来借助机器算力计算哈希来挖掘门罗币的：  
 
