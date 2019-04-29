@@ -40,7 +40,7 @@ keyword:
 
 这个游戏同时已经开源在GitHub上：[单击此处](https://github.com/maxwellito/breaklock)  
 
-如果你想试试用几次能猜出正确的图案，或者实在是闲的没事可做，不妨来玩一次看看。  
+如果你想试试用几次能猜出正确的图案，或者实在是闲的没事可做，不妨来试试看。  
 
 视频地址：[单击此处](https://www.bilibili.com/video/av50717937/)
 
