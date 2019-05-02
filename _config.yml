@@ -188,3 +188,13 @@ neat_js:
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'  
     - '**/love.js'
+
+# Note tag (bs-callout).
+note:
+  # 风格
+  style: flat
+  # 要不要图标
+  icons: true
+  # 圆角矩形
+  border_radius: 3
+  light_bg_offset: 0
