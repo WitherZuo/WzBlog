@@ -5,7 +5,7 @@ echo ======BEGIN!======
 echo Cleaning public repo cache.
 hexo clean
 echo Generating md to HTML files.
-hexo g --watch
+hexo g
 echo Publishing all files to repo.
 hexo d
 echo Published all files!

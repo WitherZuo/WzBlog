@@ -9,7 +9,7 @@ pages:
   - npm install hexo-cli -g
   - npm install
   - hexo clean
-  - hexo g --watch
+  - hexo g
   artifacts:
     paths:
     - public
