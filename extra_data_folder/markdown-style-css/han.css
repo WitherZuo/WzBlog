@@ -519,6 +519,19 @@ a.md-toc-inner {
   background: transparent;
 }
 
+.ty-show-search #info-panel-tab-search .info-panel-tab-border {
+  height: 2px;
+}
+
+.active-tab-files #info-panel-tab-file .info-panel-tab-border,
+.active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
+  height: 2px;
+}
+
+input#file-library-search-input {
+  text-indent: 10px;
+}
+
 /*.file-node-icon.fa.fa-folder:before {
   content: "\f114";
 }

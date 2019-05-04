@@ -9,9 +9,7 @@ pages:
   - npm install hexo-cli -g
   - npm install
   - hexo clean
-  - hexo g
-  - cd public/
-  - curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://www.wzblog.fun&token=TwFhN5gM4BMIe0a9" 
+  - hexo g --watch
   artifacts:
     paths:
     - public
