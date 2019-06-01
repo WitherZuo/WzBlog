@@ -10,7 +10,7 @@ git push origin master
 echo Published all files to GitLab!
 echo ======FINISHED!======
 echo GitLab was Done!
-echo.
+echo           
 echo Publishing blog to GitHub Pages.
 echo Please note: IF THERE ARE MANY FILES IN YOUR BLOG, THIS PROCESS WILL BE SO SLOW!
 echo ======BEGIN!======
