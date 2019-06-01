@@ -1,0 +1,93 @@
+/*404*/
+/*页面主干*/
+body {
+    background-color: #222;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+/*设定初始动画*/
+@keyframes getin {
+    0% {opacity: 0;}
+    25% {opacity: 0.25;}
+    50% {opacity: 0.5;}
+    75% {opacity: 0.75;}
+    100% {opacity: 1;}
+}
+
+/*页面主要内容块状元素*/
+div.main-content {
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -193px;
+    margin-left: -90px;
+    animation: getin 0.6s;
+    animation-timing-function: linear;
+}
+
+/*顶部图片块状元素*/
+div.main-content div.img-atom {
+    width: 56px;
+    height: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/*顶部图片*/
+div.img-atom img#img-atom-solid {
+    width: 100%;
+    height: 100%;
+}
+
+/*图片下方文本块状元素*/
+div.main-content div.main-p {text-align: center;}
+/*图片下方文本内容*/
+div.main-p p {
+    color: #FFF;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+/*返回主页按钮-块状元素*/
+div.main-content div.toback {
+    text-align: center;
+    margin-top: 22px;
+}
+
+/*返回主页按钮*/
+div.toback button#button-takemeback {
+    width: 117px;
+    height: 38px;
+    border: 2px solid #FFF;
+    color: #FFF;
+    background-color: #222;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+    outline: none;
+    transition: color, background-color;
+    transition-duration: 0.2s;
+}
+
+/*返回主页按钮-划过时*/
+div.toback button#button-takemeback:hover {
+    background-color: #FFF;
+    color: #222;
+}
+
+/*返回主页按钮-激活时*/
+div.toback button#button-takemeback:active {
+    background-color: #FFF;
+    color: #222;
+}
+
+/*返回主页按钮-被访问时*/
+div.toback button#button-takemeback:visited {
+    background-color: #FFF;
+    color: #222;
+}
