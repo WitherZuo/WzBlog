@@ -11,7 +11,7 @@ echo Push all commits to GitLab repo.
 git push origin master
 echo Published all files to GitLab!
 echo ======FINISHED!======
-echo GitLab (Done!)
+echo GitLab was Done!
 echo Publishing blog to GitHub Pages.
 echo Please note: IF THERE ARE MANY FILES IN YOUR BLOG, THIS PROCESS WILL BE SO SLOW!
 echo *****WARNING!*****
@@ -25,6 +25,6 @@ echo Publishing all files to repo.
 hexo d
 echo Published all files to GitHub
 echo ======FINISHED!======
-echo GitHub (Done!)
+echo GitHub was Done!
 echo *****WARNING!*****
 echo YOU SHOULD NOTICE THE MAIL IF SOMETHING WENT WRONG!
