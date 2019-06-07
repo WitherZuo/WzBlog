@@ -607,7 +607,7 @@ needmoreshare2:
       position: top
       networks: Weibo,Wechat,Douban,Twitter,Facebook,Mailto
   float:
-    enable: false
+    enable: true
     options:
       iconStyle: box
       boxForm: horizontal

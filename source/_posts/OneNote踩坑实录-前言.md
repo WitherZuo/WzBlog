@@ -37,7 +37,7 @@ date: 2018-11-20 10:29:00
 
 <span style="background:black;color:white;">**笔记的层级划分：**</span>在组织笔记的内容时，我们有必要对笔记的层级进行划分。OneNote 的笔记层级可以按照“笔记本-分区组-笔记单页”来看，每一个笔记本可以包含无数的笔记分区，而每一个分区下面又可以包含无数个笔记页面，从理论上来说，你可以无限创建笔记（前提是你的本地空间或云存储空间足够），除此之外，你还可以创建多层级嵌套的笔记分区。
 
-![onenote-level.png](https://i.loli.net/2018/11/14/5bec2d07c7529.png "图7：OneNote的多层级笔记") 
+<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 
 <span style="background:black;color:white;">**不限的同步流量：**</span>如果你用过 EverNote（印象笔记），免费版的每月同步流量最多为 60MB，即使付费订阅成为高级用户，每月的同步流量最多为 10GB，而 OneNote 的同步流量则没有任何限制，虽然免费的个人版 OneDrive 最多只有 5G 空间，存一些笔记还是绰绰有余的（如果觉得 OneDrive 的 5G 空间不够用，后续也可以通过付费订阅 Office 365 或购买 OneDrive 空间来扩展容量。  
 
@@ -132,4 +132,5 @@ emmmmm，好吧（同情这位用户）
 
 <i class="fa fa-globe-americas"></i>&nbsp;<u>**单击此处，转到下一篇文章：OneNote 踩坑实录 - 这么多坑，你踩过哪一个（仍在编辑中）**</u>  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><!-- AddToAny BEGIN --><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_douban"></a><a class="a2a_button_copy_link"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script><!-- AddToAny END -->
+<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+

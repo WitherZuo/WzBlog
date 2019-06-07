@@ -103,4 +103,5 @@ permalink_defaults:
 
 **其实，出现这些问题，还是因为对 Hexo 的了解不够，现在来看，确实是给自己挖了个大坑#捂脸×2（逃**  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"><!-- AddToAny BEGIN --><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class="a2a_button_facebook"></a><a class="a2a_button_twitter"></a><a class="a2a_button_wechat"></a><a class="a2a_button_sina_weibo"></a><a class="a2a_button_douban"></a><a class="a2a_button_copy_link"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script><!-- AddToAny END -->
+<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
