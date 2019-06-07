@@ -1008,7 +1008,7 @@ vendors:
   # Example:
   # pangu: //cdn.jsdelivr.net/npm/pangu@3/dist/browser/pangu.min.js
   # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/3.3.0/pangu.min.js
-  pangu:
+  pangu: //cdn.jsdelivr.net/npm/pangu@3/dist/browser/pangu.min.js
 
   # Internal version: 1.0.0
   # See: https://github.com/revir/need-more-share2

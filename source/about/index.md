@@ -1,4 +1,5 @@
 ---
+title: 关于自己
 comments: false
 ---
 <div id="about-content" align="center">
