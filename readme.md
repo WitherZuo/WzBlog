@@ -6,10 +6,10 @@
 
 www.wzblog.fun  或  [wzblog.fun](wzblog.fun)  
 
-[witherzuo.gitlab.io](witherzuo.gitlab.io) 或 [witherzuo.github.io](witherzuo.github.io)  
+这是访问源站：[witherzuo.gitlab.io](witherzuo.gitlab.io)
 
-顺便吐槽一句，这域名第一年 9 软妹币，之后续费需要49软妹币，笑哭😂  
+顺便吐槽一句，这域名第一年 9 软妹币，之后续费需要 49 软妹币，笑哭😂  
 
-在部署到 GitLab Pages 后，请不要忘记向 GitHub Pages 部署相同的文件，反之亦然。  
+在部署到 GitLab Pages 后，请记得检查 GitLab 的流水线任务监视其生成和部署状况。  
 
 **最后的最后，您这是挖了个大坑啊.......**

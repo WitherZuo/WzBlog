@@ -8,7 +8,6 @@ pages:
   - git config --global user.email "openworld189@gmail.com"
   - npm install hexo-cli -g
   - npm install
-  - hexo clean
   - hexo g
   artifacts:
     paths:
