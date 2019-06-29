@@ -43,7 +43,7 @@ keyword:
 **网页版截图：**
 ![网页端截图](https://i.loli.net/2019/06/29/5d170933ef64b12357.png) 
 
-Sticky Notes网页版地址：[单击此处](https://www.onenote.com/stickynotes#)
+**Sticky Notes网页版地址：**[单击此处](https://www.onenote.com/stickynotes#)
 
 所以，如果你需要一个美观颜值高、简洁但不失基本功能的便笺笔记应用，那么这个微软家的Sticky Notes不失为一个好选择。  
 
