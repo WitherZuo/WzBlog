@@ -71,7 +71,6 @@ keyword:
 本段最后附一张效果图：  
 
 <video src="https://t1.aixinxi.net/o_1cvhe8et71thc8ap1qae256861a.mp4" controls="controls" class="video-container" width="640px">如果看到此消息，这说明您的浏览器需要更新一下下以便支持HTML5了🙃</video>  
-
 ### 一点总结：
 
 先放上下载链接（Microsoft Store）：[单击此处](https://www.microsoft.com/zh-cn/p/img-share/9ncxnz52g9q8?activetab=pivot:overviewtab)
@@ -84,5 +83,4 @@ UWP 的生态目前的境况很多人都是有目共睹，而这种情况下 Img
 
 **12 月 22 日更新：部分图片添加为外链后可能不是 HTTPS 链接，浏览器控制台会报 https 错误，解决方法为自行在图片外链接中将 http 改为 https 即可。 **  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+END

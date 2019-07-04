@@ -51,4 +51,4 @@ keyword:
 
 所以，如果你需要一个美观颜值高、简洁但不失基本功能的便笺笔记应用，那么这个微软家的Sticky Notes不失为一个好选择。  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+END

@@ -74,4 +74,4 @@ keyword:
 
 <img src="https://storage.live.com/items/5582C1D07E2893FB!85617?authkey=APiqr1tjl5KIc1Q" style="zoom: 100%"></img>  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+END

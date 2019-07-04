@@ -103,5 +103,4 @@ permalink_defaults:
 
 **其实，出现这些问题，还是因为对 Hexo 的了解不够，现在来看，确实是给自己挖了个大坑#捂脸×2（逃**  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+END

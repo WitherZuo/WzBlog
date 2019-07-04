@@ -42,7 +42,6 @@ keyword:
 
 如果你想试试用几次能猜出正确的图案，或者实在是闲的没事可做，不妨来试试看。  
 
-视频地址：[单击此处](https://www.bilibili.com/video/av50717937/)
+视频地址：[单击此处](https://www.bilibili.com/video/av50717937/)  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+END

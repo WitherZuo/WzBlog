@@ -63,7 +63,6 @@ keyword:
 
 现在看来，MinerBlock 还是很有用的，虽然我一般都是用 uBlock，如果你不想为了拦截挖矿脚本载单独安装一个新扩展，**uBlock 也可以达到相同的效果，生效的规则实际上已经在展示的第五张图片里出现了**😉  
 
-![5cXF54I3HE.png](https://storage.live.com/items/5582C1D07E2893FB!133000?authkey=APiqr1tjl5KIc1Q "一切正常，报告完毕!")
+![5cXF54I3HE.png](https://storage.live.com/items/5582C1D07E2893FB!133000?authkey=APiqr1tjl5KIc1Q "一切正常，报告完毕!")   
 
-<head> <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script></head><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+END

@@ -110,5 +110,4 @@ mklink /d "G:\SyncDir" "C:\Users\<你的用户名>\OneDrive\SyncDir"
 
 但如果你对同步的要求不高，且需要较高容量的在线存储空间，又不想付费的话，可以尝试一下这样的“另类”同步方法。  
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-
+END

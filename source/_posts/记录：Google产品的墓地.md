@@ -34,6 +34,6 @@ keyword:
 
 <i class="fas fa-globe-asia"></i>&nbsp;**单击这里，访问 Killed by Google（由Cody Odgen创建）[Killed by Google](https://killedbygoogle.com/)** 
 
-<p style="text-align:right">（全文完）</p>  
+<p style="text-align:right">（全文完）</p>   
 
-<head><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script><script defer src="https://use.fontawesome.com/releases/v5.5.0/js/v4-shims.js"></script> </head> <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+END
