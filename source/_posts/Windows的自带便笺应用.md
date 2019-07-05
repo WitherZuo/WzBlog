@@ -39,11 +39,11 @@ keyword:
 {% tabs tab,1 %}
 <!-- tab 移动端截图（Android） -->
 **移动端截图：** [操作截图请看这里](https://i.loli.net/2019/06/29/5d170935a704b40852.gif)
-![移动端截图](https://i.loli.net/2019/06/30/5d1839b2390ac38881.png)
+![](https://i.loli.net/2019/06/30/5d1839b2390ac38881.png)
 <!-- endtab -->
 <!-- tab 网页端截图（Browser） -->
 **网页版截图：**
-![网页端截图](https://i.loli.net/2019/06/29/5d170933ef64b12357.png) 
+![](https://i.loli.net/2019/06/29/5d170933ef64b12357.png) 
 <!-- endtab -->
 {% endtabs %}
 

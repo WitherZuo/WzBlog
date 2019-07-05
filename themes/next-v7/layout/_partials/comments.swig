@@ -15,7 +15,7 @@
       <div id="vk_comments"></div>
     </div>
 
-  {% elif theme.disqus.enable %}
+  {% elif theme.disqus.enable or (theme.disqusjs.enable and theme.disqusjs.apikey and theme.disqusjs.shortname) %}
     <div class="comments" id="comments">
       <div id="disqus_thread">
         <noscript>{#
@@ -32,16 +32,6 @@
   {% elif theme.changyan.enable and theme.changyan.appid and theme.changyan.appkey %}
     <div class="comments" id="comments">
       <div id="SOHUCS"></div>
-    </div>
-
-  {% elif theme.gitment.enable %}
-    <div class="comments" id="comments">
-      {% if theme.gitment.lazy %}
-        <div onclick="showGitment()" id="gitment-display-button">{{ __('gitmentbutton') }}</div>
-        <div id="gitment-container" style="display: none"></div>
-      {% else %}
-        <div id="gitment-container"></div>
-      {% endif %}
     </div>
 
   {% elif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
