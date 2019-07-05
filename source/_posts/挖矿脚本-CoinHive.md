@@ -21,7 +21,7 @@ keyword:
 
 再放一张图：  
 
-![Ibyr1IT6dS.png](https://storage.live.com/items/5582C1D07E2893FB!132990?authkey=APiqr1tjl5KIc1Q)
+![Ibyr1IT6dS.png](https://storage.live.com/items/5582C1D07E2893FB!132990?authkey=APiqr1tjl5KIc1Q "Windows Defender截图")
 
 这张图看的就比较明显了，**这个脚本位于 Google Chrome 的本地代码缓存文件夹里**，也就是说，这个脚本在被缓存后就被 Windows Defender 给灭了（顺带给 WD 赞一个👍），不过 Windows Defender 也是个“手起刀落”的主儿，等我去这个文件夹里找的时候，已经什么痕迹都没有了...  
 
@@ -31,11 +31,11 @@ keyword:
 
 对于虚拟加密货币，可能最令人印象深刻的就是去年 5 月的比特币“永恒之蓝”事件了，而这次的 CoinHive 又是挖掘什么的呢？
 
-![xmJB4teG0e.png](https://storage.live.com/items/5582C1D07E2893FB!132994?authkey=APiqr1tjl5KIc1Q)
+![xmJB4teG0e.png](https://storage.live.com/items/5582C1D07E2893FB!132994?authkey=APiqr1tjl5KIc1Q "已被拦截emm")
 
 尝试访问了一下官网，果不其然，直接被拦截了...看来这条路行不通，不过，从其它途径也能够查到相关资料：
 
-![m7ctSupZ8X.png](https://storage.live.com/items/5582C1D07E2893FB!132996?authkey=APiqr1tjl5KIc1Q)
+![m7ctSupZ8X.png](https://storage.live.com/items/5582C1D07E2893FB!132996?authkey=APiqr1tjl5KIc1Q "百科资料")
 
 > 门罗币（Monero）是一个诞生于 2014 年 4 月的开源加密货币，其注重可替代性、隐私和去中心化。    ——来源于 Wikipedia
 
@@ -55,7 +55,7 @@ keyword:
 
 虽然 CoinHive 已死，**但并不代表门罗币（Monero）和其它加密货币的挖掘会就此停止**，由于核心脚本开源，这意味着人们还可以对脚本进行修改来继续挖掘门罗币。而为了让用户注意到了解到后台挖矿对电脑的不利影响，也有人做了网站，来让用户亲身感受一下：
 
-![TW1mYQluZb.png](https://storage.live.com/items/5582C1D07E2893FB!132998?authkey=APiqr1tjl5KIc1Q)
+![TW1mYQluZb.png](https://storage.live.com/items/5582C1D07E2893FB!132998?authkey=APiqr1tjl5KIc1Q "测试网址截图")
 
 网页地址：[单击此处](<http://tools.ldstu.com/miner/?utm_sources=/archives/41039.html>)（需要把 uBlock 或 MinerBlock 这类扩展关了再测试，不然无效）
 

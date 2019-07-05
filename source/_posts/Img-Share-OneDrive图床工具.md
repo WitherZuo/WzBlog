@@ -56,7 +56,7 @@ keyword:
 
 一切准备就绪之后，接下来就可以添加图片了，**将图片拖拽到红框所示区域内：**  
 
-![addpic.png](https://storage.live.com/items/5582C1D07E2893FB!83086?authkey=APiqr1tjl5KIc1Q)  
+![addpic.png](https://storage.live.com/items/5582C1D07E2893FB!83086?authkey=APiqr1tjl5KIc1Q “添加图片”)  
 
 这里会让你选择一个分组，**如果没有存在任意一个分组，那么 Img Share 会要求你首先新建一个**，然后继续。这里也是我觉得做的非常好的一个地方，在**之后查找图片的时候，只需要找到对应的分组即可，不需要乱翻了**。  
 

@@ -22,7 +22,7 @@ keyword:
 
 整个网站风格简约大方，顺带一提，目前此站已收录了 149 个“被 Google 死亡”的项目。可以看到下方的分类统计数字，能有一个比较直观的认识：  
 
-![chrome_7Z8pGSR00n.png](https://storage.live.com/items/5582C1D07E2893FB!133078?authkey=APiqr1tjl5KIc1Q)  
+![chrome_7Z8pGSR00n.png](https://storage.live.com/items/5582C1D07E2893FB!133078?authkey=APiqr1tjl5KIc1Q "确实...很直观")  
 
 **Killed by Google 不仅标出了每个已死亡项目的名字，还包括这个项目的用途、项目的诞生时间和死亡时间以及项目的持续时间。**可以说颇为用心 + 信息全面。**QuickOffice 的四个月寿命让它荣登 Google 最快夭折和最短命的产品榜首，而第一个已有公开信息的 Google 死亡项目是 Google Deskbar**，其用途主要是在用户的Windows工具栏上显示一个 Google 的搜索栏从而让用户不离开桌面直接发起搜索；**目前最近的死亡产品（或濒死产品）是 Google+，原因是 Google+ 泄露了大量用户的个人资料且 Google 瞒报了这件事情，再加上 Google+ 本身就是一个失败的社交产品，被砍掉也就在意料之中了**。  
 
@@ -35,5 +35,4 @@ keyword:
 <i class="fas fa-globe-asia"></i>&nbsp;**单击这里，访问 Killed by Google（由Cody Odgen创建）[Killed by Google](https://killedbygoogle.com/)** 
 
 <p style="text-align:right">（全文完）</p>   
-
 END
