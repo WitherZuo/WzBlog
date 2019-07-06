@@ -276,7 +276,7 @@ back2top:
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: true
+  scrollpercent: false
 
 # A button to open designated chat widget in sidebar.
 # Firstly, you need enable the chat service you want to activate its sidebar button.
@@ -573,8 +573,8 @@ bookmark:
 # Reading progress bar
 # Dependencies: https://github.com/theme-next/theme-next-reading-progress
 reading_progress:
-  enable: false
-  color: "#37c6c0"
+  enable: true
+  color: "#e84700"
   height: 2px
 
 # Google Calendar
@@ -1140,7 +1140,7 @@ vendors:
   # See: https://github.com/theme-next/theme-next-reading-progress
   # Example:
   # reading_progress: //cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.2.0/reading_progress.min.js
-  reading_progress: 
+  reading_progress: //cdn.jsdelivr.net/gh/theme-next/theme-next-reading-progress@1.2.0/reading_progress.min.js
 
   # valine
   # See: https://github.com/xCss/Valine
