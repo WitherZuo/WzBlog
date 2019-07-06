@@ -2,7 +2,7 @@
 title: 关于自己
 comments: false
 ---
-<p style="text-align:center"><strong>type print("about") to show more.</strong></p>  
+<p style="text-align:center"><strong>type print("about") to show more</strong></p>  
 <p style="text-align:center">什么，这个页面需要自我介绍？</p>  
 <p style="text-align:center">我需要写自我介绍？</p>  
 <p style="text-align:center">就在这里？</p>  
@@ -20,4 +20,3 @@ comments: false
 <p style="text-align:center">特别感谢：时光静好</p>  
 <p style="text-align:center">wzblog.fun is watching you</p>  
 <p>END</p>
-
