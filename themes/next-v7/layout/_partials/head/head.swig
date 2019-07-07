@@ -1,5 +1,13 @@
 <script src="/sw-register.js"></script>
 <link rel="manifest" href="/manifest.json">
+<script>
+  ;(function () {
+    var src = 'https://cdn.bootcss.com/eruda/1.5.6/eruda.min.js';
+    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+  })();
+</script>
 <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
