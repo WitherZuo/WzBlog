@@ -7,8 +7,8 @@ pages:
   - git config --global user.name "WitherZuo"
   - git config --global user.email "openworld189@gmail.com"
   - npm install hexo-cli -g
-  - npm install
   - hexo clean
+  - npm install
   - hexo g
   artifacts:
     paths:
