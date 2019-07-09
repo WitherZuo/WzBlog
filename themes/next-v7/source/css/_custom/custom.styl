@@ -70,16 +70,15 @@ span.archive-page-counter {font-size: 15px}
     width: 44px;
     opacity: 1;
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
+    border-radius: 22px;
 }
 
-.fa-arrow-up {
-    line-height: 44px;
-    font-size: 20px;
-    text-align: center;
-    font-weight: bolder;
+.fa-arrow-up:before {
+    content: url(/images/arrow-top.png);
+    padding: 0px;
 }
 
-.fa-arrow-up:before {content: "▲"; font-weight: bolder}
+.fa-arrow-up {margin-top: 7px}
 
 /* video标签的视频样式指定 */
 .video-container {
