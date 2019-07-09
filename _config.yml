@@ -118,7 +118,7 @@ baidu_url_submit:
   path: urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
 archive_generator:
-  per_page: 20
+  per_page: 8
   yearly: true
   monthly: true
 
