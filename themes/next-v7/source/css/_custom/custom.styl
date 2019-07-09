@@ -3,12 +3,7 @@
     font-size: 30px !important;
     font-weight: 500;
 
-    +mobile() {
-        font-size: 24px !important;
-        font-weight: 500;
-    }
-
-    +tablet() {
+    +tablet-mobile() {
         font-size: 24px !important;
         font-weight: 500;
     }
@@ -19,8 +14,7 @@
 /* 更改文章内容的内边距 */
 div.post-block {
     padding: 35px;
-    +mobile() {padding: 25px;}
-    +tablet() {padding: 25px;}
+    +tablet-mobile() {padding: 25px;}
 }
 
 /* 页面格式微调 */
@@ -57,21 +51,13 @@ div.post-body div.tabs {padding-top: 0px;}
 span.archive-page-counter {font-size: 15px;}
 
 /* 优化移动端顶栏显示效果 */
-.site-subtitle {
-    +mobile() {margin-bottom: 2px;}  
-    +tablet() {margin-bottom: 2px;}  
-}
-
-.site-meta {
-    +mobile() {padding-top: 16px;}
-    +tablet() {padding-top: 16px;}
-}
+.site-subtitle {+tablet-mobile() {margin-bottom: 2px;}}
+.site-meta {+tablet-mobile() {padding-top: 16px;}}
 
 /* 强化移动端三点菜单导航按钮显示效果 */
 .site-nav-toggle button {
     outline: none !important;
-    +mobile() {margin-top: 1px;}    
-    +tablet() {margin-top: 1px;}
+    +tablet-mobile() {margin-top: 1px;}    
 }
 
 .site-nav-toggle button:hover {background-color: #484848;}
@@ -80,19 +66,20 @@ span.archive-page-counter {font-size: 15px;}
 /* 返回顶部按钮样式 */
 .back-to-top {
     background-color: #222;
-    height: 46px;
-    width: 46px;
+    height: 44px;
+    width: 44px;
     opacity: 1;
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
 }
 
 .fa-arrow-up {
-    line-height: 46px;
-    font-size: 18px;
+    line-height: 44px;
+    font-size: 20px;
     text-align: center;
+    font-weight: bolder;
 }
 
-.fa-arrow-up:before {content: "▲";}
+.fa-arrow-up:before {content: "▲";font-weight: bolder;}
 
 /* video标签的视频样式指定 */
 .video-container {
@@ -120,8 +107,7 @@ ul.menu#menu li.menu-item.menu-item-sitemap a {
     font-size: 15.8px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 15.8px;}
-    +tablet() {font-size: 15.8px;}
+    +tablet-mobile() {font-size: 15.8px;}
 }
 
 li.menu-item.menu-item-search a {
@@ -136,11 +122,9 @@ li.menu-item.menu-item-search a {
     border-radius: 17px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 15px;}
-    +tablet() {font-size: 15px;}
+    +tablet-mobile() {font-size: 15px;}
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
-    +mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
-    +tablet() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
+    +tablet-mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5);}
 }
 
 li.menu-item.menu-item-search a:hover {
@@ -175,12 +159,7 @@ ul.menu#menu li {
     padding-left: 8px;
     padding-right: 8px;
 
-    +mobile() {
-        padding-left: 12px;
-        padding-right: 12px;   
-    }
-
-    +tablet() {
+    +tablet-mobile() {
         padding-left: 12px;
         padding-right: 12px;   
     }
@@ -200,8 +179,7 @@ ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a, {
     border-radius: 6px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +mobile() {font-size: 15.8px;}
-    +tablet() {font-size: 15.8px;}
+    +tablet-mobile() {font-size: 15.8px;}
 }
 
 /* 调整“阅读全文”按钮外边距 */
@@ -209,15 +187,10 @@ div.post-button.text-center {
     margin-top: 4px;
     margin-bottom: 1px;
 
-    +mobile() {
+    +tablet-mobile() {
         margin-top: 10px;
         margin-bottom: 9px;
     }
-
-    +tablet() {
-        margin-top: 10px;
-        margin-bottom: 9px;
-    }  
 }
 
 /* 优化正文字间距，尝试增强其可读性 */
@@ -227,19 +200,8 @@ div.post-body p {
     word-wrap: break-word;
     white-space: pre-line;
 
-    +mobile() {
+    +tablet-mobile() {
 	    font-size: 15px;
-        text-align: justify; !important
-        word-break: break-all;
-        word-wrap: break-word;
-        white-space: pre-line;
-        text-justify: inter-ideograph;
-        letter-spacing: 0.05px;
-        word-spacing: -1.5px;
-    }
-
-	+tablet() {
-        font-size: 15px;
         text-align: justify; !important
         word-break: break-all;
         word-wrap: break-word;
@@ -274,14 +236,11 @@ textarea#veditor.veditor.vinput {
 /* 优化归档页面显示效果 */
 div.post-block.archive {
     padding: 35px 35px 50px 35px;
-
-    +mobile() {padding: 26px 23px 44px 23px;}
-    +tablet() {padding: 26px 23px 44px 23px;}   
+    +tablet-mobile() {padding: 26px 23px 44px 23px;}  
 }
 
 div.post-block.archive div.collection-title {margin: 40px 0px;}
 div.post-block.archive article.post.post-type-normal {margin: 0}  /* 优化归档页面文章标题外边距 */
-
 
 /* 按钮样式调整 */
 a.btn {
@@ -306,3 +265,4 @@ ul.menu#menu strong {font-size: 16px;}
 .footer {color: #222;}
 /* 正文内标签分页栏优化 */
 .post-body .tabs ul.nav-tabs li.tab a {text-align: initial;}  /* 设置文字对齐方式为左对齐（初始值） */
+li.tab.active {background: #fff;}
