@@ -35,6 +35,11 @@ skip_render:
   - 404.html
   - baidu_verify_gcxwspHV7d.html
   - google12caa68be602a335.html
+  - silian.txt
+  - robots.txt
+  - CNAME
+  - manifest.json
+  - 404.css
 
 # Writing
 new_post_name: :title.md # File name of new posts
