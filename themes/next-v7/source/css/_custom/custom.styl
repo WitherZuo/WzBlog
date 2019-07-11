@@ -2,7 +2,6 @@
 .site-title {
     font-size: 30px !important;
     font-weight: 500;
-
     +tablet-mobile() {
         font-size: 24px !important;
         font-weight: 500;
@@ -27,29 +26,17 @@ div.note p {display: block !important}
 div.tab-pane p, div.tab-pane.active p {display: block !important}
 p.image-caption {display: block !important}
 div.post-body div.tabs {padding-top: 0px}
-
 /* 更改文章标题字号 */
 .posts-expand .post-title {
     font-size: 1.65em;
     font-weight: bold;
     margin-top: -6px;
-
-    +mobile() {
-        font-size: 1.55em;
-        font-weight: bold;
-        margin-top: 2px;
-    }
-
-    +tablet() {
-        font-size: 1.58em;
-        font-weight: bold;
-        margin-top: 2px;
-    }
+    +mobile() {font-size: 1.55em; font-weight: bold; margin-top: 2px}
+    +tablet() {font-size: 1.58em; font-weight: bold; margin-top: 2px}
 }
 
 /* 修改侧边栏右侧徽标字号 */
 span.archive-page-counter {font-size: 15px}
-
 /* 优化移动端顶栏显示效果 */
 .site-subtitle {+tablet-mobile() {margin-bottom: 2px}}
 .site-meta {+tablet-mobile() {padding-top: 16px}}
@@ -71,7 +58,6 @@ span.archive-page-counter {font-size: 15px}
     opacity: 1;
     box-shadow: 0 0 16px rgba(0,0,0,0.5);
     border-radius: 22px;
-
     +tablet-mobile() {
         height: 46px;
         width: 46px;
@@ -79,13 +65,28 @@ span.archive-page-counter {font-size: 15px}
     }
 }
 
-.fa-arrow-up:before {
-    content: url('/images/arrow-up-30.svg'); 
-    +tablet-mobile() {content: url('/images/arrow-up-32.svg')};
-    padding: 0px;
+.fa-arrow-up {
+    margin-top: 6.45px;
+    height: 30px;
+    width: 30px;
+    +tablet-mobile() {
+        height: 32px;
+        width: 32px;
+    }
 }
 
-.fa-arrow-up {margin-top: 7px;}
+.fa-arrow-up:before {
+    display: inline-block;
+    content: url('/images/arrow-up-30.svg');
+    height: 30px;
+    width: 30px;
+    padding: 0px; 
+    +tablet-mobile() {
+        content: url('/images/arrow-up-32.svg');
+        height: 32px;
+        width: 32px;
+    };
+}
 
 /* video标签的视频样式指定 */
 .video-container {
@@ -103,6 +104,7 @@ i.menu-item-icon.fa.fa-search.fa-fw {
     display: none;
 }
 
+/* 修改菜单显示文字大小、颜色和平滑度  */
 ul.menu#menu li.menu-item.menu-item-home a,
 ul.menu#menu li.menu-item.menu-item-about a,
 ul.menu#menu li.menu-item.menu-item-tags a,
@@ -113,9 +115,9 @@ ul.menu#menu li.menu-item.menu-item-sitemap a {
     font-size: 15.8px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +tablet-mobile() {font-size: 15.8px}
 }
 
+/* 菜单内搜索按钮样式重置 */
 li.menu-item.menu-item-search a {
     text-align: center;
     background-color: #222;
@@ -133,6 +135,7 @@ li.menu-item.menu-item-search a {
     +tablet-mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5)}
 }
 
+/* 鼠标划过时的搜索按钮样式 */
 li.menu-item.menu-item-search a:hover {
     background-color: #424242;
     color: white;
@@ -145,26 +148,13 @@ li.menu-item.menu-item-search {
     margin-right: 24px;
     margin-top: 10px;
     margin-bottom: 20px;
-
-    +mobile() {
-        margin-left: 80px;
-        margin-right: 80px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
-
-    +tablet() {
-        margin-left: 220px;
-        margin-right: 220px;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
+    +mobile() {margin: 10px 80px 20px 80px}
+    +tablet() {margin: 10px 220px 20px 220px}
 }
 
 ul.menu#menu li {
     padding-left: 8px;
     padding-right: 8px;
-
     +tablet-mobile() {
         padding-left: 12px;
         padding-right: 12px;   
@@ -192,7 +182,6 @@ ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a, {
 div.post-button.text-center {
     margin-top: 4px;
     margin-bottom: 1px;
-
     +tablet-mobile() {
         margin-top: 10px;
         margin-bottom: 9px;
@@ -205,26 +194,24 @@ div.post-body p {
     word-break: break-all;
     word-wrap: break-word;
     white-space: pre-line;
-
     +tablet-mobile() {
 	    font-size: 15px;
-        text-align: justify; !important
+        text-align: justify;
         word-break: break-all;
         word-wrap: break-word;
         white-space: pre-line;
-        text-justify: inter-ideograph;
         letter-spacing: 0.05px;
         word-spacing: -1.5px;
     }
 }
 
+/* 优化列表内文字间距 */
 div.post-body li {
     font-size: 15px;
     text-align: justify; !important
     word-break: break-all;
     word-wrap: break-word;
     white-space: pre-line;
-    text-justify: inter-ideograph;
     letter-spacing: 0.05px;
     word-spacing: -1.5px;
 }
@@ -232,22 +219,22 @@ div.post-body li {
 /* 设置列表左侧内边距 */
 div.post-body ol {padding-left: 12px}
 /* 设置移动端按钮点击时浏览器样式 */
-a, button, input, textarea {-webkit-tap-highlight-color: rgba(0,0,0,0)}
-
-/* 优化评论区显示效果 */
-textarea#veditor.veditor.vinput {
-    +mobile() {height: 100px}
+a, button, input, textarea, div.back-to-top.back-to-top-on {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+/* 优化评论区显示效果 */
+textarea#veditor.veditor.vinput {+mobile() {height: 100px}}
 /* 优化归档页面显示效果 */
 div.post-block.archive {
     padding: 35px;
     +tablet-mobile() {padding: 26px 23px}  
 }
 
+/* 微调归档页面、分类页面指示器图标位置 */
 span.archive-move-on {+tablet-mobile() {top: 12.5px !important}}
 div.collection-title::before {+tablet-mobile() {top: 49.5% !important}}
-
 /* 按钮样式调整 */
 a.btn {
     border: 1px solid #222;
