@@ -1,4 +1,11 @@
+/* 主题色测试 */
 body {background: url('/images/crossline.png') repeat center whitesmoke}
+div.header-inner, div.post-block, div.sidebar-inner, div.comments.v, nav.pagination, a.btn, 
+div#local-search-result {background-color: whitesmoke}
+li.tab, li.tab.active {background-color: whitesmoke !important}
+button.vsubmit.vbtn {background-color: lightgrey}
+button.vsubmit.vbtn:hover {background-color: white}
+div.note {border: 2px solid #E6E6E6}
 /* 设置站点标题字体和字号 */
 .site-title {
     font-size: 30px !important;
@@ -21,8 +28,7 @@ div.posts-collapse {margin: 0 15px}
 div.post-block p:last-child {display: none}
 blockquote ol {margin-left: -20px}
 /* 修复由于禁用显示最后一个<p>标签导致的内容为空问题 */
-blockquote p, div.note p, div.tab-pane p, div.tab-pane.active p, 
-p.image-caption {display: block !important}
+blockquote p, div.note p, div.tab-pane p, div.tab-pane.active p, p.image-caption {display: block !important}
 div.post-body div.tabs {padding-top: 0px}
 /* 更改文章标题字号 */
 .posts-expand .post-title {
@@ -98,8 +104,7 @@ ul.menu#menu li.menu-item.menu-item-home a,
 ul.menu#menu li.menu-item.menu-item-about a,
 ul.menu#menu li.menu-item.menu-item-tags a,
 ul.menu#menu li.menu-item.menu-item-categories a,
-ul.menu#menu li.menu-item.menu-item-archives a,
-ul.menu#menu li.menu-item.menu-item-sitemap a {
+ul.menu#menu li.menu-item.menu-item-archives a {
     color: #282828;
     font-size: 15.8px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
@@ -154,14 +159,11 @@ ul.menu#menu li.menu-item.menu-item-home.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-about.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-tags.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-categories.menu-item-active a,
-ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a,
-ul.menu#menu li.menu-item.menu-item-sitemap.menu-item-active a, {
-    background-color: #F0F0F0;
-    color: black;
+ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a {
+    background-color: #E6E6E6;
     font-weight: 700;
     font-size: 15.8px;
-    border: 0px solid #F0F0F0;
-    border-radius: 6px;
+    border: 0px solid #E6E6E6;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
     +tablet-mobile() {font-size: 15.8px}
@@ -253,3 +255,5 @@ li.tab.active {background: #fff}
 /* 滚动条样式 */
 ::-webkit-scrollbar {width: 8px !important; height: 4px !important; background: #BFBFBF !important}
 ::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #282828 !important}
+/* 调整翻页页码字符大小 */
+span.page-number.current, a.page-number {font-size: 15px}
