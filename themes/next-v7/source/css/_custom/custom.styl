@@ -9,7 +9,6 @@
 }
 
 .posts-expand .post-meta {margin: 3px 0 20px 0}
-
 /* 更改文章内容的内边距 */
 div.post-block {
     padding: 35px;
@@ -21,9 +20,7 @@ div.posts-collapse {margin: 0 15px}
 div.post-block p:last-child {display: none}
 blockquote ol {margin-left: -20px}
 /* 修复由于禁用显示最后一个<p>标签导致的内容为空问题 */
-blockquote p {display: block !important}
-div.note p {display: block !important}
-div.tab-pane p, div.tab-pane.active p {display: block !important}
+blockquote p, div.note p, div.tab-pane p, div.tab-pane.active p, 
 p.image-caption {display: block !important}
 div.post-body div.tabs {padding-top: 0px}
 /* 更改文章标题字号 */
@@ -40,18 +37,17 @@ span.archive-page-counter {font-size: 15px}
 /* 优化移动端顶栏显示效果 */
 .site-subtitle {+tablet-mobile() {margin-bottom: 2px}}
 .site-meta {+tablet-mobile() {padding-top: 16px}}
-
 /* 强化移动端三点菜单导航按钮显示效果 */
 .site-nav-toggle button {
     outline: none !important;
     +tablet-mobile() {margin-top: 1px}    
 }
 
-.site-nav-toggle button:hover {background-color: #484848}
-.site-nav-toggle button:active {background-color: #484848}
-
+/* 菜单按钮点按样式 */
+.site-nav-toggle button:hover, .site-nav-toggle button:active {background-color: #484848}
 /* 返回顶部按钮样式 */
 .back-to-top {
+    padding: 0px;
     background-color: #222;
     height: 44px;
     width: 44px;
@@ -66,34 +62,26 @@ span.archive-page-counter {font-size: 15px}
 }
 
 .fa-arrow-up {
-    margin-top: 6.45px;
-    height: 30px;
-    width: 30px;
+    margin-top: 5px;
+    height: 34px;
+    width: 34px;
     +tablet-mobile() {
-        height: 32px;
-        width: 32px;
+        height: 36px;
+        width: 36px;
     }
 }
 
 .fa-arrow-up:before {
     display: inline-block;
-    content: url('/images/arrow-up-30.svg');
-    height: 30px;
-    width: 30px;
+    content: url('/images/arrow-up-34.svg');
+    height: 34px;
+    width: 34px;
     padding: 0px; 
     +tablet-mobile() {
-        content: url('/images/arrow-up-32.svg');
-        height: 32px;
-        width: 32px;
+        content: url('/images/arrow-up-36.svg');
+        height: 36px;
+        width: 36px;
     };
-}
-
-/* video标签的视频样式指定 */
-.video-container {
-    max-width: 100%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* 修改菜单条目图标样式 */
@@ -224,8 +212,6 @@ a, button, input, textarea, div.back-to-top.back-to-top-on {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/* 优化评论区显示效果 */
-textarea#veditor.veditor.vinput {+mobile() {height: 100px}}
 /* 优化归档页面显示效果 */
 div.post-block.archive {
     padding: 35px;
@@ -259,3 +245,10 @@ ul.menu#menu strong {font-size: 16px}
 /* 正文内标签分页栏优化 */
 .post-body .tabs ul.nav-tabs li.tab a {text-align: initial}  /* 设置文字对齐方式为左对齐（初始值） */
 li.tab.active {background: #fff}
+/* 鼠标样式 */
+* {cursor: url('/images/round-cursor.png') 12 12, auto !important}
+:active, :hover, :focus, :visited, :checked, :default, :empty, :enabled, :disabled, :link, 
+:target, :scope, :required, :any {cursor: url('/images/round-cursor.png') 12 12, auto !important}
+/* 滚动条样式 */
+::-webkit-scrollbar {width: 8px !important; height: 4px !important; background: #BFBFBF !important}
+::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #282828 !important}

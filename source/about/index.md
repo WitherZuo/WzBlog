@@ -19,4 +19,5 @@ comments: false
 <p style="text-align:center"><u><strong>致谢列表</strong></u></p>  
 <p style="text-align:center">特别感谢：时光静好</p>  
 <p style="text-align:center">wzblog.fun is watching you</p>  
+<p style="text-align:center"><strong>建议使用基于Chromium/Webkit内核的浏览器访问本站</strong></p>  
 <p>END</p>

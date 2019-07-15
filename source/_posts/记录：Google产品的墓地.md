@@ -7,7 +7,6 @@ categories:
   - Google
 abbrlink: 5cd70f8c
 date: 2018-12-01 04:24:52
-keyword:
 ---
 
 > <i class="fa fa-quote-left fa-3x fa-pull-left"></i>&nbsp;Killed by Google，这里，记载着每一个被 Google 亲手杀死的应用和服务。这些产品大多已消失在 Google 的发展过程中，现在，有人主动站出来，重新为它们正名。  
@@ -32,8 +31,6 @@ keyword:
 
 **2018 年 12 月 1 日 12 时 01 分 23 秒（北京时间）更新：Google+ 之后，谷歌再砍通讯应用环聊 Hangouts** 
 
-<i class="fas fa-globe-asia"></i>&nbsp;**单击这里，访问 Killed by Google（由Cody Odgen创建）[Killed by Google](https://killedbygoogle.com/)** 
-
-<p style="text-align:right">（全文完）</p>   
+<i class="fas fa-globe-asia"></i>&nbsp;**单击这里，访问 Killed by Google（由Cody Odgen创建）[Killed by Google](https://killedbygoogle.com/)**   
 
 END
