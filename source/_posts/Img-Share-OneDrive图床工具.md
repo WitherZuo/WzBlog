@@ -67,9 +67,6 @@ date: 2018-12-14 13:19:52
 
 可以看到，**Img Share 不仅会生成普通的图片外链链接，还提供了生成 Markdown 图片链接格式和 HTML 内嵌入格式的选项**，可谓十分贴心，考虑到不同的情况。  
 
-本段最后附一张效果图：  
-
-<video src="https://t1.aixinxi.net/o_1cvhe8et71thc8ap1qae256861a.mp4" controls="controls" class="video-container" width="640px">如果看到此消息，这说明您的浏览器需要更新一下下以便支持HTML5了🙃</video>  
 ### 一点总结：
 
 先放上下载链接（Microsoft Store）：[单击此处](https://www.microsoft.com/zh-cn/p/img-share/9ncxnz52g9q8?activetab=pivot:overviewtab)

@@ -16,7 +16,7 @@ date: 2019-03-22 13:56:47
 
 ![UkNFuIjCrY.png](https://storage.live.com/items/5582C1D07E2893FB!132988?authkey=APiqr1tjl5KIc1Q "画红圈的地方")
 
-刚一看到这个的我还有些许没回过神儿，这是什么东西？再仔细一看：<span style="background-color: black; color: white;">**&nbsp;Trojan:JS/CoinHive.B&nbsp;**</span>，这不是 CoinHive 的挖矿脚本吗。这一下才反应过来，原来刚刚 WD 拦截的并不是什么破解或是注册机，而是一个后台挖矿的脚本！  
+刚一看到这个的我还有些许没回过神儿，这是什么东西？再仔细一看：<span style="background-color: #222; color: white;">**&nbsp;Trojan:JS/CoinHive.B&nbsp;**</span>，这不是 CoinHive 的挖矿脚本吗。这一下才反应过来，原来刚刚 WD 拦截的并不是什么破解或是注册机，而是一个后台挖矿的脚本！  
 
 再放一张图：  
 

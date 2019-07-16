@@ -67,7 +67,7 @@ date: 2018-12-17 22:18:19
 
 <img src="https://storage.live.com/items/5582C1D07E2893FB!85614?authkey=APiqr1tjl5KIc1Q" style="zoom: 100%"></img>
 
-在最后，你可以从酷安和 Google Play 上获取”纯纯写作“，**”纯纯写作“包含付费功能，但本身可以免费使用（部分功能需付费解锁）**，可以通过支付**宝向作者转账或 Google Play 内购**方式解锁高级功能。<span style="background: black; color: white">**作者在酷安上活动异常活跃，另外不用担心 App 停更甚至弃更的问题，作者的更新频率非常频繁，甚至出现了一天多更的情况。如果想在移动设备上体验单纯写作的快感，“纯纯写作”是一个不错的选择。**</span>  
+在最后，你可以从酷安和 Google Play 上获取”纯纯写作“，**”纯纯写作“包含付费功能，但本身可以免费使用（部分功能需付费解锁）**，可以通过支付**宝向作者转账或 Google Play 内购**方式解锁高级功能。<span style="background: #222; color: white">**作者在酷安上活动异常活跃，另外不用担心 App 停更甚至弃更的问题，作者的更新频率非常频繁，甚至出现了一天多更的情况。如果想在移动设备上体验单纯写作的快感，“纯纯写作”是一个不错的选择。**</span>  
 
 <img src="https://storage.live.com/items/5582C1D07E2893FB!85616?authkey=APiqr1tjl5KIc1Q" style="zoom: 100%"></img>
 
