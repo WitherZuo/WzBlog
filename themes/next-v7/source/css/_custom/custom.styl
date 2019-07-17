@@ -11,10 +11,7 @@ blockquote {border-left: 4px solid lightgrey}
 .site-title {
     font-size: 30px !important;
     font-weight: 500;
-    +tablet-mobile() {
-        font-size: 24px !important;
-        font-weight: 500;
-    }
+    +tablet-mobile() {font-size: 24px !important}
 }
 
 .posts-expand .post-meta {margin: 3px 0 20px 0}
@@ -34,10 +31,10 @@ div.post-body div.tabs {padding-top: 0px}
 /* 更改文章标题字号 */
 .posts-expand .post-title {
     font-size: 1.65em;
-    font-weight: bold;
+    font-weight: 700;
     margin-top: -6px;
-    +mobile() {font-size: 1.55em; font-weight: bold; margin-top: 2px}
-    +tablet() {font-size: 1.58em; font-weight: bold; margin-top: 2px}
+    +mobile() {font-size: 1.55em; margin-top: 2px}
+    +tablet() {font-size: 1.58em; margin-top: 2px}
 }
 
 /* 修改侧边栏右侧徽标字号 */
@@ -133,7 +130,7 @@ li.menu-item.menu-item-search a {
 li.menu-item.menu-item-search a:hover {
     background-color: #424242;
     color: white;
-    border: 0px solid #282828;
+    border: 0px solid #222;
     border-radius: 17px;
 }
 
@@ -182,7 +179,6 @@ div.post-body p, div.post-body li {
     font-size: 15px;
     word-break: break-all;
     word-wrap: break-word;
-    white-space: pre-line;
     letter-spacing: 0.05px;
     word-spacing: -1.5px;
 }
@@ -197,7 +193,7 @@ a, button, input, textarea, div.back-to-top.back-to-top-on {
 }
 
 /* 优化归档页面显示效果 */
-div.post-block.archive {
+div.post-block.archive, div.post-block.category, div.post-block.tag {
     padding: 35px;
     +tablet-mobile() {padding: 26px 23px}  
 }
@@ -239,3 +235,7 @@ span.page-number.current, a.page-number {font-size: 15px}
 .posts-expand .post-body h2, .posts-expand .post-body h3, .posts-expand .post-body h4, 
 .posts-expand .post-body h5, .posts-expand .post-body h6 {padding-top: 2px; margin-top: 15px}
 hr {background-image: repeating-linear-gradient(-45deg,#f5f5f5,#f5f5f5 4px,transparent 4px,transparent 8px)}
+/* test */
+.category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
+.category-all-page .category-list-count:after {content: " "}
+.category-all-page .category-list {+tablet-mobile() {text-align: center}}
