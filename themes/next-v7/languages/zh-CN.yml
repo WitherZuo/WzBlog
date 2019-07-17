@@ -25,7 +25,7 @@ post:
   edit: 编辑
   in: 分类于
   more: 更多
-  read_more: READ MORE
+  read_more: 进入文章页
   untitled: 未命名
   sticky: 置顶
   toc_empty: 此文章未包含目录
@@ -91,7 +91,7 @@ accessibility:
   next_page: 下一页
 symbols_count_time:
   count: 本文字数
-  count_total: 站点总字数
+  count_total: 总字数
   time: 阅读时长
-  time_total: 站点阅读时长
+  time_total: 阅读时长
   time_minutes: 分钟

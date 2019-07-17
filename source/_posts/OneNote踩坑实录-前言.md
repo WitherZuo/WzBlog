@@ -27,13 +27,11 @@ date: 2018-11-20 10:29:00
 
 ### 2. OneNote 的优势
 
-<span style="background:#222;color:white;">**容器：**</span>如果你平时经常做纸质笔记，你会发现你的笔记内容可以写在这张纸的任何一个位置上，无论是按照普通的方式由第一行一直写到最后一行，还是从任何位置开始，你可以随心所欲。OneNote 也是如此，你会发现，当你在 OneNote 中输入一段文字的时候，这段文字周围会出现文字框的边界，实际上这是一个“容器”，你可以在页面的任何地方创建容器，然后把你需要的内容放入到这个容器中，可以自由拖拽容器或是合并容器，厌倦了 Word 中“死板”的排版方式，也许 OneNote 可以让你让你眼前一亮👀
-
-![onenote-container.png](https://i.loli.net/2018/11/14/5bec2f1cbd70b.png "图5：OneNote中的"容器") 
+<span style="background:#222;color:white;">**容器：**</span>如果你平时经常做纸质笔记，你会发现你的笔记内容可以写在这张纸的任何一个位置上，无论是按照普通的方式由第一行一直写到最后一行，还是从任何位置开始，你可以随心所欲。OneNote 也是如此，你会发现，当你在 OneNote 中输入一段文字的时候，这段文字周围会出现文字框的边界，实际上这是一个“容器”，你可以在页面的任何地方创建容器，然后把你需要的内容放入到这个容器中，可以自由拖拽容器或是合并容器，厌倦了 Word 中“死板”的排版方式，也许 OneNote 可以让你让你眼前一亮👀  
 
 <span style="background:#222;color:white;">**与 Office 其它组件的关联性：**</span>在前面提到过，OneNote 在 Office 2016 及之前的版本中是随附安装进去的，虽然在 Office 2019 中 OneNote 默认不再安装进入 Office 中，但你仍然可以单独安装 OneNote 2016，同样也可以与其它已安装的 Office 组件联动。例如你可以将 Word 或 Excel 的内容直接插入到 OneNote 的笔记当中，将你在 Visio 中创建的图表直接插入到 OneNote 笔记里，省去了来回折腾的时间和精力。
 
-![onenote-connectto.png](https://i.loli.net/2018/11/14/5bec2e10af3e3.png "图6：OneNote与其它Office组建的联动性")  
+![onenote-connectto.png](https://i.loli.net/2018/11/14/5bec2e10af3e3.png "图5：OneNote与其它Office组建的联动性")  
 
 <span style="background:#222;color:white;">**笔记的层级划分：**</span>在组织笔记的内容时，我们有必要对笔记的层级进行划分。OneNote 的笔记层级可以按照“笔记本-分区组-笔记单页”来看，每一个笔记本可以包含无数的笔记分区，而每一个分区下面又可以包含无数个笔记页面，从理论上来说，你可以无限创建笔记（前提是你的本地空间或云存储空间足够），除此之外，你还可以创建多层级嵌套的笔记分区。  
 

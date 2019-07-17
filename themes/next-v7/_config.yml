@@ -457,21 +457,21 @@ font:
   # Global font settings used for all elements in <body>.
   global:
     external: true
-    family: Quicksand
+    family: 
     size: 15px
 
   # Font settings for Headlines (H1, H2, H3, H4, H5, H6).
   # Fallback to `global` font settings.
   headings:
     external: true
-    family: Quicksand
+    family: 
     size:
 
   # Font settings for posts.
   # Fallback to `global` font settings.
   posts:
     external: true
-    family: Quicksand
+    family: 
 
   # Font settings for Logo.
   # Fallback to `global` font settings.
@@ -483,7 +483,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family: Quicksand
+    family: 
     size: 15px
 
 

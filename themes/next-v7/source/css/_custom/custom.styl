@@ -5,7 +5,7 @@ li.tab, li.tab.active {background-color: whitesmoke !important}
 button.vsubmit.vbtn {background-color: lightgrey}
 button.vsubmit.vbtn:hover {background-color: white}
 div.note {background-color: #E6E6E6 !important}
-.post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {border-bottom: 1px solid #e6e6e6}
+.post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {border-bottom: 1px solid #E6E6E6}
 blockquote {border-left: 4px solid lightgrey}
 /* 设置站点标题字体和字号 */
 .site-title {
@@ -106,7 +106,7 @@ ul.menu#menu li.menu-item.menu-item-about a,
 ul.menu#menu li.menu-item.menu-item-tags a,
 ul.menu#menu li.menu-item.menu-item-categories a,
 ul.menu#menu li.menu-item.menu-item-archives a {
-    color: #282828;
+    color: #222;
     font-size: 15.8px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
@@ -121,11 +121,10 @@ li.menu-item.menu-item-search a {
     color: white;
     padding-top: 1px;
     padding-bottom: 1px;
-    border: 0px solid #282828;
+    border: 0px solid #222;
     border-radius: 17px;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +tablet-mobile() {font-size: 15px}
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
     +tablet-mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5)}
 }
@@ -164,10 +163,8 @@ ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a {
     background-color: #E6E6E6;
     font-weight: 700;
     font-size: 15.8px;
-    border: 0px solid #E6E6E6;
     -webkit-font-smoothing: antialiased; /*chrome、safari*/
     -moz-osx-font-smoothing: grayscale; /*firefox*/
-    +tablet-mobile() {font-size: 15.8px}
 }
 
 /* 调整“阅读全文”按钮外边距 */
@@ -181,26 +178,8 @@ div.post-button.text-center {
 }
 
 /* 优化正文字间距，尝试增强其可读性 */
-div.post-body p {
+div.post-body p, div.post-body li {
     font-size: 15px;
-    word-break: break-all;
-    word-wrap: break-word;
-    white-space: pre-line;
-    +tablet-mobile() {
-	    font-size: 15px;
-        text-align: justify;
-        word-break: break-all;
-        word-wrap: break-word;
-        white-space: pre-line;
-        letter-spacing: 0.05px;
-        word-spacing: -1.5px;
-    }
-}
-
-/* 优化列表内文字间距 */
-div.post-body li {
-    font-size: 15px;
-    text-align: justify; !important
     word-break: break-all;
     word-wrap: break-word;
     white-space: pre-line;
@@ -210,6 +189,7 @@ div.post-body li {
 
 /* 设置列表左侧内边距 */
 div.post-body ol {padding-left: 12px}
+ul {padding-left: 20px}
 /* 设置移动端按钮点击时浏览器样式 */
 a, button, input, textarea, div.back-to-top.back-to-top-on {
     outline: none;
@@ -252,7 +232,7 @@ ul.menu#menu strong {font-size: 16px}
 :target, :required {cursor: url('/images/round-cursor.png') 12 12, auto !important}
 /* 滚动条样式 */
 ::-webkit-scrollbar {width: 8px !important; height: 4px !important; background: #BFBFBF !important}
-::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #282828 !important}
+::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #222 !important}
 /* 调整翻页页码字符大小 */
 span.page-number.current, a.page-number {font-size: 15px}
 /* 标题间隔 */
