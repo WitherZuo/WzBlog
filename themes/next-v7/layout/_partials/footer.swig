@@ -50,9 +50,7 @@
 {% endif %}
 
 {% if theme.footer.theme.enable %}
-  <div class="theme-info">
-    <strong>😂这个站点也是有底线的#认真脸😁</strong>
-  </div>
+  <div class="theme-info"></div>
 {% endif %}
 
 {% if theme.footer.custom_text %}
