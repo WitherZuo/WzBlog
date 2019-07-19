@@ -7,6 +7,7 @@ categories:
   - OneDrive
 abbrlink: eb5a6499
 date: 2018-11-23 18:11:06
+keywords: [OneDrive, 同步盘, 使用体验]
 ---
 ### 动机
 

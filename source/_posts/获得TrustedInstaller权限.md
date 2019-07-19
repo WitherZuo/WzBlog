@@ -4,6 +4,7 @@ abbrlink: 358c8d05
 date: 2019-07-17 09:36:36
 tags: [Windows, TrustedInstaller]
 categories: Windows
+keywords: [Windows, TrustedInstaller, 权限, 帮助, WindowsApps]
 ---
 
 在Windows中，有时候需要访问一些系统重要文件夹，这时大概率会碰到比如“无权访问”的问题，尤其是在原版的Windows 7或更高版本的系统上。在Windows 10中，一些系统文件夹比如`Program Files`也被上了锁，还有存储着商店应用数据的`WindowsApps`文件夹，这个文件夹就必须要获得TrustedInstaller这样的权限组用户的权限才能访问，普通用户一般是访问不了的。如果必须要进去访问该怎么办？可以通过系统的“安全”选项卡来设置。<!--more-->  
@@ -69,5 +70,4 @@ categories: Windows
 TrustedInstaller是从Windows Vista开始出现的一个内置安全主体，为[Windows](https://baike.baidu.com/item/Windows/165458)系统中众多系统内置安全主体中的一个，本身是系统重要服务，用户无法直接在此服务的上下文中运行程序或另一个[服务](https://baike.baidu.com/item/服务/10393131)。它是操作系统上用来对系统进行维护、更新等操作的组。它的SID是S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464。TrustedInstaller权限的意义是用来防止程序或用户无意或恶意破坏系统文件。 这个安全主体本身是一个服务，名称为：Windows Modules Installer。  
 
 <style>div.post-block br {display: none}</style>
-
 

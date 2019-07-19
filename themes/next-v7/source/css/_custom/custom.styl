@@ -2,8 +2,6 @@ body {background: url('/images/crossline.png') repeat center whitesmoke}
 div.header-inner, div.post-block, div.sidebar-inner, .page-post-detail .comments, nav.pagination, a.btn, 
 div#local-search-result {background-color: whitesmoke}
 li.tab, li.tab.active {background-color: whitesmoke !important}
-button.vsubmit.vbtn {background-color: lightgrey}
-button.vsubmit.vbtn:hover {background-color: white}
 div.note {background-color: #E6E6E6 !important}
 .post-body h1, .post-body h2, .post-body h3, .post-body h4, .post-body h5, .post-body h6 {border-bottom: 1px solid #E6E6E6}
 blockquote {border-left: 4px solid lightgrey}
@@ -105,8 +103,6 @@ ul.menu#menu li.menu-item.menu-item-categories a,
 ul.menu#menu li.menu-item.menu-item-archives a {
     color: #222;
     font-size: 15.8px;
-    -webkit-font-smoothing: antialiased; /*chrome、safari*/
-    -moz-osx-font-smoothing: grayscale; /*firefox*/
 }
 
 /* 菜单内搜索按钮样式重置 */
@@ -114,14 +110,12 @@ li.menu-item.menu-item-search a {
     text-align: center;
     background-color: #222;
     font-size: 15px;
-    font-weight: 400;
     color: white;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border: 0px solid #222;
     border-radius: 17px;
-    -webkit-font-smoothing: antialiased; /*chrome、safari*/
-    -moz-osx-font-smoothing: grayscale; /*firefox*/
+    line-height: 30px;
     box-shadow: 0 0 8px rgba(0,0,0,0.5);
     +tablet-mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5)}
 }
@@ -160,8 +154,6 @@ ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a {
     background-color: #E6E6E6;
     font-weight: 700;
     font-size: 15.8px;
-    -webkit-font-smoothing: antialiased; /*chrome、safari*/
-    -moz-osx-font-smoothing: grayscale; /*firefox*/
 }
 
 /* 调整“阅读全文”按钮外边距 */
@@ -208,16 +200,6 @@ a.btn {
     font-size: 15px;
 }
 
-/* 底部文字样式 */
-div.theme-info strong {
-    font-weight: 600;
-    background: #222;
-    color: white;
-    border: 1px solid #222;
-    border-radius: 4px;
-    padding: 1px;
-}
-
 /* 侧边栏按钮显示图标 */
 ul.menu#menu strong {font-size: 16px}
 /* 鼠标样式 */
@@ -237,8 +219,18 @@ hr {background-image: repeating-linear-gradient(-45deg,#f5f5f5,#f5f5f5 4px,trans
 .category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
 .category-all-page .category-list-count:after {content: " "}
 .category-all-page .category-list {+tablet-mobile() {text-align: center}}
+/* 评论区优化 */
+div#lv-container {
+    margin-bottom: -38px;
+    +tablet-mobile() {margin-top: 9px; padding-left: 20px; padding-right: 20px}
+}
 /* 底部信息栏优化 */
-footer#footer.footer {padding-bottom: 0px}
+footer#footer.footer {
+    padding-bottom: 0px; 
+    padding-top: 12px;
+    +tablet-mobile() {padding-top: 0px}
+}
+
 i.fa.fa-user:before, i.fa.fa-eye:before {display: none}
 div.footer-inner {
     margin-left: 0px !important; 
