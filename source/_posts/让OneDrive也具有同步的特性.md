@@ -49,13 +49,7 @@ keywords: [OneDrive, 同步盘, 使用体验]
 mklink /d \MyDocs \Users\User1\Documents
 ```
 
-这样做，就建立了一个符号链接，`D:\MyDocs`下的文件实际位于根目录的`\User\User1\Documents`中，但在`D:\MyDocs`中仍然可以查看并进行正常的文件操作，**如果你在其中一个文件夹中进行了更改，那么另一个文件夹也会进行相同的更改**。
-
-{% note danger %}
-
-**注意：要<font style="color:red">使用管理员身份启动cmd</font>，且<font style="color:red">不能随意删除链接的源目录（或源文件），否则两个文件夹（或文件）之间的链接将会失效且无法访问！</font>**
-
-{% endnote %}  
+这样做，就建立了一个符号链接，`D:\MyDocs`下的文件实际位于根目录的`\User\User1\Documents`中，但在`D:\MyDocs`中仍然可以查看并进行正常的文件操作，**如果你在其中一个文件夹中进行了更改，那么另一个文件夹也会进行相同的更改**。   
 
 ### 跟 OneDrive 链接起来
 
@@ -97,7 +91,7 @@ mklink /d "G:\SyncDir" "C:\Users\<你的用户名>\OneDrive\SyncDir"
 
 {% note warning %}  
 
-**注意：**如果希望**从其它设备上传的文件能够立刻自动下载到本地而非按需下载**，需要勾选上“**始终在此设备上可用**”一项。<span style="background: #222; color: white">**方法为：**</span>进入 OneDrive**（本地设备路径）**，选中要更改属性的文件夹，在其上面**右键，弹出的菜单中单击“始终在此设备上可用”**即可。  
+**注意：**如果希望**从其它设备上传的文件能够立刻自动下载到本地而非按需下载**，需要勾选上“**始终在此设备上可用**”一项。<span style="background: #222; color: white">**方法为：**</span>进入 本地设备上的OneDrive文件夹，选中要更改属性的文件夹，在其上面**右键，弹出的菜单中单击“始终在此设备上可用”**即可。  
 
 {% endnote %}
 
