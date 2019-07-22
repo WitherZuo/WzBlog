@@ -12,7 +12,7 @@ blockquote {border-left: 4px solid lightgrey}
     +tablet-mobile() {font-size: 24px !important}
 }
 
-.posts-expand .post-meta {margin: 3px 0 20px 0}
+.posts-expand .post-meta {margin-bottom: 20px}
 /* 更改文章内容的内边距 */
 div.post-block {
     padding: 35px;
@@ -239,3 +239,6 @@ div.footer-inner {
     color: #fff;
     padding: 8px 0px;
 }
+
+/* 隐藏文章阅读数统计，仅能进入控制台查看 */
+div.post-meta span.post-meta-item:nth-child(4) {display: none}
