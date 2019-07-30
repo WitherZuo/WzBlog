@@ -35,8 +35,6 @@ div.post-body div.tabs {padding-top: 0px}
     +tablet() {font-size: 1.58em; margin-top: 2px}
 }
 
-/* 修改侧边栏右侧徽标字号 */
-span.archive-page-counter {font-size: 15px}
 /* 优化移动端顶栏显示效果 */
 .site-subtitle {+tablet-mobile() {margin-bottom: 2px}}
 .site-meta {+tablet-mobile() {padding-top: 16px}}
@@ -88,55 +86,8 @@ span.archive-page-counter {font-size: 15px}
 }
 
 /* 修改菜单条目图标样式 */
-svg.svg-inline--fa.fa-search.fa-w-16.menu-item-icon.fa-fw,
-svg.svg-inline--fa.fa-circle.fa-w-16.menu-item-icon.fa-fw,
-i.menu-item-icon.fa.fa-fw.fa-circle,
-i.menu-item-icon.fa.fa-search.fa-fw {
-    display: none;
-}
-
-/* 修改菜单显示文字大小、颜色和平滑度  */
-ul.menu#menu li.menu-item.menu-item-home a,
-ul.menu#menu li.menu-item.menu-item-about a,
-ul.menu#menu li.menu-item.menu-item-tags a,
-ul.menu#menu li.menu-item.menu-item-categories a,
-ul.menu#menu li.menu-item.menu-item-archives a {
-    color: #222;
-    font-size: 15.6px;
-}
-
-/* 菜单内搜索按钮样式重置 */
-li.menu-item.menu-item-search a {
-    text-align: center;
-    background-color: #222;
-    font-size: 15px;
-    color: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    border: 0px solid #222;
-    border-radius: 17px;
-    line-height: 30px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.5);
-    +tablet-mobile() {box-shadow: 0 0 16px rgba(0,0,0,0.5)}
-}
-
-/* 鼠标划过时的搜索按钮样式 */
-li.menu-item.menu-item-search a:hover {
-    background-color: #424242;
-    color: white;
-    border: 0px solid #222;
-    border-radius: 17px;
-}
-
-li.menu-item.menu-item-search {
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    +mobile() {margin: 10px 80px 20px 80px}
-    +tablet() {margin: 10px 220px 20px 220px}
-}
-
+i.menu-item-icon.fa.fa-fw.fa-circle {display: none}
+/* 菜单外边框 */
 ul.menu#menu li {
     padding-left: 8px;
     padding-right: 8px;
@@ -146,6 +97,29 @@ ul.menu#menu li {
     }
 }
 
+/* 修改菜单显示文字大小、颜色和平滑度  */
+ul.menu#menu li.menu-item.menu-item-home a,
+ul.menu#menu li.menu-item.menu-item-about a,
+ul.menu#menu li.menu-item.menu-item-tags a,
+ul.menu#menu li.menu-item.menu-item-categories a,
+ul.menu#menu li.menu-item.menu-item-archives a {
+    color: #222;
+    font-size: 15.5px;
+    border-bottom: transparent;
+}
+
+ul.menu#menu li.menu-item.menu-item-search a {
+    margin-top: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    background-color: #E6E6E6;
+    border-bottom: transparent;
+}
+
 ul.menu#menu li.menu-item.menu-item-home.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-about.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-tags.menu-item-active a,
@@ -153,7 +127,7 @@ ul.menu#menu li.menu-item.menu-item-categories.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a {
     background-color: #E6E6E6;
     font-weight: 700;
-    font-size: 15.6px;
+    font-size: 15.5px;
 }
 
 /* 调整“阅读全文”按钮外边距 */
