@@ -109,7 +109,7 @@ ul.menu#menu li.menu-item.menu-item-archives a {
 }
 
 ul.menu#menu li.menu-item.menu-item-search a {
-    margin-top: 4px;
+    margin: 4px 20px auto 20px;
     padding-top: 0px;
     padding-bottom: 0px;
     font-weight: 700;
@@ -125,10 +125,13 @@ ul.menu#menu li.menu-item.menu-item-about.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-tags.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-categories.menu-item-active a,
 ul.menu#menu li.menu-item.menu-item-archives.menu-item-active a {
-    background-color: #E6E6E6;
     font-weight: 700;
     font-size: 15.5px;
+    background-color: transparent;
 }
+
+.menu .menu-item a:hover:after, .menu .menu-item span.exturl:hover:after,
+.menu-item-active a:after {right: 21px}
 
 /* 调整“阅读全文”按钮外边距 */
 div.post-button.text-center {
