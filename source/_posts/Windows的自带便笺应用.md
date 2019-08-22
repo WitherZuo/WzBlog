@@ -51,5 +51,3 @@ keywords: [Windows, 自带应用, Note, 便笺]
 **Sticky Notes网页版地址：**[单击此处](https://www.onenote.com/stickynotes#)
 
 所以，如果你需要一个美观颜值高、简洁但不失基本功能的便笺笔记应用，那么这个微软家的Sticky Notes不失为一个好选择。  
-
-END

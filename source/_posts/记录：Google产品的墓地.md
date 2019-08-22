@@ -34,5 +34,3 @@ keywords: [Google, 谷歌, 项目]
 **2018 年 12 月 1 日 12 时 01 分 23 秒（北京时间）更新：Google+ 之后，谷歌再砍通讯应用环聊 Hangouts** 
 
 <i class="fas fa-globe-asia"></i>&nbsp;**单击这里，访问 Killed by Google（由Cody Odgen创建）[Killed by Google](https://killedbygoogle.com/)**   
-
-END

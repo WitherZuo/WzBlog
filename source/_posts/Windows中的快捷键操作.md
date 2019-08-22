@@ -159,5 +159,3 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 ### AutoHotKey：  
 
 如果对默认的快捷键不满意（比如较难操作，按键次数较多等），可以使用AutoHotKey进行快捷键重新映射。软件官网地址：[单击此处](https://www.autohotkey.com/)  
-
-END

@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: witherzuo's homepage
+title: Wz的个人小屋
 subtitle: 在这里，还有什么秘密尚待发掘？
-description: witherzuo's personal homepage,<br> blog site.
+description: witherzuo's personal homepage<br>and blog site.<br>witherzuo的个人主页兼部落格.<br>使用Hexo作为核心框架，<br>主题为NexT v7，<br>感谢这些项目的贡献者，<br>同时感谢您浏览本小站！
 keywords: 使用体验,OneNote,OneDrive,Google
 author: WitherZuo P. W. 
 language: zh-CN
@@ -100,7 +100,7 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-theme: next-v7
+theme: next-v7-future
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -186,3 +186,7 @@ neat_js:
     - '**/jquery.fancybox.pack.js'
     - '**/index.js'  
     - '**/love.js'
+    - '**/next-boot.js'
+    - '**/utils.js'
+    - '**/local-search.js'
+    - '**/scrollspy.js'
