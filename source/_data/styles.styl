@@ -155,6 +155,7 @@ nav.site-state.motion-element {display: block !important}
 div.site-state-item {
     border-width: 0px;
     margin-bottom: 12px;
+    display: inline-block;
 }
 
 /* 设置切换侧边栏按钮与返回顶部按钮的不透明度 */
@@ -162,6 +163,3 @@ div.sidebar-toggle, div.back-to-top.back-to-top-on {opacity: 1}
 
 /* 侧边栏RSS订阅按钮微调 */
 div.feed-link.motion-element {margin-top: 8px}
-
-/* 设置侧边栏可滑动 */
-.sidebar-inner {+tablet-mobile() {overflow-y: scroll}}
