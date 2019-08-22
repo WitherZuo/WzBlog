@@ -71,8 +71,8 @@ a.btn {
 /* 移除headband */
 div.headband {display: none}
 
-/* 优化正文字间距，尝试增强其可读性 */
-div.post-body p, div.post-body li {
+/* 优化文章标题和正文字间距，尝试增强其可读性 */
+div.post-body p, div.post-body li, a.post-title-link {
     word-break: break-all;
     word-wrap: break-word;
     letter-spacing: 0.05px;
@@ -162,3 +162,6 @@ div.sidebar-toggle, div.back-to-top.back-to-top-on {opacity: 1}
 
 /* 侧边栏RSS订阅按钮微调 */
 div.feed-link.motion-element {margin-top: 8px}
+
+/* 设置侧边栏可滑动 */
+.sidebar-inner {+tablet-mobile() {overflow-y: scroll}}

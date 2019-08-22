@@ -1,7 +1,7 @@
 echo Publishing blog to GitLab Pages.
 read -p "PLEASE ENTER COMMIT DESCRIPTION TEXT:" content
 echo -e " \n"
-echo "YOUR  COMMIT DESCRIPTION IS: $content"
+echo "YOUR COMMIT DESCRIPTION IS: $content"
 echo Adding all files modified to prepare commits.
 git add -A
 echo Checking status of all files before committing.
