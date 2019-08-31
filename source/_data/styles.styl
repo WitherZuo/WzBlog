@@ -128,7 +128,12 @@ div.post-block.archive {
 }
 
 /* 评论区域上外边距设置为-10px */
-div#comments.comments {margin-top: -10px}
+div#comments.comments {
+    margin-top: -10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    +tablet-mobile() {margin-left: 28px; margin-right: 28px}
+}
 
 /* 为不蒜子计数增加说明文字 */
 div.busuanzi-count i.fa.fa-user::before {content: "总访客量："}
