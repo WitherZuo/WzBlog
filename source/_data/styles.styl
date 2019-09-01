@@ -72,7 +72,9 @@ a.btn {
 div.headband {display: none}
 
 /* 优化文章标题和正文字间距，尝试增强其可读性 */
-div.post-body p, div.post-body li, a.post-title-link {
+div.post-body, table {font-size: 16px}
+pre code {font-size: 16px !important}
+div.post-body, a.post-title-link {
     word-break: break-all;
     word-wrap: break-word;
     letter-spacing: 0.05px;
@@ -154,7 +156,7 @@ div.post-body div.tabs {padding-top: 0px}
 div.post-meta span.post-meta-item {font-size: 13px}
 
 /* 侧边栏阴影效果取消和背景颜色修改 */
-aside#sidebar.sidebar.sidebar-active {box-shadow: none; background: #000}
+.sidebar {box-shadow: none; background: #000}
 
 /* 不显示侧边栏站点数据？ */
 nav.site-state.motion-element {display: block !important}
@@ -175,9 +177,9 @@ div.feed-link.motion-element {margin-top: 8px}
 /* 返回顶部按钮大小尺寸修改 */
 div.back-to-top {
     transform: scale(1.2);
-    padding-left: 16.7px;
     background: transparent;
     font-size: 16px;
+    padding-left: 2px;
     text-align: center;
     font-weight: 700;
 }
@@ -197,5 +199,5 @@ div.sidebar-toggle {
 /* 修正侧边栏切换图标1px偏移 */
 .sidebar-toggle-line:first-child {margin-top: 1px}
 
-/* 侧边栏内所有项目设置左内边距为0px */
-div.sidebar-inner {padding-left: 4px !important}
+/* 隐藏Hexo驱动文字 */
+div.powered-by {display: none}

@@ -100,7 +100,7 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-theme: next-v7-future
+theme: hexo-theme-next-7.4.0
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
