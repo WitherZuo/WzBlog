@@ -47,8 +47,9 @@ div.post-block {
 }
 
 /* 在部分页面增加下内边距=50px或下外边距=50px */
-div#posts.posts-expand {padding-bottom: 50px}
-div.post-block.tag, div.post-block.category {margin-bottom: 60px}
+div#posts.posts-expand {padding-bottom: 0px}
+div.post-block.tag, div.post-block.category {margin-top: 50px; margin-bottom: 60px}
+div.post-block.page {padding-bottom: 50px}
 
 /* 更改文章标题字号 */
 .posts-expand .post-title {
@@ -69,7 +70,7 @@ a.btn {
 ::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #222 !important}
 
 /* 移除headband */
-div.headband {display: none}
+div.headband {display: none; height: 0px}
 
 /* 优化文章标题和正文字间距，尝试增强其可读性 */
 div.post-body, table {font-size: 16px}
@@ -131,7 +132,7 @@ div.post-block.archive {
 
 /* 评论区域上外边距设置为-10px */
 div#comments.comments {
-    margin-top: -10px;
+    margin-top: 16px;
     margin-left: 0px;
     margin-right: 0px;
     +tablet-mobile() {margin-left: 28px; margin-right: 28px}
