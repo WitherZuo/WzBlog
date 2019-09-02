@@ -83,7 +83,7 @@ footer:
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
     enable: false
-    icp:
+    icp: 
     # The digit in the num of gongan beian.
     gongan_id:
     # The full num of gongan beian.
@@ -120,7 +120,7 @@ seo: true
 
 # If true, will add site-subtitle to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: true
+index_with_subtitle: false
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
@@ -737,7 +737,7 @@ add_this_id:
 # ---------------------------------------------------------------
 
 # Baidu Analytics
-baidu_analytics: 8440904f0d692fb65630d4866571ae22
+baidu_analytics: # <app_id>
 
 # Growingio Analytics
 # Copyright 2015-2018 GrowingIO, Inc. More info available at https://www.growingio.com
@@ -779,7 +779,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
   total_visitors_icon: user
   total_views: true
