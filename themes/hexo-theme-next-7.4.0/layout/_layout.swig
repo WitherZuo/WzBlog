@@ -10,7 +10,7 @@
 {%- set description = __('description') !== 'description' && __('description') || config.description %}
 
 {%- if theme.pjax %}
-  {%- set pjax = ' pjax' %}
+  {%- set pjax = ' pjax data-cfasync="false"' %}
 {%- endif %}
 
 <html lang="{{ config.language }}">
