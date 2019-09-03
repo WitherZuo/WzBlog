@@ -12,7 +12,7 @@ var pjax = new Pjax({
   },
   analytics: false,
   cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
+  scrollTo : 0
 });
 
 window.addEventListener('pjax:success', () => {
