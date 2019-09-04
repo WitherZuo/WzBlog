@@ -19,5 +19,8 @@ comments: false
 <p style="text-align:center"><u><strong>致谢列表</strong></u></p>  
 <p style="text-align:center">特别感谢：时光静好</p>  
 <p style="text-align:center">wzblog.fun is watching you</p>  
-<p style="text-align:center"><strong>建议使用基于Chromium/Webkit内核的浏览器访问本站</strong></p>
+<hr style="width:50%;margin-left:auto;margin-right:auto" />  
+<p style="text-align:center"><strong>建议使用基于Chromium/Webkit内核的浏览器访问本站</strong></p>  
+<p style="text-align:center"><strong>注意：</strong>由于CDN缓存的原因，有时候对Blog的修改可能不会即时生效，建议等待一段时间<strong> (2h)</strong></p>  
+<p style="text-align:center"><strong>还有，网站备案，连服务器都没有，你在想peach嘛</strong></p>  
 <style>div.post-body p {margin-bottom: 8px !important}</style>
