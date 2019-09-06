@@ -9,8 +9,9 @@ Allow: /js/
 Allow: /css/ 
 Allow: /fonts/ 
 Allow: /vendors/ 
-Allow: /fancybox/ 
+Allow: /fancybox
 
+Disallow: /fuckingschool
 Disallow: /fuckingschool.html
 
 Sitemap: https://www.wzblog.fun/sitemap.xml 
