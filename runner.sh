@@ -9,7 +9,7 @@ git status
 echo Commit all files.
 git commit -m "$content"
 echo Push all commits to GitLab repo.
-git push origin master
+git push origin master --force
 echo Published all files to GitLab!
 echo ======FINISHED!======
 echo GitLab was Done!
