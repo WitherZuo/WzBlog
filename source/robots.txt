@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # hexo robots.txt 
 User-agent: * 
 Allow: / 
