@@ -20,7 +20,9 @@ div.header-inner {
 }
 
 /* 改变导航栏菜单项目的基础样式 */
-ul#menu.menu {margin-bottom: 0px}
+ul#menu.menu {
+    margin-bottom: 0px;
+    +tablet-mobile() {margin-bottom: -2px}}
 ul.menu#menu li a {font-size: 15.5px !important}
 
 /* 改变菜单项目的选中后样式和指向时样式 */

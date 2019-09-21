@@ -28,7 +28,7 @@ keywords: [CoinHive, 挖矿]
 
 ![xWXJ5hGPGp.png](https://storage.live.com/items/5582C1D07E2893FB!132992?authkey=APiqr1tjl5KIc1Q "毫无结果...")
 
-**大致猜测一下，uBlock Origin 检测到了这个脚本并且阻止了它在当前页面上执行，然而这个脚本仍旧被下载到本地缓存，这时被 Windows Defender 发现，后面的事情想必也都清楚了。**这真是不折不扣的“午夜惊魂”。  
+**大致猜测一下，uBlock Origin 检测到了这个脚本并且阻止了它在当前页面上执行，然而这个脚本仍旧被下载到本地缓存，这时被 Windows Defender 发现，后面的事情想必也都清楚了**。这真是不折不扣的“午夜惊魂”。  
 
 对于虚拟加密货币，可能最令人印象深刻的就是去年 5 月的比特币“永恒之蓝”事件了，而这次的 CoinHive 又是挖掘什么的呢？
 
