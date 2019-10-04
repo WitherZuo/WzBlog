@@ -1,0 +1,232 @@
+# Console reminder if new version released.
+reminder: true
+
+# Remove unnecessary files after hexo generate.
+minify: true
+
+# Define custom file paths.
+# Create your custom files in site directory `source/_data` and uncomment needed files below.
+custom_file_path:
+  head: source/_data/head.swig
+  #header: source/_data/header.swig
+  #sidebar: source/_data/sidebar.swig
+  #postMeta: source/_data/post-meta.swig
+  #postBodyEnd: source/_data/post-body-end.swig
+  #footer: source/_data/footer.swig
+  #bodyEnd: source/_data/body-end.swig
+  #variable: source/_data/variables.styl
+  #mixin: source/_data/mixins.styl
+  style: source/_data/styles.styl
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2018
+
+  # Icon between year and copyright info.
+  icon:
+    # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
+    # `heart` is recommended with animation in red (#ff0000).
+    name: heart
+    # If you want to animate the icon, set it to true.
+    animated: true
+    # Change the color of icon, using Hex Code.
+    color: "#ff0000"
+
+# If not defined, `author` from Hexo `_config.yml` will be used.
+  copyright:
+
+  powered:
+    # Hexo link (Powered by Hexo).
+    enable: false
+    # Version info of Hexo after Hexo link (vX.X.X).
+    version: false
+
+  theme:
+    # Theme & scheme info link (Theme - NexT.scheme).
+    enable: false
+    # Version info of NexT after scheme info (vX.X.X).
+    version: false
+
+# Usage: `Key: /link/ || icon`
+# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
+# Value before `||` delimiter is the target link.
+# Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, question icon will be loaded.
+# When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
+# External url should start with http:// or https://
+menu:
+  #home: / || home
+  about: /about/ || user
+  tags: /tags/ || tags
+  categories: /categories/ || th
+  archives: /archives/ || archive
+  #schedule: /schedule/ || calendar
+  #sitemap: /sitemap.xml || sitemap
+  #commonweal: /404/ || heartbeat
+
+# Disable Baidu transformation on mobile devices.
+disable_baidu_transformation: true
+
+# Change headers hierarchy on site-subtitle (will be main site description) and on all post / page titles for better SEO-optimization.
+seo: true
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+baidu_push: true
+
+# Sidebar Avatar
+avatar:
+  # In theme directory (source/images): /images/avatar.gif
+  # In site directory (source/uploads): /uploads/avatar.gif
+  # You can also use other linking images.
+  url: /images/avatar.png
+  # If true, the avatar would be dispalyed in circle.
+  rounded: false
+  # If true, the avatar would be rotated with the cursor.
+  rotated: false
+
+# Table Of Contents in the Sidebar
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: true
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: false
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+  # Maximum heading depth of generated toc. You can set it in one post through `toc_max_depth` in Front-matter.
+  max_depth: 6
+
+sidebar:
+  # Sidebar Position.
+  #position: left
+  position: right
+
+  # Manual define the sidebar width. If commented, will be default for:
+  # Muse | Mist: 320
+  # Pisces | Gemini: 240
+  width: 280
+
+  # Sidebar Display (only for Muse | Mist), available values:
+  #  - post    expand on posts automatically. Default.
+  #  - always  expand for all pages automatically.
+  #  - hide    expand only when click on the sidebar toggle icon.
+  #  - remove  totally remove sidebar including sidebar toggle.
+  display: hide
+
+  # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
+  offset: 12
+  # Enable sidebar on narrow view (only for Muse | Mist).
+  onmobile: true
+
+# Automatically scroll page to section which is under <!-- more --> mark.
+scroll_to_more: false
+
+# Post meta display settings
+post_meta:
+  item_text: true
+  created_at: true
+  updated_at:
+    enable: true
+    another_day: false
+  categories: true
+
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: true
+
+# Optimize the display of scrollbars on webkit based browsers.
+custom_scrollbar: true
+
+# Tabs tag
+tabs:
+  transition:
+    tabs: true
+    labels: true
+  border_radius: 0
+
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright
+  # See: https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: normal
+  # Add copy button on codeblock
+  copy_button:
+    enable: true
+    # Show text copy result.
+    show_result: true
+    # Available values: default | flat | mac
+    style: mac
+
+back2top:
+  enable: true
+  # Back to top in sidebar.
+  sidebar: true
+  # Scroll percent label in b2t button.
+  scrollpercent: true
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  # Available values: top | bottom
+  position: top
+  color: "#fc6423"
+  height: 2px
+
+# Easily enable fast Ajax navigation on your website.
+# Dependencies: https://github.com/theme-next/theme-next-pjax
+# For moreinformation: https://github.com/MoOx/pjax
+pjax: true
+
+# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
+# For more information: https://fancyapps.com/fancybox
+fancybox: true
+
+# Pangu Support
+# For more information: https://github.com/vinta/pangu.js
+pangu: true
+
+# LiveRe comments system
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC80MTUwMy8xODA1MA==
+
+# Local Search
+# Dependencies: https://github.com/wzpan/hexo-generator-search
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: true
+
+# Script Vendors. Set a CDN address for the vendor you want to customize.
+# Be aware that you would better use the same version as internal ones to avoid potential problems.
+# Please use the https protocol of CDN files when you enable https on your site.
+vendors:
+  # Internal version: 4.7.0
+  # Example:
+  # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+  # Internal version: 0.2.8
+  # Example:
+  # pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
+
+  # FancyBox
+  # Example:
+  # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
+  # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
+  # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
+  jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js 
+  fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
+  fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
+
+  # Pangu
+  # Example:
+  # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
+  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
+  pangu: https://cdn.bootcss.com/pangu/4.0.7/pangu.min.js

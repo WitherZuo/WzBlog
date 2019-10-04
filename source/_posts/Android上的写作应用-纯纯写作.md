@@ -5,7 +5,7 @@ tags:
   - 纯纯写作
   - 移动端写作
 categories: 使用体验
-abbrlink: 3930012d
+titlename: 3930012d
 date: 2018-12-17 22:18:19
 updated: 2019-07-21 09:55:57
 keywords: [纯纯写作, Markdown, 移动端, Android, 安卓]

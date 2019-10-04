@@ -1,6 +1,6 @@
 ---
 title: 获得TrustedInstaller权限
-abbrlink: 358c8d05
+titlename: 358c8d05
 date: 2019-07-17 09:36:36
 updated: 2019-07-19 21:13:09
 tags: [Windows, TrustedInstaller]
