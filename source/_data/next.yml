@@ -72,6 +72,9 @@ seo: true
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
 baidu_push: true
 
+# Baidu Analytics
+baidu_analytics: 8440904f0d692fb65630d4866571ae22
+
 # Sidebar Avatar
 avatar:
   # In theme directory (source/images): /images/avatar.gif
@@ -170,11 +173,6 @@ reading_progress:
   color: "#fc6423"
   height: 2px
 
-# Easily enable fast Ajax navigation on your website.
-# Dependencies: https://github.com/theme-next/theme-next-pjax
-# For moreinformation: https://github.com/MoOx/pjax
-pjax: true
-
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox
 fancybox: true
@@ -210,11 +208,6 @@ vendors:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
-
-  # Internal version: 0.2.8
-  # Example:
-  # pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
-  pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
 
   # FancyBox
   # Example:

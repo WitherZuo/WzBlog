@@ -3,7 +3,6 @@
 <link rel="apple-touch-icon" href="/images/apple-touch-icon-next.png">
 <meta name="apple-mobile-web-app-title" content="WzBlog">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<script type="text/javascript" src="/js/custom/hexo_resize_image.js"></script>
 <script>
   ;(function () {
     var src = 'https://cdn.bootcss.com/eruda/1.5.6/eruda.min.js';
@@ -12,3 +11,4 @@
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
   })();
 </script>
+<script src="../../js/hexo-resize-image.js"></script>

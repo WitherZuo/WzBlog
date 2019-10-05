@@ -1,0 +1,16 @@
+#write {
+    text-align: justify;
+}
+
+#write .md-img {
+    text-align: center !important;
+}
+
+.megamenu-menu-list li a {
+    line-height: 38px !important;
+}
+
+.active-tab-files #info-panel-tab-file .info-panel-tab-border,
+.active-tab-outline #info-panel-tab-outline .info-panel-tab-border {
+    height: 2px !important;
+}

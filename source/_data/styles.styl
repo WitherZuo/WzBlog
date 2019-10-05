@@ -27,7 +27,7 @@ ul#menu.menu li {margin: 0}
 ul#menu.menu li a {
     color: #fff !important; 
     border: none !important;
-    font-size: 15.5px !important;
+    font-size: 16px !important;
     padding: 0 10px;
     transition: background-color linear 0.2s;
 }
@@ -47,7 +47,7 @@ ul#menu.menu li a:hover {background-color: #484848;}
 /* 修改站点标题样式 */
 span.site-title {
     font-weight: 700;
-    font-size: 26px;    
+    font-size: 28px;    
 }
 
 /* 修改站点子标题样式 */
@@ -209,3 +209,12 @@ div.sidebar-toggle {
 
 /* 修正侧边栏切换图标1px偏移 */
 .sidebar-toggle-line:first-child {margin-top: 1px}
+
+/* 修改ServiceWorker刷新条样式 */
+.app-refresh {background-color: #222 !important;}
+
+/* 设置手机传输过来的图片在Hexo中的适当显示样式 title=mobile */
+/*img[alt="mobile"] {
+    width: 40%;
+    +tablet-mobile() {width: 100%};
+}*/
