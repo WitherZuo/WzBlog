@@ -11,4 +11,3 @@
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
   })();
 </script>
-<script src="../../js/hexo-resize-image.js"></script>
