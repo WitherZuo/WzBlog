@@ -16,7 +16,7 @@ echo GitLab was Done!
 echo -e "\n"
 echo Submitting all urls to Baidu.
 echo Generating url file with hexo g.
-hexo g -c
+hexo g
 echo Navigate to /public and find urls.txt.
 cd /g/HexoBlog/public
 echo Submit these urls to Baidu with Curl-cli.
