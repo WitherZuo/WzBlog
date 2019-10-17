@@ -91,8 +91,8 @@ p.image-caption {margin-top: 10px !important}
 /* 移动端下拉导航栏菜单背景色 */
 .site-nav {
     background-color: #222;
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #222;
+    border: 1px solid #222;
+    box-sizing: border-box;
 }
 
 /* 强化移动端展开菜单导航按钮显示效果 */
@@ -147,9 +147,6 @@ div.site-state-item {
 /* 设置切换侧边栏按钮与返回顶部按钮的不透明度 */
 div.sidebar-toggle, div.back-to-top.back-to-top-on {opacity: 1}
 
-/* 侧边栏RSS订阅按钮微调 */
-div.feed-link.motion-element {margin-top: 8px}
-
 /* 返回顶部按钮大小尺寸修改 */
 div.back-to-top:hover {color: #fff}
 div.back-to-top {
@@ -194,7 +191,7 @@ nav.pagination {
     font-size: 16px
 }
 
-/* test */
+/* 调整某些页面的顶部0边距 */
 .posts-collapse {
     padding-top: 50px;
 }
