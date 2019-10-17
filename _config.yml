@@ -96,7 +96,7 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-theme: hexo-theme-next-7.4.1
+theme: hexo-theme-next-reloaded
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

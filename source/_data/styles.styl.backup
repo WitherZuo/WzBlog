@@ -58,6 +58,19 @@ header.post-header h2.post-title {font-weight: 700}
 /* 减小文章属性下方边距 */
 div.post-meta {margin: 3px 0 20px 0 !important;}
 
+/* 更改文章内容左右外边距，PC=-50px，移动端=30px */
+/*section#posts.posts-expand, div#posts.posts-expand {+tablet-mobile() {margin-left: 0px; margin-right: 0px}}
+div.post-block {
+    margin-left: -50px;
+    margin-right: -50px;
+    +tablet-mobile() {margin-left: 30px; margin-right: 30px}
+}*/
+
+/* 在部分页面增加下内边距=50px或下外边距=50px */
+/*div#posts.posts-expand {padding-bottom: 0px}
+div.post-block.tag, div.post-block.category {margin-top: 50px; margin-bottom: 60px}
+div.post-block.page {padding-bottom: 50px}*/
+
 /* 将“阅读全文”按钮边框宽度设置为1px，字号16px */
 a.btn {
     border-width: 1px;
@@ -106,6 +119,17 @@ a, button, input, textarea, div.back-to-top.back-to-top-on {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
+/* 分页按钮样式修改：突出分页颜色，移除上边框 */
+.pagination .page-number.current {background: #222}
+.pagination {border-top: 0px solid #eee; margin: 60px 0px 50px}
+span.page-number.current, a.page-number {font-size: 16px}
+
+/* 归档页面正文部分上边距调整=48px，移动设备上启用左右边距 */
+/*div.post-block.archive {
+    padding-top: 48px;
+    +tablet-mobile() {margin-left: 20px; margin-right: 20px}
+}*/
+
 /* 分类页面优化 */
 .category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
 .category-all-page .category-list-count:after {content: " "}
@@ -119,9 +143,11 @@ a, button, input, textarea, div.back-to-top.back-to-top-on {
     font-size: 15px;
 }
 
-/* 评论区域外边距设置 */
+/* 评论区域上外边距设置为-10px */
 div#comments.comments {
-    margin: 16px 0px -58px 0px;
+    margin-top: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
     +tablet-mobile() {margin-left: 28px; margin-right: 28px}
 }
 
@@ -130,6 +156,9 @@ div.footer-inner i.fa.fa-area-chart::before, div.footer-inner i.fa.fa-coffee::be
 
 /* 设置标签切换块上内边距 */
 div.post-body div.tabs {padding-top: 0px}
+
+/* 设置文章属性字号 */
+/*div.post-meta span.post-meta-item {font-size: 13px}*/
 
 /* 侧边栏阴影效果取消和背景颜色修改 */
 .sidebar {box-shadow: none; background: #000}
@@ -178,23 +207,3 @@ div.sidebar-toggle {
 
 /* 一个异常问题的修复 */
 div.back-to-top.motion-element.back-to-top-on {display: none}
-
-/* 分页指示器位置调整 */
-.pagination .page-number.current {background: #222}
-nav.pagination {
-    height: 33px !important;
-    margin-bottom: 6px;
-    margin-top: 70px;
-    
-}
-
-/* 修正移动端分页指示器底部外边距 */
-.pagination .page-number {
-    margin-bottom: 0px;
-    font-size: 16px
-}
-
-/* test */
-.posts-collapse {
-    padding-top: 50px;
-}
