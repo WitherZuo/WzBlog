@@ -31,7 +31,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 为什么要用OneDrive来当图床而不是其它的服务呢，**简单来说，用 Img Share 生成的图片外链，都会自动在 OneDrive 下新建一个文件夹存放起来，也就是说，之后在找这些图片的时候，就不用在本机硬盘上东翻西翻了，OneDrive 将会自动同步这些内容在任何设备上可用**，方便了不少。  
 
-### 与 OneDrive 授权：
+## 与 OneDrive 授权：
 
 要想通过Img&nbsp;Share来创建 OneDrive 图床，**首先需要提供给 Img Share 我们的 OneDrive 的 authkey**，OneDrive 通过这个 authkey 来验证我们的请求。作者也十分贴心，在第一次进入应用时就会告诉我们如何添加这个 authkey。  
 
@@ -53,7 +53,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 然后将这一串字符串复制到 Img Share 弹出的窗口中，单击“确定”，等待 Img Share 验证完成即可。  
 
-### 创建图片外链：
+## 创建图片外链：
 
 一切准备就绪之后，接下来就可以添加图片了，**将图片拖拽到红框所示区域内：**  
 
@@ -69,7 +69,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 可以看到，**Img Share 不仅会生成普通的图片外链链接，还提供了生成 Markdown 图片链接格式和 HTML 内嵌入格式的选项**，可谓十分贴心，考虑到不同的情况。  
 
-### 一点总结：
+## 一点总结：
 
 先放上下载链接（Microsoft Store）：[单击此处](https://www.microsoft.com/zh-cn/p/img-share/9ncxnz52g9q8?activetab=pivot:overviewtab)
 

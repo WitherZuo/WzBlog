@@ -17,11 +17,7 @@ div.header-inner {
 }
 
 /* 改变导航栏菜单项目的基础样式 */
-ul#menu.menu {
-    margin-bottom: 0px;
-    +tablet-mobile() {margin-bottom: -3px};
-}
-
+ul#menu.menu {margin-bottom: 0px;}
 ul#menu.menu li {margin: 0}
 ul#menu.menu li a {
     color: #fff !important; 
@@ -72,8 +68,7 @@ a.btn {
 div.headband {height: 0px}
 
 /* 优化文章标题和正文字间距，尝试增强其可读性 */
-div.post-body, table {font-size: 16px}
-pre code {font-size: 16px !important}
+div.post-body, table, pre code {font-size: 16px !important}
 div.post-body, a.post-title-link, .post-nav-prev a, h2.post-title {
     word-break: break-all;
     word-wrap: break-word;
@@ -112,7 +107,6 @@ a, button, input, textarea, div.back-to-top.back-to-top-on {
 .category-all-page .category-list {text-align: center}
 
 /* 修改底部说明文字块样式 */
-.footer div.copyright {margin-bottom: 2px}
 .footer {
     color: #fff;
     background-color: #222;
@@ -180,18 +174,28 @@ div.back-to-top.motion-element.back-to-top-on {display: none}
 .pagination .page-number.current {background: #222}
 nav.pagination {
     height: 33px !important;
-    margin-bottom: 6px;
-    margin-top: 70px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    font-size: 16px;
     
 }
 
-/* 修正移动端分页指示器底部外边距 */
-.pagination .page-number {
-    margin-bottom: 0px;
-    font-size: 16px
+/* 页面显示调整 */
+/* 页面主体内容容器 */
+div.main-inner {
+    padding-top: 40px; 
+    padding-bottom: 60px;
 }
 
-/* 调整某些页面的顶部0边距问题 */
-.posts-collapse {
-    padding-top: 50px;
+/* 部分页面上下内边距取消 */
+div.main-inner div.posts-expand, div.main-inner div.posts-collapse {
+    padding-top: 0px; 
+    padding-bottom: 0px;
+}
+
+/* 取消归档、分类、标签等页面最后条目的底部外边距 */
+div.tag-cloud div.tag-cloud-tags {margin-bottom: -10px}
+div.posts-collapse article:last-of-type header.post-header,
+.category-all-page li.category-list-item:last-of-type {
+    margin-bottom: 0px;
 }

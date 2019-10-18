@@ -20,7 +20,7 @@ keywords: [Windows, TrustedInstaller, 权限, 帮助, WindowsApps]
 
 仍然是拒绝，提示**我们需要使用“安全”选项卡来修改**。  
 
-### 获取权限  
+## 获取权限  
 
 要想更改所在的用户组，改变文件夹的所有者，我们需要先找到“安全”选项卡的位置。  
 
@@ -52,7 +52,7 @@ keywords: [Windows, TrustedInstaller, 权限, 帮助, WindowsApps]
 
 **如果弹出其它的对话框，选择“确定”即可。**  
 
-### 改回权限  
+## 改回权限  
 
 **TrustedInstaller的用户组权限极高，不建议在平时正常使用时一直使用，在完成需要提权的操作后最好还是将受保护的文件夹改回到原来的用户组。**（当然你一直保持着也没问题）  
 
@@ -66,7 +66,7 @@ keywords: [Windows, TrustedInstaller, 权限, 帮助, WindowsApps]
 
 正确识别后，单击“确定”保存修改。返回上一级窗口后，再单击“确定”，**如果出现“可能会造成文件夹和文件继承权限”之类的提示信息，全部单击“取消”，然后关闭窗口**。  
 
-### TrustedInstaller是什么  
+## TrustedInstaller是什么  
 
 TrustedInstaller是从Windows Vista开始出现的一个内置安全主体，为[Windows](https://baike.baidu.com/item/Windows/165458)系统中众多系统内置安全主体中的一个，本身是系统重要服务，用户无法直接在此服务的上下文中运行程序或另一个[服务](https://baike.baidu.com/item/服务/10393131)。它是操作系统上用来对系统进行维护、更新等操作的组。它的SID是S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464。TrustedInstaller权限的意义是用来防止程序或用户无意或恶意破坏系统文件。 这个安全主体本身是一个服务，名称为：Windows Modules Installer。  
 
