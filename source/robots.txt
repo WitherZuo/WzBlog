@@ -10,8 +10,8 @@ Allow: /fonts/
 Allow: /vendors/ 
 Allow: /fancybox/ 
 
-Disallow: /fuckingschool
-Disallow: /fuckingschool.html
+Disallow: /tuxie
+Disallow: /tuxie.html
 
 Sitemap: https://www.wzblog.fun/sitemap.xml 
 Sitemap: https://www.wzblog.fun/baidusitemap.xml
