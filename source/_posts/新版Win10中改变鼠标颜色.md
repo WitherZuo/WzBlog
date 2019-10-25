@@ -39,5 +39,5 @@ keywords: [19H1, Windows, 使用体验, 鼠标指针]
 
 ![设置后的效果，正在使用Typora](https://i.loli.net/2019/07/15/5d2bfc679d47874571.png?80)  
 
-<style>div.post-block br {display: none}</style>
+<style>div.post-block br {display: none}</style> 
 <script src="https://www.wzblog.fun/js/hexo_resize_image.js"></script>
