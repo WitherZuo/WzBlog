@@ -1,6 +1,6 @@
-<script src="/sw-register.js"></script>
-<link rel="manifest" href="/manifest.json">
-<link rel="apple-touch-icon" href="/images/apple-touch-icon-next.png">
+<script src="https://www.wzblog.fun/sw-register.js"></script>
+<link rel="manifest" href="https://www.wzblog.fun/manifest.json">
+<link rel="apple-touch-icon" href="https://www.wzblog.fun/images/apple-touch-icon-next.png">
 <meta name="apple-mobile-web-app-title" content="WzBlog">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <script>
@@ -11,3 +11,4 @@
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
   })();
 </script>
+<script src="https://www.wzblog.fun/js/hexo_resize_image.js"></script>
