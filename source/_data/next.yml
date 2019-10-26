@@ -207,7 +207,7 @@ vendors:
   # Example:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome: https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+  fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
   # FancyBox
   # Example:
@@ -222,4 +222,4 @@ vendors:
   # Example:
   # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
   # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
-  pangu: https://cdn.bootcss.com/pangu/4.0.7/pangu.min.js
+  pangu: https://cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js

@@ -37,7 +37,6 @@ keywords: [19H1, Windows, 使用体验, 鼠标指针]
 
 在弹出的窗口里可以自由设定你想要的颜色，只要你能辨认出来指针，那么改成什么颜色都可以，**但是还是建议修改成易于辨识的颜色，以防在一片复杂的界面中寻觅不到鼠标指针的踪迹（笑）**  
 
-![设置后的效果，正在使用Typora](https://i.loli.net/2019/07/15/5d2bfc679d47874571.png?80)  
+<img src="https://i.loli.net/2019/07/15/5d2bfc679d47874571.png" title="设置后的效果，正在使用Typora" style="zoom: 70%" />   
 
-<style>div.post-block br {display: none}</style> 
-<script src="https://www.wzblog.fun/js/hexo_resize_image.js"></script>
+<style>div.post-block br {display: none}</style>
