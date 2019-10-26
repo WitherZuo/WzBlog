@@ -7,3 +7,5 @@ categories:
 keywords:
 titlename:
 ---
+<style>div.post-body br {display: none}</style>
+
