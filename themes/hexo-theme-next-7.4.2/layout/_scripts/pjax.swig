@@ -10,9 +10,9 @@ var pjax = new Pjax({
   switches: {
     '.post-toc-wrap': Pjax.switches.innerHTML
   },
-  analytics: false,
+  analytics: true,
   cacheBust: false,
-  scrollTo : !CONFIG.bookmark.enable
+  scrollTo: 0
 });
 
 window.addEventListener('pjax:success', () => {
@@ -33,7 +33,7 @@ window.addEventListener('pjax:success', () => {
     if (element.src) {
       script.src = element.src;
       // Force synchronous loading of peripheral JS.
-      script.async = false;
+      script.async = true;
     }
     if (element.getAttribute('pjax') !== null) {
       element.setAttribute('pjax', '');

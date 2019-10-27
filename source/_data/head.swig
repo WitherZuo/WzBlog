@@ -11,3 +11,4 @@
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
   })();
 </script>
+<script src="js/launcher-snippets.js"></script>

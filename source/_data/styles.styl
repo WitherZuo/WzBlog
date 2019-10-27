@@ -35,8 +35,25 @@ ul#menu.menu li a:hover {background-color: #484848;}
     background-color: #484848;
 }
 
-/* 移动端导航栏菜单样式优化 */
-.menu {+tablet-mobile() {text-align: center; padding-left: 10px; padding-right: 10px}}
+/* 移动端导航栏菜单样式和显示行为优化 */
+.menu {
+    +tablet-mobile() {
+        text-align: center; 
+        padding-left: 10px; 
+        padding-right: 10px;   
+    }
+}
+
+.site-nav {
+    +tablet-mobile() {
+        background-color: #222;
+        border: 1px solid #222;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 2;
+        padding-bottom: 60px;
+    }
+}
 
 /* 修改站点标题样式 */
 span.site-title {
@@ -80,13 +97,6 @@ p.image-caption {margin-top: 10px !important}
     box-sizing: border-box;
     padding: 0px;
     margin: 0 auto !important;
-}
-
-/* 移动端下拉导航栏菜单背景色 */
-.site-nav {
-    background-color: #222;
-    border: 1px solid #222;
-    box-sizing: border-box;
 }
 
 /* 强化移动端展开菜单导航按钮显示效果 */
