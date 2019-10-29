@@ -1,4 +1,4 @@
-image: node:8.11.3
+image: node:12.13.0
 pages:
   cache:
     paths:
@@ -9,6 +9,7 @@ pages:
   - npm install hexo-cli -g
   - npm install
   - hexo clean
+  - sh swjs.sh
   - hexo g
   artifacts:
     paths:

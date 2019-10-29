@@ -139,28 +139,3 @@ symbols_count_time:
  # 网页底部是否显示
   total_symbols: true
   total_time: true
-
-# offline config passed to sw-precache.
-service_worker:
-  maximumFileSizeToCacheInBytes: 5242880
-  staticFileGlobs:
-  - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: gstatic.loli.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: i.loli.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: 1drv.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: live.com

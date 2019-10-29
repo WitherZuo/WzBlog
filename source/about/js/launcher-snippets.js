@@ -3,5 +3,5 @@ function toFirefoxUser() {
 }
 
 function viewOtherInfos() {
-    window.alert("hexo: 4.0.0\nhexo-cli: 2.0.0\nnode: 12.6.0\nnpm: 6.12.0\nv8: 7.5.288.22-node.14\nuv: 1.30.1\nzlib: 1.2.11\nbrotli: 1.0.7\nares: 1.15.0\nmodules: 72\nnghttp2: 1.38.0\nnapi: 4\nllhttp: 1.1.4\nhttp_parser: 2.8.0\nopenssl: 1.1.1c\ncldr: 35.1\nicu: 64.2\ntz: 2019a\nunicode: 12.1\n\nNexT: 7.4.2\nRocket Loader: OFF")
+    window.alert("hexo: 4.0.0\nhexo-cli: 2.0.0\nnode: 12.13.0\nnpm: 6.12.0\nv8: 7.5.288.22-node.14\nuv: 1.30.1\nzlib: 1.2.11\nbrotli: 1.0.7\nares: 1.15.0\nmodules: 72\nnghttp2: 1.38.0\nnapi: 4\nllhttp: 1.1.4\nhttp_parser: 2.8.0\nopenssl: 1.1.1c\ncldr: 35.1\nicu: 64.2\ntz: 2019a\nunicode: 12.1\n\nNexT: 7.4.2\nRocket Loader: OFF")
 }
