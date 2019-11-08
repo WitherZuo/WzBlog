@@ -109,4 +109,21 @@ workbox.routing.registerRoute(
     })
 );
 
+// HTML and Others
+workbox.routing.registerRoute(
+    /\.(?:htm|html|css|js)$/,
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "static",
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
 workbox.googleAnalytics.initialize({});

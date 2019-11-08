@@ -184,7 +184,7 @@ pangu: true
 # Easily enable fast Ajax navigation on your website.
 # Dependencies: https://github.com/theme-next/theme-next-pjax
 # For moreinformation: https://github.com/MoOx/pjax
-pjax: true
+pjax: false
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)

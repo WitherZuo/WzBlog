@@ -16,7 +16,7 @@ echo GitLab was Done!
 echo -e "\n"
 echo Submitting all urls to Baidu.
 echo Generating url file with hexo g.
-sh ./node_modules/gulp/bin/gulp.js build
+sh swjs.sh
 hexo g
 echo Navigate to /public and find urls.txt.
 cd /g/HexoBlog/public
