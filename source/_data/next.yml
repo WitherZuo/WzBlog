@@ -181,11 +181,6 @@ fancybox: true
 # For more information: https://github.com/vinta/pangu.js
 pangu: true
 
-# Easily enable fast Ajax navigation on your website.
-# Dependencies: https://github.com/theme-next/theme-next-pjax
-# For moreinformation: https://github.com/MoOx/pjax
-pjax: false
-
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 livere_uid: MTAyMC80MTUwMy8xODA1MA==
@@ -222,11 +217,6 @@ vendors:
   jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js 
   fancybox: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
   fancybox_css: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-
-  # Internal version: 0.2.8
-  # Example:
-  # pjax: //cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
-  pjax: https://cdn.jsdelivr.net/gh/theme-next/theme-next-pjax@0/pjax.min.js
 
   # Pangu
   # Example:
