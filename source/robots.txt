@@ -10,8 +10,8 @@ Allow: /fonts/
 Allow: /vendors/ 
 Allow: /fancybox/ 
 
-Disallow: /tuxie
-Disallow: /tuxie.html
+Disallow: /wx_gongzhonghao
+Disallow: /wx_gongzhonghao.html
 
 Sitemap: https://www.wzblog.fun/sitemap.xml 
 Sitemap: https://www.wzblog.fun/baidusitemap.xml

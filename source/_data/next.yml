@@ -62,6 +62,7 @@ menu:
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+  公众号: /wx_gongzhonghao.html || weixin
 
 # Disable Baidu transformation on mobile devices.
 disable_baidu_transformation: true
