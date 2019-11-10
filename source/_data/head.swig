@@ -69,4 +69,3 @@
     document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
   })();
 </script>
-<script src="https://www.wzblog.fun/about/js/launcher-snippets.js"></script>
