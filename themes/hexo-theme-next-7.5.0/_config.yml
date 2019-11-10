@@ -124,7 +124,7 @@ scheme: Muse
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  #home: / || home
+  #home: /index.html || home
   #about: /about/ || user
   #tags: /tags/ || tags
   #categories: /categories/ || th

@@ -113,6 +113,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
     /\.(?:html|css)$/,
     new workbox.strategies.NetworkFirst({
+        networkTimeoutSeconds: 30,
         cacheName: "html-css-static",
         plugins: [
             new workbox.expiration.Plugin({
