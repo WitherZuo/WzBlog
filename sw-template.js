@@ -109,11 +109,28 @@ workbox.routing.registerRoute(
     })
 );
 
-// HTML and Others
+// HTML and CSS static.
 workbox.routing.registerRoute(
-    /\.(?:htm|html|css|js)$/,
+    /\.(?:html|css)$/,
+    new workbox.strategies.NetworkFirst({
+        cacheName: "html-css-static",
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// JavaScript static.
+workbox.routing.registerRoute(
+    /\.(?:js)$/,
     new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "static",
+        cacheName: "js-static",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
