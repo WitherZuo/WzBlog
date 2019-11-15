@@ -109,12 +109,11 @@ workbox.routing.registerRoute(
     })
 );
 
-// HTML and CSS static.
+// JavaScript static.
 workbox.routing.registerRoute(
-    /\.(?:html|css)$/,
-    new workbox.strategies.NetworkFirst({
-        networkTimeoutSeconds: 30,
-        cacheName: "html-css-static",
+    /\.(?:js)$/,
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "js-static",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
@@ -127,11 +126,12 @@ workbox.routing.registerRoute(
     })
 );
 
-// JavaScript static.
+// HTML and CSS static.
 workbox.routing.registerRoute(
-    /\.(?:js)$/,
-    new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "js-static",
+    /\/$/,
+    new workbox.strategies.NetworkFirst({
+        networkTimeoutSeconds: 30,
+        cacheName: "html-css-static",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
