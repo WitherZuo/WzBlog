@@ -113,7 +113,25 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
     /\.(?:js)$/,
     new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "js-static",
+        cacheName: "static-js",
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// like example.com/ static.
+workbox.routing.registerRoute(
+    /\/$/,
+    new workbox.strategies.NetworkFirst({
+        networkTimeoutSeconds: 30,
+        cacheName: "index-cache",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
@@ -128,10 +146,10 @@ workbox.routing.registerRoute(
 
 // HTML and CSS static.
 workbox.routing.registerRoute(
-    /\/$/,
+    /\.(?:html|css)$/,
     new workbox.strategies.NetworkFirst({
         networkTimeoutSeconds: 30,
-        cacheName: "html-css-static",
+        cacheName: "static-html-css",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
