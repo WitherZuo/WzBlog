@@ -1,11 +1,14 @@
-/* 全站背景色修改=whitesmoke */
+﻿/* 全站背景色修改=whitesmoke */
 body, div.popup.search-popup, a.btn:hover {background: whitesmoke;}
 .highlight, pre, div.note {background: #E6E6E6 !important}
 blockquote {border-left: 4px solid lightgrey !important}
 hr {background-image: none !important; background-color: lightgrey !important}
 
 /* 鼠标样式 */
-* {cursor: url('/images/round-cursor.png') 12 12, auto !important;}
+* {
+    cursor: url('/images/round-cursor.png') 12 12, auto !important;
+    font-display: optional !important;
+}
 
 /* 修改顶部栏上下边距和背景颜色 */
 header.header {background-color: #222;}
@@ -183,12 +186,11 @@ div.main-inner {
 }
 
 /* 部分页面上下内边距取消 */
+div.content {padding-top: 0px}
 div.main-inner div.posts-expand, div.main-inner div.posts-collapse {
     padding-top: 0px; 
     padding-bottom: 0px;
 }
-
-div.content {padding-top: 0px}
 
 /* 取消归档、分类、标签等页面最后条目的底部外边距 */
 div.tag-cloud div.tag-cloud-tags {margin-bottom: -10px}
