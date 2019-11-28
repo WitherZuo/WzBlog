@@ -1,15 +1,8 @@
 ﻿/* 全站背景色修改=whitesmoke */
 body, div.popup.search-popup, a.btn:hover {background: whitesmoke;}
-.highlight, pre, div.note {background: #E6E6E6 !important}
-blockquote {border-left: 4px solid lightgrey !important}
 hr {background-image: none !important; background-color: lightgrey !important}
-
 /* 鼠标样式 */
-* {
-    cursor: url('/images/round-cursor.png') 12 12, auto !important;
-    font-display: optional !important;
-}
-
+* {cursor: url('/images/round-cursor.png') 12 12, auto !important;}
 /* 修改顶部栏上下边距和背景颜色 */
 header.header {background-color: #222;}
 div.header-inner {
@@ -17,18 +10,16 @@ div.header-inner {
     padding-bottom: 60px;
     background-color: #222;
 }
-
 /* 改变导航栏菜单项目的基础样式 */
-ul#menu.menu {margin-bottom: 0px;}
+ul#menu.menu {margin-bottom: 0}
 ul#menu.menu li {margin: 0}
 ul#menu.menu li a {
     color: #fff !important; 
     border: none !important;
     font-size: 1em;
     padding: 0 10px;
-    transition: background-color linear 0.2s;
+    transition: background-color linear .2s;
 }
-
 ul#menu.menu li a:hover {background-color: #484848;}
 .menu-item-active a {
     color: #fff !important; 
@@ -37,7 +28,6 @@ ul#menu.menu li a:hover {background-color: #484848;}
     padding: 0 10px;
     background-color: #484848;
 }
-
 /* 移动端导航栏菜单样式和显示行为优化 */
 .menu {
     +tablet-mobile() {
@@ -46,102 +36,80 @@ ul#menu.menu li a:hover {background-color: #484848;}
         padding-right: 10px;   
     }
 }
-
 .site-nav {
     background-color: #222;
     border: 1px solid #222;
     box-sizing: border-box;
 }
-
 /* 修改站点标题样式 */
 span.site-title {
     font-weight: 700;
     font-size: 26px;    
 }
-
 /* 修改站点子标题样式 */
 .site-subtitle {margin-bottom: 10px}
-
 /* 文章标题加粗 */
 header.post-header h2.post-title {font-weight: 700}
-
 /* 减小文章属性下方边距 */
 div.post-meta {margin: 3px 0 20px 0 !important;}
-
 /* 将“阅读全文”按钮边框宽度设置为1px，字号16px */
 a.btn {
     border-width: 1px;
     font-size: 1em;
 }
-
 /* 滚动条样式 */
 ::-webkit-scrollbar {width: 8px !important; height: 4px !important; background: #BFBFBF !important}
-::-webkit-scrollbar-thumb {border-radius: 0px !important; background: #222 !important}
-
+::-webkit-scrollbar-thumb {border-radius: 0 !important; background: #222 !important}
 /* 移除headband */
-div.headband {height: 0px}
-
+div.headband {height: 0}
 /* 优化文章标题和正文字间距，尝试增强其可读性 */
 div.post-body, table, pre code {font-size: 1em}
 div.post-body, a.post-title-link, .post-nav-prev a, h2.post-title {
     word-break: break-all;
     word-wrap: break-word;
 }
-
 /* 修改“图片+描述文字”样式 */
 p.image-caption {margin-top: 10px !important}
 .post-body img {
     border: none !important;
     box-sizing: border-box;
-    padding: 0px;
+    padding: 0;
     margin: 0 auto !important;
 }
-
 /* 强化移动端展开菜单导航按钮显示效果 */
-.toggle {outline: none !important}
 .toggle:hover, .toggle:active {background-color: #484848}
 .toggle span.toggle-line {background: #fff !important}
-
 /* 分类页面优化 */
 .category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
 .category-all-page .category-list-count:after {content: " "}
 .category-all-page .category-list {text-align: center}
-
 /* 修改底部说明文字块样式 */
 .footer {
     color: #fff;
     background-color: #222;
     font-size: 15px;
 }
-
 /* 评论区域外边距设置 */
 div#comments.comments {
-    margin: 16px 0px -58px 0px;
+    margin: 16px 0 -58px 0;
     +tablet-mobile() {margin-left: 28px; margin-right: 28px}
 }
-
 /* 底栏字数统计增加说明文字 */
 div.footer-inner i.fa.fa-area-chart::before, div.footer-inner i.fa.fa-coffee::before {display: none}
-
 /* 设置标签切换块上内边距 */
-div.post-body div.tabs {padding-top: 0px}
-
+div.post-body div.tabs {padding-top: 0}
 /* 侧边栏阴影效果取消和背景颜色修改 */
 .sidebar {box-shadow: none; background: #000}
-
 /* 不显示侧边栏站点数据？ */
 nav.site-state.motion-element {display: block !important}
-
 /* 移除侧边栏项目多余外边框，并增加下外边距 */
 div.site-state-item {
-    border-width: 0px;
+    border-width: 0;
     margin-bottom: 12px;
     display: inline-block;
 }
-
 /* 设置切换侧边栏按钮与返回顶部按钮的不透明度 */
 div.sidebar-toggle, div.back-to-top.back-to-top-on {opacity: 1}
-
 /* 返回顶部按钮大小尺寸修改 */
 div.back-to-top:hover {color: #fff}
 div.back-to-top {
@@ -152,49 +120,41 @@ div.back-to-top {
     text-align: center;
     font-weight: 700;
 }
-
 /* 返回顶部按钮文字修改 */
 div.back-to-top.back-to-top-on i.fa.fa-arrow-up::before {content: "READING PROGRESS IS "}
-
 /* 侧边栏切换按钮样式修改和位置修改 */
 div.sidebar-toggle {
     bottom: 58px !important; 
     transform: scale(1.4);
 }
-
 /* 修正侧边栏切换图标1px偏移 */
 .sidebar-toggle span.toggle-line-first {margin-top: 1px}
-
 /* 一个异常问题的修复 */
 div.back-to-top.motion-element.back-to-top-on {display: none}
-
 /* 分页指示器位置调整 */
 .pagination .page-number.current {background: #222}
 nav.pagination {
     height: 33px !important;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     margin-top: 50px;
     /*font-size: 16px;*/
     font-size: 1em;
 }
-
 /* 页面显示调整 */
 /* 页面主体内容容器 */
 div.main-inner {
     padding-top: 40px; 
     padding-bottom: 56px;
 }
-
 /* 部分页面上下内边距取消 */
-div.content {padding-top: 0px}
+div.content {padding-top: 0}
 div.main-inner div.posts-expand, div.main-inner div.posts-collapse {
-    padding-top: 0px; 
-    padding-bottom: 0px;
+    padding-top: 0; 
+    padding-bottom: 0;
 }
-
 /* 取消归档、分类、标签等页面最后条目的底部外边距 */
 div.tag-cloud div.tag-cloud-tags {margin-bottom: -10px}
 div.posts-collapse article:last-of-type header.post-header,
 .category-all-page li.category-list-item:last-of-type {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
