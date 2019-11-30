@@ -39,4 +39,5 @@ keywords: [19H1, Windows, 使用体验, 鼠标指针]
 
 <img src="https://i.loli.net/2019/07/15/5d2bfc679d47874571.png" title="设置后的效果，正在使用Typora" style="zoom: 70%" />   
 
-<style>div.post-block br {display: none}</style>
+<style>div.post-body br {display: none}</style>
+

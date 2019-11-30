@@ -1,0 +1,8 @@
+/* 主体 */
+main.main {background: #333; color: #f5f5f5}
+/* 文章标题 */
+.posts-expand .post-title-link {color: #f5f5f5}
+/* 文章标题下方类别名称 */
+a, span.exturl {color: #999999}
+/* 分页 */
+.pagination .prev:hover, .pagination .next:hover, .pagination .page-number:hover {color: #fff}

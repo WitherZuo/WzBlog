@@ -17,7 +17,6 @@ ul#menu.menu li a {
     border: none !important;
     font-size: 1em;
     padding: 0 10px;
-    transition: background-color linear .2s;
 }
 ul#menu.menu li a:hover {background-color: #484848;}
 .menu-item-active a {
@@ -40,12 +39,11 @@ ul#menu.menu li a:hover {background-color: #484848;}
     box-sizing: border-box;
 }
 /* 修改站点标题样式 */
+.site-subtitle {margin-bottom: 10px}
 span.site-title {
     font-weight: 700;
     font-size: 26px;    
 }
-/* 修改站点子标题样式 */
-.site-subtitle {margin-bottom: 10px}
 /* 文章标题加粗 */
 header.post-header h2.post-title {font-weight: 700}
 /* 减小文章属性下方边距 */
@@ -75,7 +73,6 @@ p.image-caption {margin-top: 10px !important}
     margin: 0 auto !important;
 }
 /* 强化移动端展开菜单导航按钮显示效果 */
-.toggle:hover, .toggle:active {background-color: #484848}
 .toggle span.toggle-line {background: #fff !important}
 /* 分类页面优化 */
 .category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
@@ -93,7 +90,7 @@ div#comments.comments {
     +tablet-mobile() {margin: 16px 28px -58px 28px}
 }
 /* 底栏字数统计增加说明文字 */
-div.footer-inner i.fa.fa-area-chart::before, div.footer-inner i.fa.fa-coffee::before {display: none}
+.fa-area-chart::before, .fa-coffee::before {display: none}
 /* 设置标签切换块上内边距 */
 div.post-body div.tabs {padding-top: 0}
 /* 侧边栏阴影效果取消和背景颜色修改 */
@@ -101,11 +98,7 @@ div.post-body div.tabs {padding-top: 0}
 /* 不显示侧边栏站点数据？ */
 nav.site-state.motion-element {display: block !important}
 /* 移除侧边栏项目多余外边框，并增加下外边距 */
-div.site-state-item {
-    border-width: 0;
-    margin-bottom: 12px;
-    display: inline-block;
-}
+div.site-state-item {margin-bottom: 12px;}
 /* 返回顶部按钮大小尺寸修改 */
 div.back-to-top:hover {color: #fff}
 div.back-to-top {
@@ -134,7 +127,6 @@ nav.pagination {
     margin-top: 50px;
     font-size: 1em;
 }
-/* 页面显示调整 */
 /* 页面主体内容容器 */
 div.main-inner {
     padding-top: 40px; 
@@ -148,7 +140,6 @@ div.main-inner div.posts-expand, div.main-inner div.posts-collapse {
 }
 /* 取消归档、分类、标签等页面最后条目的底部外边距 */
 div.tag-cloud div.tag-cloud-tags {margin-bottom: -10px}
-div.posts-collapse article:last-of-type header.post-header,
-.category-all-page li.category-list-item:last-of-type {
+div.posts-collapse article:last-of-type header.post-header, .category-all-page li.category-list-item:last-of-type {
     margin-bottom: 0;
 }
