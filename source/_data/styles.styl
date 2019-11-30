@@ -6,8 +6,7 @@ hr {background-image: none !important; background-color: lightgrey !important}
 /* 修改顶部栏上下边距和背景颜色 */
 header.header {background-color: #222;}
 div.header-inner {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
     background-color: #222;
 }
 /* 改变导航栏菜单项目的基础样式 */
@@ -32,8 +31,7 @@ ul#menu.menu li a:hover {background-color: #484848;}
 .menu {
     +tablet-mobile() {
         text-align: center; 
-        padding-left: 10px; 
-        padding-right: 10px;   
+        padding: 0 10px;  
     }
 }
 .site-nav {
@@ -92,7 +90,7 @@ p.image-caption {margin-top: 10px !important}
 /* 评论区域外边距设置 */
 div#comments.comments {
     margin: 16px 0 -58px 0;
-    +tablet-mobile() {margin-left: 28px; margin-right: 28px}
+    +tablet-mobile() {margin: 16px 28px -58px 28px}
 }
 /* 底栏字数统计增加说明文字 */
 div.footer-inner i.fa.fa-area-chart::before, div.footer-inner i.fa.fa-coffee::before {display: none}
@@ -108,13 +106,10 @@ div.site-state-item {
     margin-bottom: 12px;
     display: inline-block;
 }
-/* 设置切换侧边栏按钮与返回顶部按钮的不透明度 */
-div.sidebar-toggle, div.back-to-top.back-to-top-on {opacity: 1}
 /* 返回顶部按钮大小尺寸修改 */
 div.back-to-top:hover {color: #fff}
 div.back-to-top {
     transform: scale(1.2);
-    background: transparent;
     font-size: 18px;
     padding-left: 2px;
     text-align: center;
@@ -137,7 +132,6 @@ nav.pagination {
     height: 33px !important;
     margin-bottom: 0;
     margin-top: 50px;
-    /*font-size: 16px;*/
     font-size: 1em;
 }
 /* 页面显示调整 */
