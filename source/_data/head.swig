@@ -63,11 +63,3 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <link href="/css/main-dark.css" rel="alternate stylesheet" type="text/css" title="dark">
 <script defer="defer" src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module"></script>
-<script>
-  ;(function () {
-    var src = 'https://cdn.bootcss.com/eruda/1.5.6/eruda.min.js';
-    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
-    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
-    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
-  })();
-</script>

@@ -45,8 +45,25 @@
           <span>0%</span>
         </div>
       {%- endif %}
-
     </div>
+    <button id="xm">ToDarkMode</button>
+    <script>
+      function toDarkMode() {
+
+        var nightVal = document.querySelector('link[title="dark"]').disabled;
+
+        if (nightVal === true) {
+          document.querySelector('link[title="dark"]').disabled = true;
+          document.querySelector('link[title="dark"]').disabled = false;
+          localStorage.setItem('night', 0);
+        } else if (nightVal === false) {
+          document.querySelector('link[title="dark"]').disabled = true;
+          localStorage.setItem('night', 0);
+        }
+      }
+      var xm = document.getElementById("xm");
+      xm.onclick = toDarkMode;
+    </script>
   </aside>
   <div id="sidebar-dimmer"></div>
 {% endmacro %}
