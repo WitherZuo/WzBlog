@@ -1,41 +1,26 @@
-/* 主体 */
-main.main {
-    background: #333; 
-    color: #f5f5f5;
-}
-
-/* 文章标题 */
-main.main .posts-expand .post-title-link {
-    color: #f5f5f5;
-}
-
-/* 文章标题下方类别名称 */
-main.main a, 
-main.main span.exturl, 
-main.main div.post-nav-next.post-nav-item a {
-    color: #999999;
-}
-
-/* a标签样式调整 */
-main.main a:hover, 
-main.main span.exturl:hover, 
-main.main div.post-nav-next.post-nav-item a:hover {
-    color: #f5f5f5;
-    border-bottom: 1px solid #f5f5f5;
-}
-
-.site-state-item a:hover {
-    border-bottom: none;
-}
-
-/* 分页 */
-main.main .pagination .prev:hover, 
-main.main .pagination .next:hover, 
-main.main .pagination .page-number:hover {
-    color: #fff;
-}
-
-/* 图片处理 */
-main.main img {
-    filter: brightness(50%);
-}
+/* 页面主体 */
+main.main {background: #333;}
+/* 页面正文区域&搜索框 颜色反转 */
+div.content-wrap, .search-popup {filter: invert(100%);}
+/* 主页 文章分割线 */
+div.post-eof {background: #aaa;}
+/* Post-Meta 样式修改 */
+.posts-expand .post-meta {color: #555;}
+/* 正文 图片取消反转 */
+.post-body img {filter: invert(100%) !important;}
+/* Note块样式修改 */
+.post-body .note {border: 1px solid #aaa; border-left-width: 5px;}
+.post-body .note.primary {border-left-color: #90bd3e;}
+.post-body .note.default {border-left-color: #888;}
+.post-body .note.success {border-left-color: #a347a3;}
+.post-body .note.info {border-left-color: #bd7435;}
+.post-body .note.warning {border-left-color: #0f52b1;}
+.post-body .note.danger {border-left-color: #26acb0;}
+/* 滚动条 */
+::-webkit-scrollbar {background: #444 !important;}
+/* 分类页面文字颜色 */
+.category-all-page .category-list-count, .posts-collapse .collection-header small {color: #999;}
+/* 归档页面 文章标题下边框颜色 */
+.posts-collapse .post-header {border-bottom: 1px dashed #999;}
+/* 搜索结果内关键词文字颜色 */
+.search-popup .search-keyword {border-bottom: 1px dashed #00d5d5; color: #00d5d5;}
