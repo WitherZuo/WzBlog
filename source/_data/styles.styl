@@ -88,30 +88,17 @@ div#comments.comments {
 div.post-body div.tabs {padding-top: 0}
 /* 侧边栏阴影效果取消和背景颜色修改 */
 .sidebar {box-shadow: none; background: #000}
-/* 不显示侧边栏站点数据？ */
-nav.site-state.motion-element {display: block !important}
 /* 移除侧边栏项目多余外边框，并增加下外边距 */
 div.site-state-item {margin-bottom: 12px;}
-/* 返回顶部按钮大小尺寸修改 */
-div.back-to-top:hover {color: #fff}
-div.back-to-top {
-    transform: scale(1.2);
-    font-size: 18px;
-    padding-left: 2px;
-    text-align: center;
-    font-weight: 700;
-}
-/* 返回顶部按钮文字修改 */
-div.back-to-top.back-to-top-on i.fa.fa-arrow-up::before {content: "READING PROGRESS IS "}
 /* 侧边栏切换按钮样式修改和位置修改 */
 div.sidebar-toggle {
     bottom: 58px !important; 
     transform: scale(1.4);
 }
+/* 侧边栏返回顶部样式调整 */
+div.back-to-top.motion-element {font-size: 18px; display: block}
 /* 修正侧边栏切换图标1px偏移 */
 .sidebar-toggle span.toggle-line-first {margin-top: 1px}
-/* 一个异常问题的修复 */
-div.back-to-top.motion-element.back-to-top-on {display: none}
 /* 分页指示器位置调整 */
 .pagination .page-number.current {background: #222}
 nav.pagination {
