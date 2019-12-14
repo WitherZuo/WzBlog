@@ -61,5 +61,4 @@
 <link rel="apple-touch-icon" href="https://www.wzblog.fun/images/apple-touch-icon-next.png">
 <meta name="apple-mobile-web-app-title" content="WzBlog">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<link href="/css/main-dark.css" rel="alternate stylesheet" type="text/css" title="dark">
 <script defer="defer" src="https://cdn.jsdelivr.net/npm/instant.page@3.0.0/instantpage.min.js" type="module"></script>
