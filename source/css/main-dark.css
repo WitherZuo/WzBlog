@@ -1,1 +1,27 @@
-/* 页面主体 */main.main {background: #333;}/* 页面正文区域&搜索框 颜色反转 */div.content-wrap, .search-popup {filter: invert(1);}/* 主页 文章分割线 */div.post-eof {background: #aaa;}/* Post-Meta 样式修改 */.posts-expand .post-meta {color: #555;}/* 正文 图片取消反转 */.post-body img {filter: invert(1) !important;}/* 正文 特殊样式文字 */.post-body span[style] {filter: invert(1) !important;}/* Note块样式修改 */.post-body .note {border: 1px solid #aaa; border-left-width: 5px;}.note.primary {border-left-color: #90bd3e;}.note.default {border-left-color: #888;}.note.success {border-left-color: #a347a3;}.note.info {border-left-color: #bd7435;}.note.warning {border-left-color: #0f52b1;}.note.danger {border-left-color: #26acb0;}/* 滚动条 */::-webkit-scrollbar {background: #444 !important;}/* 分类页面文字颜色 */.category-all-page .category-list-count, .posts-collapse .collection-header small {color: #999;}/* 归档页面 文章标题下边框颜色 */.posts-collapse .post-header {border-bottom: 1px dashed #999;}/* 搜索结果内关键词文字颜色 */.search-popup .search-keyword {border-bottom: 1px dashed #00d5d5; color: #00d5d5;}
+/* 页面主体 */
+main.main {background: #333;}
+/* 页面正文区域&搜索框 颜色反转 */
+div.content-wrap, .search-popup {filter: invert(1);}
+/* 主页 文章分割线 */
+div.post-eof {background: #aaa;}
+/* Post-Meta 样式修改 */
+.posts-expand .post-meta {color: #555;}
+/* 正文 图片取消反转 */
+.post-body img {filter: invert(1) !important;}
+/* 正文 特殊样式文字 */
+.post-body span[style] {filter: invert(1) !important;}
+/* Note块样式修改 */
+.post-body .note {border: 1px solid #aaa; border-left-width: 5px;}
+.note.primary {border-left-color: #0f52b1 !important;}
+.note.success {border-left-color: #a347a3 !important;}
+.note.info {border-left-color: #bd7435 !important;}
+.note.warning {border-left-color: #0f52b1 !important;}
+.note.danger {border-left-color: #26acb0 !important;}
+/* 滚动条 */
+::-webkit-scrollbar {background: #444 !important;}
+/* 分类页面文字颜色 */
+.category-all-page .category-list-count, .posts-collapse .collection-header small {color: #999;}
+/* 归档页面 文章标题下边框颜色 */
+.posts-collapse .post-header {border-bottom: 1px dashed #999;}
+/* 搜索结果内关键词文字颜色 */
+.search-popup .search-keyword {border-bottom: 1px dashed #00d5d5; color: #00d5d5;}
