@@ -130,7 +130,7 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
     /\/$/,
     new workbox.strategies.NetworkFirst({
-        networkTimeoutSeconds: 30,
+        networkTimeoutSeconds: 6,
         cacheName: "index-cache",
         plugins: [
             new workbox.expiration.Plugin({
@@ -148,8 +148,26 @@ workbox.routing.registerRoute(
 workbox.routing.registerRoute(
     /\.(?:html|css)$/,
     new workbox.strategies.NetworkFirst({
-        networkTimeoutSeconds: 30,
+        networkTimeoutSeconds: 6,
         cacheName: "static-html-css",
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// XML static.
+workbox.routing.registerRoute(
+    /\.(?:xml)$/,
+    new workbox.strategies.NetworkFirst({
+        networkTimeoutSeconds: 6,        
+        cacheName: "static-xml",
         plugins: [
             new workbox.expiration.Plugin({
                 maxEntries: 1000,
