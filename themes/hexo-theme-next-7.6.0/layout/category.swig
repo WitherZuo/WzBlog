@@ -9,6 +9,7 @@
   {######################}
   {### CATEGORY BLOCK ###}
   {######################}
+  <!--<script src="https://cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js"></script>-->
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">

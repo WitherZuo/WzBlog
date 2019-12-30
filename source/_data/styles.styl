@@ -1,8 +1,8 @@
 ﻿/* 鼠标样式 */
-* {cursor: url('/images/round-cursor.png') 12 12, auto !important;}
+* {cursor: url('/images/round-cursor.png') 12 12, auto !important}
 /* 修改顶部栏上下边距和背景颜色 */
-header.header {background-color: #222;}
-div.header-inner {padding: 60px 0;}
+header.header {background-color: #222}
+div.header-inner {padding: 60px 0}
 /* 改变导航栏菜单项目的基础样式 */
 ul#menu.menu {margin-bottom: 0}
 ul#menu.menu li {margin: 0}
@@ -12,7 +12,7 @@ ul#menu.menu li a {
     font-size: 1em;
     padding: 0 10px;
 }
-ul#menu.menu li a:hover {background-color: #484848;}
+ul#menu.menu li a:hover {background-color: #484848}
 .menu-item-active a {
     color: #fff !important; 
     border: none !important;
@@ -21,36 +21,20 @@ ul#menu.menu li a:hover {background-color: #484848;}
     background-color: #484848;
 }
 /* 移动端导航栏菜单样式和显示行为优化 */
-.menu {
-    +tablet-mobile() {
-        text-align: center; 
-        padding: 0 10px; 
-        margin-bottom: 4px !important; 
-    }
-}
-.site-nav {
-    background-color: #222;
-    border: 1px solid #222;
-    box-sizing: border-box;
-}
+.menu {+tablet-mobile() {text-align: center; padding: 0 10px; margin-bottom: 4px !important}}
+.site-nav {background-color: #222; border: 1px solid #222; box-sizing: border-box}
 /* 修改站点标题样式 */
 .site-subtitle {margin-bottom: 10px}
-span.site-title {
-    font-weight: 700;
-    font-size: 26px;    
-}
+span.site-title {font-weight: 700; font-size: 26px}
 /* 文章标题加粗 */
 header.post-header h2.post-title {font-weight: 700}
 /* 减小文章属性下方边距 */
 div.post-meta {margin: 3px 0 20px 0 !important;}
-/* 将“阅读全文”按钮边框宽度设置为1px，字号16px */
-a.btn {
-    border-width: 1px;
-    font-size: 1em;
-}
+/* “阅读全文”按钮：字号16px */
+a.btn {font-size: 1em}
 /* 滚动条样式 */
-::-webkit-scrollbar {width: 8px !important; height: 4px !important; background: #BFBFBF !important}
-::-webkit-scrollbar-thumb {border-radius: 0 !important; background: #222 !important}
+::-webkit-scrollbar {width: 15px; height: 4px; background: #BFBFBF}
+::-webkit-scrollbar-thumb {border-radius: 0; background: #222}
 /* 优化文章标题和正文字间距，尝试增强其可读性 */
 div.post-body, table, pre code {font-size: 1em}
 div.post-body, a.post-title-link, .post-nav-prev a, h2.post-title {
@@ -68,50 +52,32 @@ p.image-caption {margin-top: 10px !important}
 /* 强化移动端展开菜单导航按钮显示效果 */
 .toggle span.toggle-line {background: #fff !important}
 /* 分类页面优化 */
-.category-all-page .category-list-count:before {content: " - 已上传文章篇数: "}
-.category-all-page .category-list-count:after {content: " "}
+.category-all-page .category-list-count {display: none}
 .category-all-page .category-list {text-align: center}
 /* 修改底部说明文字块样式 */
-.footer {
-    color: #fff;
-    background-color: #222;
-    font-size: 15px;
-}
+.footer a {color: #f5f5f5; border-bottom: none}
+.footer {color: #fff; background-color: #222; font-size: 15px}
 /* 评论区域外边距设置 */
 div#comments.comments {
     margin: 16px 0 -58px 0;
     +tablet-mobile() {margin: 16px 28px -58px 28px}
 }
-/* 底栏字数统计增加说明文字 */
-.fa-area-chart::before, .fa-coffee::before {display: none}
 /* 设置标签切换块上内边距 */
 div.post-body div.tabs {padding-top: 0}
 /* 侧边栏阴影效果取消和背景颜色修改 */
-.sidebar {box-shadow: none; background: #000}
-/* 移除侧边栏项目多余外边框，并增加下外边距 */
-div.site-state-item {margin-bottom: 12px;}
+.sidebar {background: #111}
 /* 侧边栏切换按钮样式修改和位置修改 */
-div.sidebar-toggle {
-    bottom: 58px !important; 
-    transform: scale(1.4);
-}
+div.sidebar-toggle {transform: scale(1.4)}
 /* 侧边栏返回顶部样式调整 */
-div.back-to-top.motion-element {font-size: 18px; display: block}
+div.back-to-top.motion-element {font-size: 18px}
 /* 修正侧边栏切换图标1px偏移 */
 .sidebar-toggle span.toggle-line-first {margin-top: 1px}
 /* 分页指示器位置调整 */
-.pagination .page-number.current {background: #222}
-nav.pagination {
-    height: 33px !important;
-    margin-bottom: 0;
-    margin-top: 50px;
-    font-size: 1em;
-}
+.pagination .page-number.current {background: #222; border-top: 1px solid #222; border-bottom: 1px solid #222}
+nav.pagination {height: 33px !important; margin-bottom: 0; margin-top: 50px; font-size: 1em}
 /* 页面主体内容容器 */
-div.main-inner {
-    padding-top: 40px; 
-    padding-bottom: 56px;
-}
+main.main {background: #f5f5f5}
+div.main-inner {padding-top: 40px; padding-bottom: 56px}
 /* 部分页面上下内边距取消 */
 div.content {padding-top: 0}
 div.main-inner div.posts-expand, div.main-inner div.posts-collapse {

@@ -55,9 +55,9 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: false
+  enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
   
 # Home page setting
@@ -128,14 +128,6 @@ archive_generator:
 
 tag_generator:
   per_page: 20
-
-symbols_count_time:
- # 文章内是否显示
-  symbols: false
-  time: false
- # 网页底部是否显示
-  total_symbols: true
-  total_time: true
 
 filter_optimize:
   enable: true

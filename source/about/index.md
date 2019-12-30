@@ -50,7 +50,6 @@ wzblog.fun is watching you
 
 <script>
     window.onload = function () {
-        var mainDiv = document.getElementsByClassName('main');
         var allBtn = document.getElementsByClassName('btn');
 
         allBtn[0].addEventListener('click', toFirefoxUser);

@@ -4,8 +4,9 @@
     {%- if theme.footer.beian.gongan_icon_url %}
       <img src="{{ theme.footer.beian.gongan_icon_url }}" style="display: inline-block;">
     {%- endif %}
-    {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id,
-    theme.footer.beian.gongan_num + ' ') }}
+    {%- if theme.footer.beian.gongan_id and theme.footer.beian.gongan_num %}
+      {{- next_url('http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=' + theme.footer.beian.gongan_id, theme.footer.beian.gongan_num + ' ') }}
+    {%- endif %}
   </div>
 {%- endif %}
 
@@ -17,11 +18,11 @@
     <i class="fa fa-{{ theme.footer.icon.name }}"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">{{ theme.footer.copyright or author }}</span>
-  <br />
+
   {%- if config.symbols_count_time.total_symbols %}
-    <span class="post-meta-divider">[</span>
+    <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
-      <i class="fa fa-area-chart">全站字数：</i>
+      <i class="fa fa-area-chart"></i>
     </span>
     {%- if theme.symbols_count_time.item_text_total %}
       <span class="post-meta-item-text">{{ __('symbols_count_time.count_total') + __('symbol.colon') }}</span>
@@ -32,13 +33,12 @@
   {%- if config.symbols_count_time.total_time %}
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
-      <i class="fa fa-coffee">阅读时间：</i>
+      <i class="fa fa-coffee"></i>
     </span>
     {%- if theme.symbols_count_time.item_text_total %}
       <span class="post-meta-item-text">{{ __('symbols_count_time.time_total') }} &asymp;</span>
     {%- endif %}
     <span title="{{ __('symbols_count_time.time_total') }}">{{ symbolsTimeTotal(site, theme.symbols_count_time.awl, theme.symbols_count_time.wpm, __('symbols_count_time.time_minutes')) }}</span>
-    <span class="post-meta-divider">]</span>
   {%- endif %}
 </div>
 
@@ -50,7 +50,7 @@
 {%- endif %}
 
 {%- if theme.footer.powered.enable and theme.footer.theme.enable %}
-  <span class="post-meta-divider">]</span>
+  <span class="post-meta-divider">|</span>
 {%- endif %}
 
 {%- if theme.footer.theme.enable %}

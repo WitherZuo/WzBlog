@@ -1,4 +1,4 @@
-hexo: 4.1.1
+hexo: 4.2.0
 hexo-cli: 3.1.0
 os: Windows_NT 10.0.19041 win32 x64
 node: 12.13.0
