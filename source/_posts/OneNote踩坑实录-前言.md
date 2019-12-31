@@ -19,13 +19,10 @@ keywords: [OneNote, 使用体验, 介绍, 笔记, 应用]
 
 下面贴几张 OneNote 在不同平台的截图，看看**以紫色为界面主色调**的 OneNote 能不能俘获你的芳心？😜 （因为我没有 iOS 的设备，所以...iOS 端的 OneNote 截图暂缺）<!--more-->
 
-![onenoteuwp-ui.png](https://i.loli.net/2018/11/11/5be7ff1d6b127.png "图1：UWP版OneNote的界面") 
-
-![onenotedesktop-ui.png](https://i.loli.net/2018/11/11/5be7ffe1bb95b.png "图2：桌面版OneNote 2016的界面") 
-
-<img src="https://i.loli.net/2018/11/12/5be9859dcbfa5.jpg" title="图3：安卓端的OneNote界面" height="640px" width="360px"></img>
-
-![onenoteweb-ui.png](https://i.loli.net/2018/11/11/5be80fc393bf9.png "图4：在线版的OneNote Online的界面") 
+![onenoteuwp-ui.png](https://i.loli.net/2018/11/11/5be7ff1d6b127.png "图1：UWP版OneNote的界面")  
+![onenotedesktop-ui.png](https://i.loli.net/2018/11/11/5be7ffe1bb95b.png "图2：桌面版OneNote 2016的界面")  
+![onenote-mobile_new.jpg](https://i.loli.net/2019/12/30/RJMkTY5tBvmlNcp.jpg "图3：安卓端的OneNote界面")  
+![onenoteweb-ui.png](https://i.loli.net/2018/11/11/5be80fc393bf9.png "图4：在线版的OneNote Online的界面")  
 
 ## 2. OneNote 的优势
 
@@ -90,7 +87,7 @@ emmmmm，好吧（同情这位用户）
 
 详情页面（英文版本）：[单击此处](https://support.office.com/zh-cn/article/what-s-the-difference-between-onenote-and-onenote-2016-a624e692-b78b-4c09-b07f-46181958118f)  
 
-![uwpanddesktop-diff.png](https://i.loli.net/2018/11/14/5bec1996c27c2.png)  
+![uwpanddesktop-diff.png](https://i.loli.net/2018/11/14/5bec1996c27c2.png "两个版本的OneNote的不同")  
 
 **简单来说，OneNote for Windows 10 的命运，接下来是这样的：**  
 
@@ -124,6 +121,6 @@ emmmmm，好吧（同情这位用户）
 
 从上表中可以看到，与传统桌面版的 OneNote 相比较，<span style="background:#222;color:white;">**全新的应用商店版本 OneNote** 可以**获得持续的功能更新、质量更新和安全更新；能够拥有更加先进的同步引擎，进一步提升同步的体验；能够拥有更加现代化的用户界面体验；对于触屏和手写以及墨迹功能的支持更加完善等等**；**不足之处**则是**只能使用 OneDrive 作为笔记本保存的唯一位置**，</span>这意味着<span style="background:#222;color:white;">OneDrive的同步速度将是决定应用商店版OneNote的重要因素</span>；目前<span style="background:#222;color:white;">**应用商店版本的 OneNote 支持的插件较少，原版功能和传统桌面版仍然有不少的差距**；**获取途径则仅限应用商店本身**</span>。而<span style="background:#222;color:white;">**传统桌面版的 OneNote**，在之后**其界面和功能都不再会有大的改动**</span>，相较于商店版OneNote，<span style="background:#222;color:white;">桌面版**可以将笔记保存在本地位置，也可以选择上传到云上同步**；同时**拥有大量功能扩展插件，其原版功能也更加完善**。**两者共同的优点**则是**免费和对 Office 365 的支持较好**</span>。  
 
-![onenote-website.png](https://i.loli.net/2018/11/14/5bec29664168d.png)
+![onenote-website.png](https://i.loli.net/2018/11/14/5bec29664168d.png "OneNote官网")  
 
 因此，<span style=background:#222;color:white;>**如果你对本地保存和功能更加看重**，**目前来说传统桌面版的 OneNote 可能更加适合你**，如果你**经常在触屏上进行手写画画**，那么**应用商店版本的 OneNote 可能更加适合你**，但**随着微软逐渐将开发重心转移到应用商店版的 OneNote，在未来应用商店版本的 OneNote 可能会迎来更加快速稳定的发展**。</span>  

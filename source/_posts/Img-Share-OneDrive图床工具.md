@@ -47,8 +47,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 放两张图示意一下，**authkey 字段后面的字符串就是我们需要的 authkey（不需要复制两边的双引号)**
 
-![howtoauth-1.png](https://storage.live.com/items/5582C1D07E2893FB!83090?authkey=APiqr1tjl5KIc1Q "注意红框标注的位置")
-
+![howtoauth-1.png](https://storage.live.com/items/5582C1D07E2893FB!83090?authkey=APiqr1tjl5KIc1Q "注意红框标注的位置")  
 ![howtoauth-2.png](https://storage.live.com/items/5582C1D07E2893FB!83084?authkey=APiqr1tjl5KIc1Q "画红线的地方，authkey=之后的一串字符就是我们需要的authkey")  
 
 然后将这一串字符串复制到 Img Share 弹出的窗口中，单击“确定”，等待 Img Share 验证完成即可。  
@@ -71,7 +70,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 ## 一点总结：
 
-先放上下载链接（Microsoft Store）：[单击此处](https://www.microsoft.com/zh-cn/p/img-share/9ncxnz52g9q8?activetab=pivot:overviewtab)
+先放上下载链接（Microsoft Store）：[单击此处](https://www.microsoft.com/zh-cn/p/img-share/9ncxnz52g9q8?activetab=pivot:overviewtab)  
 
 UWP 的生态目前的境况很多人都是有目共睹，而这种情况下 Img Share 的出现无异于给 UWP 一缕曙光，**界面清爽（遵循了 Fluent Design，但又在里面加入了作者自己的设计，两者完美融合）、操作方便（只需将图片拖拽入图片框内即可）、功能完善（多余的功能一个没有，麻雀虽小五脏俱全，自带的分组简直好用有木有），充分利用了 OneDrive 的特性，可以在本地管理这些图片，所有已上传的外链图片可以在任何设备上管理**。唯一略麻烦的一点是需要先配置  authkey，网页端的 OneDrive 需要翻出去（科学上网），但与这些实用的功能相比，这些小瑕疵可以手动忽略掉了。😁    
 

@@ -150,10 +150,6 @@ back2top:
   # Scroll percent label in b2t button.
   scrollpercent: true
 
-# FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
-# For more information: https://fancyapps.com/fancybox
-fancybox: true
-
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js
 pangu: true
@@ -191,15 +187,6 @@ vendors:
   # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
   fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-
-  # FancyBox
-  # Example:
-  # jquery: //cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
-  # fancybox: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
-  # fancybox_css: //cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
-  jquery: https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js 
-  fancybox: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js
-  fancybox_css: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css
 
   # Pangu
   # Example:

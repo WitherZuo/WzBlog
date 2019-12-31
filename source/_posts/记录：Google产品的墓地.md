@@ -19,7 +19,7 @@ keywords: [Google, 谷歌, 项目]
 
 先上一张网站的图片，每个死亡的项目名字左边都有一个墓碑图标，看着形象贴切多了   
 
-![killedbygoogle.png](https://i.loli.net/2018/12/01/5c01f504d37a5.png "Killed by Google的主页")
+![killedbygoogle.png](https://i.loli.net/2018/12/01/5c01f504d37a5.png "Killed by Google的主页")  
 
 整个网站风格简约大方，顺带一提，目前此站已收录了 149 个“被 Google 死亡”的项目。可以看到下方的分类统计数字，能有一个比较直观的认识：  
 
