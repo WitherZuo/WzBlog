@@ -79,3 +79,5 @@ UWP 的生态目前的境况很多人都是有目共睹，而这种情况下 Img
 **更新：由于作者无法提交软件更新，原 Img Share 更名为 Picture Share 重新发布。微软商店中即可搜索到，同时作者已将此项目[开源](https://github.com/Richasy/Img-Share?files=1)**  
 
 **12 月 22 日更新：部分图片添加为外链后可能不是 HTTPS 链接，浏览器控制台会报 https 错误，解决方法为自行在图片外链接中将 http 改为 https 即可。**  
+
+<style>.post-block br {display: none}</style>

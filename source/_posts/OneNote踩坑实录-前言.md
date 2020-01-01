@@ -124,3 +124,5 @@ emmmmm，好吧（同情这位用户）
 ![onenote-website.png](https://i.loli.net/2018/11/14/5bec29664168d.png "OneNote官网")  
 
 因此，<span style=background:#222;color:white;>**如果你对本地保存和功能更加看重**，**目前来说传统桌面版的 OneNote 可能更加适合你**，如果你**经常在触屏上进行手写画画**，那么**应用商店版本的 OneNote 可能更加适合你**，但**随着微软逐渐将开发重心转移到应用商店版的 OneNote，在未来应用商店版本的 OneNote 可能会迎来更加快速稳定的发展**。</span>  
+
+<style>.post-block br {display: none}</style>

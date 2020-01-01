@@ -52,29 +52,6 @@ workbox.routing.registerRoute(
     })
 );
 
-// Google Fonts
-workbox.routing.registerRoute(
-    /^https:\/\/fonts\.googleapis\.com/,
-    new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "google-fonts-stylesheets"
-    })
-);
-workbox.routing.registerRoute(
-    /^https:\/\/fonts\.gstatic\.com/,
-    new workbox.strategies.CacheFirst({
-        cacheName: 'google-fonts-webfonts',
-        plugins: [
-            new workbox.expiration.Plugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.Plugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
 // Static Libraries
 workbox.routing.registerRoute(
     /^https:\/\/cdn\.jsdelivr\.net/,

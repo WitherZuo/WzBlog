@@ -72,3 +72,5 @@ keywords: [纯纯写作, Markdown, 移动端, Android, 安卓]
 
 ![酷安上的“纯纯写作”](https://storage.live.com/items/5582C1D07E2893FB!85616?authkey=APiqr1tjl5KIc1Q "酷安上的“纯纯写作”")  
 ![Google Play上的“纯纯写作”](https://storage.live.com/items/5582C1D07E2893FB!85617?authkey=APiqr1tjl5KIc1Q "Google Play上的“纯纯写作”")  
+
+<style>.post-block br {display: none}</style>

@@ -44,3 +44,5 @@ keywords: [BreakLock, 九宫格, 游戏]
 如果你想试试用几次能猜出正确的图案，或者实在是闲的没事可做，不妨来试试看。  
 
 视频地址：[单击此处](https://www.bilibili.com/video/av50717937/)  
+
+<style>.post-block br {display: none}</style>
