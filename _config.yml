@@ -5,7 +5,7 @@
 # Site
 title: Wz的个人小屋
 subtitle: 【 在这里，还有什么秘密尚待发掘 】
-description: witherzuo's personal homepage<br>and blog site.<br><br>Block...Black...Blog...<br>不要吐槽名字，<br>这总比没有好...<br>--From Herobine.
+description: witherzuo's personal homepage & blog.<br><br>Block...Black...Blog...<br>不要吐槽名字，<br>这总比没有好...<br>--From Herobine.
 keywords: 使用体验,OneNote,OneDrive,Google
 author: WitherZuo P. W. 
 language: zh-CN
@@ -19,7 +19,7 @@ permalink: posts/:titlename/
 permalink_defaults:
   titlename: 
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing index.html from permalinks
+  trailing_index: false # Set to false to remove trailing index.html from permalinks
 
 # Directory
 source_dir: source

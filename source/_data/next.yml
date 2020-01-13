@@ -6,7 +6,7 @@ minify: true
 custom_file_path:
   head: source/_data/head.swig
   #header: source/_data/header.swig
-  sidebar: source/_data/sidebar.swig
+  #sidebar: source/_data/sidebar.swig
   #postMeta: source/_data/post-meta.swig
   #postBodyEnd: source/_data/post-body-end.swig
   #footer: source/_data/footer.swig
@@ -91,13 +91,13 @@ toc:
 
 sidebar:
   # Sidebar Position.
-  #position: left
-  position: right
+  position: left
+  #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
   # Muse | Mist: 320
   # Pisces | Gemini: 240
-  width: 280
+  width: 250
 
   # Enable sidebar on narrow view (only for Muse | Mist).
   onmobile: true
@@ -143,9 +143,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # Scroll percent label in b2t button.
-  scrollpercent: true
+  scrollpercent: false
 
 # Pangu Support
 # For more information: https://github.com/vinta/pangu.js

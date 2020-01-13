@@ -19,8 +19,9 @@ echo Generating url file with hexo g.
 hexo g
 sh dogulp.sh
 echo Navigate to /public and find urls.txt.
-cd /g/HexoBlog/public
-echo Submit these urls to Baidu with Curl-cli.
+cd public
+ls
+echo Submit urls to Baidu with Curl-cli.
 curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://www.wzblog.fun&token=TwFhN5gM4BMIe0a9"
 echo Submitted all urls to Baidu!
 echo ======FINISHED!======

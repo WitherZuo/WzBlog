@@ -1,17 +1,22 @@
 .back-to-top {
-  background: $b2t-bg-color;
+  background: #222;
   bottom: $b2t-position-bottom;
   box-sizing: border-box;
   color: $b2t-color;
   cursor: pointer;
-  font-size: $b2t-font-size;
-  left: $b2t-position-right;
+  font-size: 18px;
+  left: 70px;
+  right: 70px;
+  width: 120px!important;
+  height: 32px;
+  line-height: 32px;
   opacity: $b2t-opacity;
+  margin: 0 auto;
   padding: 0 6px;
   position: fixed;
   text-align: center;
   transition-property: bottom;
-  z-index: $zindex-3;
+  z-index: 1000;
   the-transition();
 
   if (hexo-config('back2top.scrollpercent')) {
@@ -25,15 +30,16 @@
   }
 
   &:hover {
-    color: $sidebar-highlight;
+    color: #fff;
   }
 
   &.back-to-top-on {
-    bottom: $b2t-position-bottom-on;
+    bottom: 0px;
+    width: 120px!important;
+    margin: 0 auto;
   }
 
   +tablet-mobile() {
-    left: $b2t-position-right-mobile;
-    opacity: $b2t-opacity-hover;
+    opacity: 1;
   }
 }
