@@ -128,3 +128,8 @@ archive_generator:
 
 tag_generator:
   per_page: 20
+
+lazyload:
+  enable: true 
+  onlypost: false
+  loadingImg: # eg. ./images/loading.png
