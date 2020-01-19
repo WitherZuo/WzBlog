@@ -1,3 +1,5 @@
+![pipeline status](https://gitlab.com/witherzuo/witherzuo.gitlab.io/badges/master/pipeline.svg)](https://gitlab.com/witherzuo/witherzuo.gitlab.io/commits/master)  
+
 我的个人博客站点，这里是存放源文件的地方...  
 
 使用了 Hexo+GitLab Pages/GitHub Pages+CNAME 自定义域名跳转的方式进行构建。  
