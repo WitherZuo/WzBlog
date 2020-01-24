@@ -1,4 +1,4 @@
-![pipeline status](https://gitlab.com/witherzuo/witherzuo.gitlab.io/badges/master/pipeline.svg)](https://gitlab.com/witherzuo/witherzuo.gitlab.io/commits/master)  
+<a href="https://gitlab.com/witherzuo/witherzuo.gitlab.io/commits/master"><img alt="pipeline status" src="https://gitlab.com/witherzuo/witherzuo.gitlab.io/badges/master/pipeline.svg" /></a>
 
 我的个人博客站点，这里是存放源文件的地方...  
 
