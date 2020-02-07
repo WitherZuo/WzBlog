@@ -18,5 +18,5 @@ icu: 64.2
 tz: 2019a
 unicode: 12.1
 
-NexT: 7.7.0
+NexT: 7.7.1
 Rocket Loader: OFF
