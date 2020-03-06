@@ -17,7 +17,7 @@
         margin: 0 auto;
     }
 
-    canvas {
+    canvas, img#qrcodeImg {
         width: 128px;
         border: 3px solid #000;
         padding: 2px;
@@ -27,9 +27,12 @@
 <div class="qrcodeBox">
     <p class="description">本文地址二维码</p>
     <div id="qrcode"></div>
+    <img id="qrcodeImg" alt="qrcodeImg" />
     <script src='https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'></script>
     <script src="/js/jquery.qrcode.min.js"></script>
     <script>
-        $('#qrcode').qrcode(window.location.href);
+        var qrcode = $('#qrcode').qrcode(window.location.href).hide();
+        var canvas = $('canvas')[0];
+        $('#qrcodeImg').attr('src', canvas.toDataURL('image/png'));
     </script>
 </div>
