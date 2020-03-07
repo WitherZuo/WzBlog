@@ -3,7 +3,7 @@ title: 特性/标准支持情况
 comments: false
 ---
 <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
-### 对`prefers-color-scheme`的支持情况：  
+### `prefers-color-scheme`  
 
 <p class="ciu_embed" data-feature="prefers-color-scheme" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=prefers-color-scheme">
@@ -14,7 +14,7 @@ comments: false
     </a>
 </p>  
 
-### 对`Base64 Decoding/Encoding`的支持情况：  
+### `Base64 Decoding/Encoding`  
 
 <p class="ciu_embed" data-feature="atob-btoa" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=atob-btoa">
@@ -25,7 +25,7 @@ comments: false
     </a>
 </p>
 
-### 对`Canvas`的支持情况：  
+### `Canvas`  
 
 <p class="ciu_embed" data-feature="canvas" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=canvas">
@@ -36,7 +36,7 @@ comments: false
     </a>
 </p>  
 
-### 对`CSS: filter`的支持情况：  
+### `CSS: filter`  
 
 <p class="ciu_embed" data-feature="css-filters" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=css-filters">
@@ -47,7 +47,7 @@ comments: false
     </a>
 </p>  
 
-### 对`CSS: flexbox`的支持情况：  
+### `CSS: flexbox`  
 
 <p class="ciu_embed" data-feature="flexbox" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=flexbox">
@@ -58,7 +58,7 @@ comments: false
     </a>
 </p>  
 
-### 对`rel="preconnect"`的支持情况：  
+### `rel="preconnect"`  
 
 <p class="ciu_embed" data-feature="link-rel-preconnect" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=link-rel-preconnect">
@@ -69,7 +69,7 @@ comments: false
     </a>
 </p>  
 
-### 对`Service Workers`的支持情况：  
+### `Service Workers`  
 
 <p class="ciu_embed" data-feature="serviceworkers" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=serviceworkers">
