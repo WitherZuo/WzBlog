@@ -44,18 +44,8 @@ wzblog.fun is watching you
 
 **还有，网站备案，连服务器都没有，你在想peach嘛**  
 
-<a class="btn" href="javascript:void(0)">...</a>  
+<a class="btn" href="feature-stats.html">查看各浏览器对特性/标准的支持</a>  
 
 <a class="btn" href="version.txt">查看其它信息</a>    
-
-<script>
-    window.onload = function () {
-        var allBtn = document.getElementsByClassName('btn');
-        allBtn[0].addEventListener('click', showNothing);
-        function showNothing () {
-            alert("")
-        };
-    }
-</script>
 
 <style>.main-inner {padding-bottom: 50px !important} p {text-align: center; margin-bottom: 6px} .btn {margin-top: 20px} hr {width: 40px; margin-left: auto; margin-right: auto}</style>
