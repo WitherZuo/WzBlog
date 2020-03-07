@@ -21,6 +21,7 @@
         width: 128px;
         border: 3px solid #000;
         padding: 2px;
+        background: #fff;
     }
 </style>
 <hr />
