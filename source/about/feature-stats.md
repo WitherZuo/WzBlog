@@ -80,8 +80,8 @@ comments: false
     </a>
 </p>
 
-<div class="ua-checker">
-    <span><strong>你当前的浏览器用户代理字符串为:&nbsp;</strong></span>
+<div class="ua-checker" style="text-align: center">
+    <span><strong>你当前的浏览器用户代理字符串为:&nbsp;</strong></span><br />
     <script>document.write(navigator.userAgent)</script>
 </div>
 

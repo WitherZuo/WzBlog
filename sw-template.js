@@ -172,4 +172,27 @@ workbox.routing.registerRoute(
     })
 );
 
+// Google Fonts
+workbox.routing.registerRoute(
+    /^https:\/\/fonts\.loli\.net/,
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "google-fonts-stylesheets"
+    })
+);
+workbox.routing.registerRoute(
+    /^https:\/\/gstatic\.loli\.net/,
+    new workbox.strategies.CacheFirst({
+        cacheName: 'google-fonts-webfonts',
+        plugins: [
+            new workbox.expiration.Plugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.Plugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
 workbox.googleAnalytics.initialize({});
