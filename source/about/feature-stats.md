@@ -3,6 +3,11 @@ title: 特性/标准支持情况
 comments: false
 ---
 <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
+
+{% note danger %}  
+**如果在显示支持图表时出现“Error Getting JSON File”提示，那么你可能需要特殊的上网姿势，谢谢**
+{% endnote %}  
+
 ### `prefers-color-scheme`  
 
 <p class="ciu_embed" data-feature="prefers-color-scheme" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
