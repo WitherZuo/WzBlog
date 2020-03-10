@@ -6,7 +6,6 @@ const uglify = composer(uglifyes, console);
 const pipeline = require('readable-stream').pipeline;
 const minifycss = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
-const htmlclean = require('gulp-htmlclean');
 
 // 压缩 public 目录内 css
 gulp.task('minify-css', function() {

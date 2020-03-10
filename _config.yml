@@ -94,8 +94,6 @@ Plugins:
 #sitemap
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
 
 theme: hexo-theme-next-master
 
