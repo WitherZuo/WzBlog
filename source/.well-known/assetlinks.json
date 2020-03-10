@@ -1,0 +1,4 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {"namespace": "android_app", "package_name": "com.witherzuo.wzblog", "sha256_cert_fingerprints": ["32:A1:36:62:1D:95:08:E3:77:EE:EF:5A:7A:F9:08:30:CD:06:03:AC:50:F7:F5:9A:77:70:09:DE:DC:4F:52:C0"]}
+}]

@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.wzblog.fun/
+url: https://wzblog.fun/
 root: /
 permalink: posts/:titlename/
 permalink_defaults:
@@ -40,6 +40,7 @@ skip_render:
   - 404.css
   - main-dark.css
   - version.txt
+  - assetlinks.json
 
 # Writing
 new_post_name: :title.md # File name of new posts
