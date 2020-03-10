@@ -8,9 +8,7 @@ Allow: /js/
 Allow: /css/ 
 Allow: /fonts/ 
 Allow: /vendors/ 
-Allow: /fancybox/ 
+Allow: /fancybox/
 
-Disallow: /wx-gongzhonghao/
-
-Sitemap: https://www.wzblog.fun/sitemap.xml 
-Sitemap: https://www.wzblog.fun/baidusitemap.xml
+Sitemap: https://wzblog.fun/sitemap.xml 
+Sitemap: https://wzblog.fun/baidusitemap.xml
