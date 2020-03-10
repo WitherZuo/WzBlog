@@ -14,6 +14,7 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
 workbox.precaching.cleanupOutdatedCaches();
 
+// Images
 // Internal Images
 workbox.routing.registerRoute(
     /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
@@ -63,6 +64,7 @@ workbox.routing.registerRoute(
     })
 );
 
+// Fonts
 // Internal Fonts
 workbox.routing.registerRoute(
     /\.(?:eot|ttf|woff|woff2)$/,
@@ -103,6 +105,7 @@ workbox.routing.registerRoute(
     })
 );
 
+// Static Libraries
 // Internal Static Libraries
 workbox.routing.registerRoute(
     /\.(?:js)$/,
@@ -137,6 +140,7 @@ workbox.routing.registerRoute(
     })
 );
 
+// Others (HTML, CSS, XML...)
 // Cached example.com/index.html
 workbox.routing.registerRoute(
     /\/$/,
