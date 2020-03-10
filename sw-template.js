@@ -14,45 +14,11 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
 workbox.precaching.cleanupOutdatedCaches();
 
-// Images
+// Internal Images
 workbox.routing.registerRoute(
     /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
     new workbox.strategies.CacheFirst({
         cacheName: "images",
-        plugins: [
-            new workbox.expiration.ExpirationPlugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
-// Fonts
-workbox.routing.registerRoute(
-    /\.(?:eot|ttf|woff|woff2)$/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "fonts",
-        plugins: [
-            new workbox.expiration.ExpirationPlugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
-// Static Libraries
-workbox.routing.registerRoute(
-    /^https:\/\/cdn\.jsdelivr\.net/,
-    new workbox.strategies.CacheFirst({
-        cacheName: "static-libs",
         plugins: [
             new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
@@ -97,11 +63,11 @@ workbox.routing.registerRoute(
     })
 );
 
-// JavaScript static.
+// Internal Fonts
 workbox.routing.registerRoute(
-    /\.(?:js)$/,
-    new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "static-js",
+    /\.(?:eot|ttf|woff|woff2)$/,
+    new workbox.strategies.CacheFirst({
+        cacheName: "fonts",
         plugins: [
             new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
@@ -114,12 +80,69 @@ workbox.routing.registerRoute(
     })
 );
 
-// like example.com/ static.
+// External Fonts - Google Fonts
+workbox.routing.registerRoute(
+    /^https:\/\/fonts\.loli\.net/,
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "google-fonts-stylesheets"
+    })
+);
+workbox.routing.registerRoute(
+    /^https:\/\/gstatic\.loli\.net/,
+    new workbox.strategies.CacheFirst({
+        cacheName: 'google-fonts-webfonts',
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// Internal Static Libraries
+workbox.routing.registerRoute(
+    /\.(?:js)$/,
+    new workbox.strategies.StaleWhileRevalidate({
+        cacheName: "internal-libraries",
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// External Static Libraries - JsDelivr Static Libraries
+workbox.routing.registerRoute(
+    /^https:\/\/cdn\.jsdelivr\.net/,
+    new workbox.strategies.CacheFirst({
+        cacheName: "external-libraries",
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
+
+// Cached example.com/index.html
 workbox.routing.registerRoute(
     /\/$/,
     new workbox.strategies.NetworkFirst({
         networkTimeoutSeconds: 6,
-        cacheName: "index-cache",
+        cacheName: "static-index",
         plugins: [
             new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
@@ -132,7 +155,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// HTML and CSS static.
+// HTML and CSS Static Files
 workbox.routing.registerRoute(
     /\.(?:html|css)$/,
     new workbox.strategies.NetworkFirst({
@@ -150,35 +173,12 @@ workbox.routing.registerRoute(
     })
 );
 
-// XML static.
+// XML Static Files
 workbox.routing.registerRoute(
     /\.(?:xml)$/,
     new workbox.strategies.NetworkFirst({
         networkTimeoutSeconds: 6,        
         cacheName: "static-xml",
-        plugins: [
-            new workbox.expiration.ExpirationPlugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
-// Google Fonts
-workbox.routing.registerRoute(
-    /^https:\/\/fonts\.loli\.net/,
-    new workbox.strategies.StaleWhileRevalidate({
-        cacheName: "google-fonts-stylesheets"
-    })
-);
-workbox.routing.registerRoute(
-    /^https:\/\/gstatic\.loli\.net/,
-    new workbox.strategies.CacheFirst({
-        cacheName: 'google-fonts-webfonts',
         plugins: [
             new workbox.expiration.ExpirationPlugin({
                 maxEntries: 1000,
