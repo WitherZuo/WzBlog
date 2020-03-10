@@ -32,6 +32,7 @@ i18n_dir: :lang
 skip_render: 
   - 404.html
   - baidu_verify_gcxwspHV7d.html
+  - baidu_verify_5calNZ6WOp.html
   - silian.txt
   - robots.txt
   - CNAME
