@@ -32,13 +32,10 @@ i18n_dir: :lang
 skip_render: 
   - 404.html
   - baidu_verify_gcxwspHV7d.html
-  - google12caa68be602a335.html
   - silian.txt
   - robots.txt
   - CNAME
   - manifest.json
-  - 404.css
-  - main-dark.css
   - version.txt
   - assetlinks.json
 
