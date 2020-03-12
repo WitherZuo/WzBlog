@@ -31,7 +31,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
   - 404.html
-  - baidu_verify_gcxwspHV7d.html
   - baidu_verify_5calNZ6WOp.html
   - silian.txt
   - robots.txt
@@ -114,7 +113,7 @@ search:
 
 baidu_url_submit:
   count: 100 ## 提交最新的一个链接
-  host: https://www.wzblog.fun ## 在百度站长平台中注册的域名
+  host: https://wzblog.fun ## 在百度站长平台中注册的域名
   token: TwFhN5gM4BMIe0a9 ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
   path: urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
 
@@ -128,5 +127,5 @@ tag_generator:
 
 lazyload:
   enable: true 
-  onlypost: false
-  loadingImg: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAC0CAMAAAAZ4eHdAAAAJ1BMVEWVlZX19fWcnJyjo6PGxsapqanu7u709PTQ0NDj4+O/v7+7u7u4uLhTyi3tAAADTElEQVR42u3c3W7iMBRF4WM7/o3f/3lHatU5LRzXYdqgiVnrlrtPm0CsgDg6HFhggQUWWGARWGCBBRZYYBFYYIEFFlj31Rbkh4VWXwKrdvmVYl0fq3j5rba8NlZu8ov1vDSWWp2gtRhWETlBa02s5OUErUWxNpFltOT8Ya2jJde6YqnWilhdztJaECvIaVrrYYmcp7U4VnukONVaGsu7B8plvi2w7A/SEiwtsMxllWRqgWUuy9laYFnLcgMtsKxljbTAMpY11ALLWNZQCyxjWUOtl8cyljXWenUsc1ljLZZlYI20WJaBNdRiWQbWUItlmVjZ1GJZJpa9rcKylGKm5RPLUqyZVmNZijXT8ollKdZMq7AshZhpdZalWDOtwLLei90oytdY1neB9V4Gi2WxLJbFslgWWGA9UALrgTpYx0serOPVANbxUvNgaXXrMcTYSnJmuX5feBmsXIK+uFf3Dy2ONb4kbRkszU9+DBwTWDZWkftiBsvCqmLVwTKwUhCzAtY91iZ2IYF1i5W9DCpg3WIVGRXBusXaZVgC6wYryrAK1g2Wl2EFrBssGbeBBRZvQy7w/xtWk2EZrK9YucqozpfSu9udwO3OFGt6vxMzWHdYOYpZ5YjGwEpejDYO/8xj5Wpo7Rwr21iuhsf+hDTXttVXxXJpl88FlbDK+5vnq2FptfuP12LJUyvVeiUsLddt772V6tzUytIKPBhiW31ogTW3Ui2w5laqBdbcSrXAmlppCayRFVjHrcA6bgXWcSuwjluB9bm6h1iGVmDdH2u1gRVY1hFgM63Aso9Lm2EFlm2lWmoFlm2lWmoFlm2lWmoFlmWltfxh1QUs20prf63A8oaVoZV3AUv8yEprb1ZgKZZaGVp5F7COPiYZBazZA7gaWGCBBRZYYIEFFlhggQUWWGCBBRZYYIF1Yaz4w3g+i//8AwsssMACCyywwAILLLDAAgusL22/nl8K6+xWwgryxMLFsbo8sX5xrCJPbLs4VvLyvNLFsVxb4F2oWOtMK10ey5UFrliKdXa7PKWeV8DKfQErxTq5vMnpteyujaXVKKcWq3OXx9Lq7uWkfK/ZrYSVs1sgcQQWWGCBBdarBxZYYIEFFlgEFlhggXWl/gAWbsLHSmktLwAAAABJRU5ErkJggg==
+  onlypost: true
+  loadingImg: /images/wzblog-placeholder.png
