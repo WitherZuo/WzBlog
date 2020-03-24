@@ -1,23 +1,15 @@
 .back-to-top {
-  background: #222;
+  background: $b2t-bg-color;
   bottom: $b2t-position-bottom;
   box-sizing: border-box;
   color: $b2t-color;
   cursor: pointer;
-  font-size: 18px;
-  left: 70px;
-  right: 70px;
-  width: 120px!important;
-  height: 32px;
-  line-height: 32px;
+  left: $b2t-position-right;
   opacity: $b2t-opacity;
-  margin: 0 auto;
   padding: 0 6px;
   position: fixed;
-  text-align: center;
   transition-property: bottom;
-  z-index: 1000;
-  the-transition();
+  z-index: $zindex-3;
 
   if (hexo-config('back2top.scrollpercent')) {
     width: initial;
@@ -30,16 +22,15 @@
   }
 
   &:hover {
-    color: #fff;
+    color: $sidebar-highlight;
   }
 
   &.back-to-top-on {
-    bottom: 0px;
-    width: 120px!important;
-    margin: 0 auto;
+    bottom: $b2t-position-bottom-on;
   }
 
   +tablet-mobile() {
-    opacity: 1;
+    left: $b2t-position-right-mobile;
+    opacity: $b2t-opacity-hover;
   }
 }
