@@ -243,10 +243,6 @@ vendors:
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js
   valine: https://cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
 
-social:
-  E-Mail: mailto:witherzuo@outlook.com || envelope
-  YouTube: https://www.youtube.com/channel/UCAHyRUbROPXchEtdks7DXxQ?view_as=subscriber || youtube
-
 # Dark Mode
 darkmode: true
 
