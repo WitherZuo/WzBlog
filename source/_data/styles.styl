@@ -97,13 +97,19 @@ html {
     background: #111;
 }
 
-/* 侧边栏切换按钮样式修改修改 */
+/* 侧边栏切换按钮及侧边栏样式修改 */
 .sidebar-toggle {
-    border: 8px solid;
+    transform: scale(1.4);
 }
 
 .sidebar-toggle .toggle-line {
-    display: none;
+    margin-top: 1px;
+}
+
+.sidebar-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);    
 }
 
 /* 分页指示器调整 */
