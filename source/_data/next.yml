@@ -23,7 +23,7 @@ footer:
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
     # `heart` is recommended with animation in red (#ff0000).
-    name: heart
+    name: fa fa-heart
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
@@ -48,15 +48,15 @@ footer:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash from link value (/archives -> archives).
 # External url should start with http:// or https://
 menu:
-  home: / || home
-  about: /about/ || user
-  #tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
-  公众号: /wx-gongzhonghao/ || weixin
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  #tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+  公众号: /wx-gongzhonghao/ || fab fa-weixin
 
 # Disable Baidu transformation on mobile devices.
 disable_baidu_transformation: true
@@ -226,11 +226,10 @@ motion:
 # Be aware that you would better use the same version as internal ones to avoid potential problems.
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
-  # Internal version: 4.7.0
-  # Example:
-  # fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
-  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
-  fontawesome: https://cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+  # Internal version: 5.13.0
+  # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
+  # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
 
   # Pangu
   # Example:
