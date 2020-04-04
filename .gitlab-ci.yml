@@ -10,7 +10,7 @@ pages:
   - npm install
   - hexo clean
   - hexo g -c
-  - gulp build
+  - ./node_modules/gulp/bin/gulp.js build
   artifacts:
     paths:
     - public

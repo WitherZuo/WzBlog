@@ -17,7 +17,7 @@ echo -e "\n"
 echo Submitting all urls to Baidu.
 echo Generating url file with hexo g.
 hexo g
-sh dogulp.sh
+./node_modules/gulp/bin/gulp.js build
 echo Navigate to /public and find urls.txt.
 cd public
 ls
