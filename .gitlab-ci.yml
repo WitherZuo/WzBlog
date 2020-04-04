@@ -10,7 +10,7 @@ pages:
   - npm install
   - hexo clean
   - hexo g -c
-  - sh dogulp.sh
+  - gulp build
   artifacts:
     paths:
     - public
