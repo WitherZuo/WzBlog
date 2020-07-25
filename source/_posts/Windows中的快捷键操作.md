@@ -1,22 +1,22 @@
 ---
-title: Windows中的快捷键操作
+title: Windows 中的快捷键操作
 titlename: d4df7093
 date: 2019-07-16 12:42:27
 updated: 2019-07-19 21:12:03
 tags: [Windows, 快捷键]
 categories: Windows
-keywords: [Windows, 快捷键, 使用体验, 组合键]
+keywords: [Windows, 快捷键，使用体验，组合键]
 ---
 
 当图形化操作界面开始流行后，原来的键盘敲命令式的操作方式已经不再重要，平时对系统的大部分操作都可以通过鼠标点点即可完成。但是键盘作为现代计算机的重要输入设备，系统中自带的快捷键可以让你用更快的速度完成一些平时需要用鼠标点几下的任务。 <!--more--> 
 
-平时我们很多操作都可以用快捷键来完成，比如说剪切、复制和粘贴这三个操作，就可以通过快捷键来完成：剪切 <kbd>Ctrl</kbd>+<kbd>X</kbd>、复制 <kbd>Ctrl</kbd>+<kbd>C</kbd>和粘贴 <kbd>Ctrl</kbd>+<kbd>V</kbd>。除此之外，在切换多任务窗口的时候，<kbd>Alt</kbd>+<kbd>Tab</kbd>可以唤出多任务窗口切换界面，然后按动 <kbd>Tab</kbd>键在这些窗口中变化。实际上Windows中还有不少快捷键操作。  
+平时我们很多操作都可以用快捷键来完成，比如说剪切、复制和粘贴这三个操作，就可以通过快捷键来完成：剪切 <kbd>Ctrl</kbd>+<kbd>X</kbd>、复制 <kbd>Ctrl</kbd>+<kbd>C</kbd>和粘贴 <kbd>Ctrl</kbd>+<kbd>V</kbd>。除此之外，在切换多任务窗口的时候，<kbd>Alt</kbd>+<kbd>Tab</kbd>可以唤出多任务窗口切换界面，然后按动 <kbd>Tab</kbd>键在这些窗口中变化。实际上 Windows 中还有不少快捷键操作。  
 
-按照微软官方的说法，键盘快捷方式就是按键或按键组合，可提供一种替代方式来执行通常使用鼠标执行的操作。快捷键操作可以分为几个部分，如“常规”、“Windows徽标键”、“文件资源管理器”等部分(下方部分以Windows 10为例)，除此之外还有第三方应用程序定义的快捷键。记录这些快捷键，也算是给自己一个备份（或是备忘录）吧。  
+按照微软官方的说法，键盘快捷方式就是按键或按键组合，可提供一种替代方式来执行通常使用鼠标执行的操作。快捷键操作可以分为几个部分，如“常规”、“Windows 徽标键”、“文件资源管理器”等部分（下方部分以 Windows 10 为例），除此之外还有第三方应用程序定义的快捷键。记录这些快捷键，也算是给自己一个备份（或是备忘录）吧。  
 
-## Windows自带快捷键：  
+## Windows 自带快捷键：  
 
-如果没有特殊说明，所有的Windows自带快捷键都是基于Windows 10来说的，其它版本的Windows的自带快捷键大致相同，可以参考文末的微软官网说明。  
+如果没有特殊说明，所有的 Windows 自带快捷键都是基于 Windows 10 来说的，其它版本的 Windows 的自带快捷键大致相同，可以参考文末的微软官网说明。  
 
 ### 1. 常规快捷键
 
@@ -28,12 +28,12 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 |               Ctrl+Z               |                           撤销操作                           |
 |              Alt+Tab               |                      在打开的应用间切换                      |
 |               Alt+F4               |                   关闭活动项/退出活动应用                    |
-|            Win徽标键+L             |                    锁定电脑，进入锁屏界面                    |
-|            Win徽标键+D             |                        显示/隐藏桌面                         |
+|            Win 徽标键+L             |                    锁定电脑，进入锁屏界面                    |
+|            Win 徽标键+D             |                        显示/隐藏桌面                         |
 |                 F2                 |                        重命名所选项目                        |
 |                 F3                 |              在文件资源管理器中搜索文件或文件夹              |
 |                 F4                 |               在文件资源管理器中显示地址栏列表               |
-|           F5（或Ctrl+R）           |                         刷新活动窗口                         |
+|           F5（或 Ctrl+R）           |                         刷新活动窗口                         |
 |                 F6                 |                循环浏览窗口或桌面上的屏幕元素                |
 |                F10                 |                    激活活动应用中的菜单栏                    |
 |              Alt+Esc               |                    按项目打开顺序循环浏览                    |
@@ -46,7 +46,7 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 |           Alt+Page Down            |                       向下移动一个屏幕                       |
 |              Ctrl+F4               | 关闭活动文档（在可全屏显示并允许你同时打开多个文档的应用中） |
 |               Ctrl+A               |                  选择文档或窗口中的所有项目                  |
-|         Ctrl+D（或Delete）         |                  删除选定项，将其移至回收站                  |
+|         Ctrl+D（或 Delete）         |                  删除选定项，将其移至回收站                  |
 |               Ctrl+Y               |                           恢复操作                           |
 |            Ctrl+向右键             |                将光标移动到下一个字词的起始处                |
 |            Ctrl+向左键             |                将光标移动到上一个字词的起始处                |
@@ -57,7 +57,7 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 |        Ctrl+Esc（或徽标键）        |                        打开“开始”菜单                        |
 |           Ctrl+Shift+Esc           |                        打开任务管理器                        |
 |            Ctrl+空格键             |                  打开或关闭中文输入法编辑器                  |
-|             Shift+F10              |  显示选定项快捷菜单（在Windows安装环境中可以弹出命令窗口）   |
+|             Shift+F10              |  显示选定项快捷菜单（在 Windows 安装环境中可以弹出命令窗口）   |
 |          Shift+任何箭头键          |       在窗口中或桌面上选择多个项目，或在文档中选择文本       |
 |            Shift+Delete            |                删除选定项，无需先移动到回收站                |
 |               向右键               |              打开右侧的下一个菜单，或打开子菜单              |
@@ -67,13 +67,13 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 
 {% note warning %}  
 
-**尤其是最后一个快捷键，如果需要别人帮忙给你解决系统问题，不要再用手机拍出条纹状截图了，完全可以用PrintScreen键捕获整个屏幕截图然后粘贴到“画图”里再做调整。（那张熟悉的图就不放了）**  
+**尤其是最后一个快捷键，如果需要别人帮忙给你解决系统问题，不要再用手机拍出条纹状截图了，完全可以用 PrintScreen 键捕获整个屏幕截图然后粘贴到“画图”里再做调整。（那张熟悉的图就不放了）**  
 
 {% endnote %}  
 
-### 2. Windows徽标键  
+### 2. Windows 徽标键  
 
-一般位于键盘左侧下方的Windows徽标键也承载着不少快捷操作。  
+一般位于键盘左侧下方的 Windows 徽标键也承载着不少快捷操作。  
 
 |      快捷键      |                           对应操作                           |
 | :--------------: | :----------------------------------------------------------: |
@@ -91,7 +91,7 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 |      Win+S       |                           打开搜索                           |
 |   Win+Shift+S    |                    获取部分屏幕的屏幕截图                    |
 |      Win+T       |                    循环浏览任务栏上的应用                    |
-|      Win+V       |               打开剪贴板（需要1809或更高版本）               |
+|      Win+V       |               打开剪贴板（需要 1809 或更高版本）               |
 |      Win+X       |                      打开“快速链接”菜单                      |
 |     Win+句点     |                       打开表情符号面板                       |
 |     Win+逗号     |                         临时速览桌面                         |
@@ -136,7 +136,7 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 
 ### 4. 虚拟桌面  
 
-自Windows 10新加入的虚拟桌面也拥有它的专属快捷键。
+自 Windows 10 新加入的虚拟桌面也拥有它的专属快捷键。
 
 |            快捷键            |             对应操作             |
 | :--------------------------: | :------------------------------: |
@@ -148,16 +148,16 @@ keywords: [Windows, 快捷键, 使用体验, 组合键]
 
 ## 其它快捷键说明&参考链接：
 
-**参考链接1：**[微软官网对Windows系统快捷键的说明](https://support.microsoft.com/zh-cn/help/12445/windows-keyboard-shortcuts)    
+**参考链接 1：**[微软官网对 Windows 系统快捷键的说明](https://support.microsoft.com/zh-cn/help/12445/windows-keyboard-shortcuts)    
 
-**参考链接2：**[微软官网对Windows内置应用的快捷键说明](https://support.microsoft.com/zh-cn/help/13805)  
+**参考链接 2：**[微软官网对 Windows 内置应用的快捷键说明](https://support.microsoft.com/zh-cn/help/13805)  
 
-**Firefox：**[Firefox帮助站点]([https://support.mozilla.org/zh-CN/kb/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE](https://support.mozilla.org/zh-CN/kb/键盘快捷键))  
+**Firefox：**[Firefox 帮助站点]([https://support.mozilla.org/zh-CN/kb/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE](https://support.mozilla.org/zh-CN/kb/键盘快捷键）)  
 
-**Chrome：**[Google Chrome帮助站点](https://support.google.com/chrome/answer/157179?hl=zh-Hans)  
+**Chrome：**[Google Chrome 帮助站点](https://support.google.com/chrome/answer/157179?hl=zh-Hans)  
 
 ## AutoHotKey：  
 
-如果对默认的快捷键不满意（比如较难操作，按键次数较多等），可以使用AutoHotKey进行快捷键重新映射。软件官网地址：[单击此处](https://www.autohotkey.com/)  
+如果对默认的快捷键不满意（比如较难操作，按键次数较多等），可以使用 AutoHotKey 进行快捷键重新映射。软件官网地址：[单击此处](https://www.autohotkey.com/)  
 
 <style>.post-block br {display: none}</style>

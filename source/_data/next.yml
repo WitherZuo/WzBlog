@@ -160,10 +160,6 @@ back2top:
   # Scroll percent label in b2t button.
   scrollpercent: false
 
-# Pangu Support
-# For more information: https://github.com/vinta/pangu.js
-pangu: true
-
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
@@ -230,12 +226,6 @@ vendors:
   # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
   # fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
   fontawesome: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
-
-  # Pangu
-  # Example:
-  # pangu: //cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
-  # pangu: //cdnjs.cloudflare.com/ajax/libs/pangu/4.0.7/pangu.min.js
-  pangu: https://cdn.jsdelivr.net/npm/pangu@4/dist/browser/pangu.min.js
 
   # Valine
   # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js

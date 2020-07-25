@@ -17,7 +17,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 办法当然有，就是**用 OneDrive 来作为图床**，而 Img Share 就是为此而生的。  
 
-作者对这款软件的介绍也很直接，**最不错的一点是：这软件是 UWP 应用，意味着 UWP 平台上也出现了一款好用的图床工具。**  
+作者对这款软件的介绍也很直接，**最不错的一点是：这软件是 UWP 应用，意味着 UWP 平台上也出现了一款好用的图床工具**。  
 
 ![Img Share的宣传图，很心动有木有？](https://storage.live.com/items/5582C1D07E2893FB!83088?authkey=APiqr1tjl5KIc1Q "Img Share的宣传图，很心动有木有？")  
 

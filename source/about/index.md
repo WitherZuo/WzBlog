@@ -40,9 +40,9 @@ wzblog.fun is watching you
 
 **建议使用基于Chromium/Webkit内核的浏览器访问本站**  
 
-**注意：**由于CDN缓存的原因，有时候对Blog的修改可能不会即时生效，建议等待一段时间**(2h)**  
+**注意：**由于 CDN 缓存的原因，有时候对 Blog 的修改可能不会即时生效，建议等待一段时间 (**2h**)  
 
-**还有，网站备案，连服务器都没有，你在想peach嘛**  
+**还有，网站备案，连服务器都没有，你在想 peach 嘛**  
 
 <a class="btn" href="feature-stats.html">查看各浏览器对特性/标准的支持</a>  
 
