@@ -62,7 +62,7 @@ mklink /d <要同步的本地文件夹> <待同步文件夹在OneDrive上的位�
 
 {% note danger %}
 
-**注意：<font style="color:red">在创建链接之前，`<要同步的本地文件夹>`不能事先存在</font>**
+**注意：<span style="background: red">在创建链接之前，`<要同步的本地文件夹>`不能事先存在</span>**
 
 {% endnote %}   
 
@@ -92,7 +92,7 @@ mklink /d "G:\SyncDir" "C:\Users\<你的用户名>\OneDrive\SyncDir"
 
 {% note warning %}  
 
-**注意：**如果希望**从其它设备上传的文件能够立刻自动下载到本地而非按需下载**，需要勾选上“**始终在此设备上可用**”一项。<span style="background: #222; color: white">**方法为：**</span>进入 本地设备上的OneDrive文件夹，选中要更改属性的文件夹，在其上面**右键，弹出的菜单中单击“始终在此设备上可用”**即可。  
+**注意：**如果希望**从其它设备上传的文件能够立刻自动下载到本地而非按需下载**，需要勾选上“**始终在此设备上可用**”一项。<span style="background: red">**方法为：**</span>进入 本地设备上的OneDrive文件夹，选中要更改属性的文件夹，在其上面**右键，弹出的菜单中单击“始终在此设备上可用”**即可。  
 
 {% endnote %}
 

@@ -39,16 +39,18 @@ keywords: [Windows, 自带应用, Note, 便笺]
 
 {% tabs tab 1 %}
 <!-- tab 移动端截图（Android） -->
-**移动端截图：** [操作截图请看这里](https://i.loli.net/2019/06/29/5d170935a704b40852.gif)  
+**移动端截图**：[操作截图请看这里](https://i.loli.net/2019/06/29/5d170935a704b40852.gif)  
+
 ![移动端截图](https://i.loli.net/2019/06/30/5d1839b2390ac38881.png "移动端截图")  
 <!-- endtab -->
 <!-- tab 网页端截图（Browser） -->
-**网页版截图：**
+**网页版截图**：
+
 ![网页版截图](https://i.loli.net/2019/06/29/5d170933ef64b12357.png "网页版截图")  
 <!-- endtab -->
 {% endtabs %}
 
-**Sticky Notes网页版地址：**[单击此处](https://www.onenote.com/stickynotes#)  
+**Sticky Notes网页版地址**：[单击此处](https://www.onenote.com/stickynotes#)  
 
 所以，如果你需要一个美观颜值高、简洁但不失基本功能的便笺笔记应用，那么这个微软家的Sticky Notes不失为一个好选择。  
 

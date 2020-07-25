@@ -15,17 +15,17 @@ keywords: [BreakLock, 九宫格, 游戏]
 
 这个小游戏就是BreakLock，可以在浏览器中运行，但有一点很特殊，它无需安装，因为它是一个“渐进式网络应用”，打开后浏览器会自动弹出一条通知询问你是否将其添加到桌面，很适合无聊又不知道干什么的人用来解闷。  
 
-![breaklock-loading.jpg](https://storage.live.com/items/5582C1D07E2893FB!133776?authkey=APiqr1tjl5KIc1Q "游戏加载界面")  
+![游戏加载界面](https://storage.live.com/items/5582C1D07E2893FB!133776?authkey=APiqr1tjl5KIc1Q "游戏加载界面")  
 
 > A hybrid of Mastermind and the Android pattern lock. A game you gonna love to hate.
 
 访问地址：[单击此处](https://maxwellito.github.io/breaklock/)   
 
-![breaklock-mainscreen.jpg](https://storage.live.com/items/5582C1D07E2893FB!133777?authkey=APiqr1tjl5KIc1Q "游戏主界面")  
+![游戏主界面](https://storage.live.com/items/5582C1D07E2893FB!133777?authkey=APiqr1tjl5KIc1Q "游戏主界面")  
 
 游戏的判定很简单，只要画出正确的图案就算完成，实心圆表示这个点位置和顺序都正确，而空心圆则表示这个点位置正确但顺序不正确。游戏一共分成三个难度：简单（连接4个点）、中等（连接5个点）、困难（连接6个点），而游戏模式则包含三个：练习、挑战、计时，挑战模式只给你10次机会来猜出图案，次数用完游戏结束；而计时模式则限时1分钟，但不限次数。所以如果你只想休闲一下只需要选择练习模式就行，但如果想挑战一下极限，可以选择更高难度和更具挑战性的模式。  
 
-![breaklock-ruleanim.jpg](https://storage.live.com/items/5582C1D07E2893FB!133778?authkey=APiqr1tjl5KIc1Q "规则演示动图")  
+![规则演示动图](https://storage.live.com/items/5582C1D07E2893FB!133778?authkey=APiqr1tjl5KIc1Q "规则演示动图")  
 
 练习模式：  
 

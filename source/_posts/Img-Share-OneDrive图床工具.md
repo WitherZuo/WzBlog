@@ -19,7 +19,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 作者对这款软件的介绍也很直接，**最不错的一点是：这软件是 UWP 应用，意味着 UWP 平台上也出现了一款好用的图床工具。**  
 
-![imgshare-winstore.png](https://storage.live.com/items/5582C1D07E2893FB!83088?authkey=APiqr1tjl5KIc1Q "Img Share的宣传图，很心动有木有？")  
+![Img Share的宣传图，很心动有木有？](https://storage.live.com/items/5582C1D07E2893FB!83088?authkey=APiqr1tjl5KIc1Q "Img Share的宣传图，很心动有木有？")  
 
 > 这软件功能很简单
 > 
@@ -33,7 +33,7 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 ## 与 OneDrive 授权：
 
-要想通过Img&nbsp;Share来创建 OneDrive 图床，**首先需要提供给 Img Share 我们的 OneDrive 的 authkey**，OneDrive 通过这个 authkey 来验证我们的请求。作者也十分贴心，在第一次进入应用时就会告诉我们如何添加这个 authkey。  
+要想通过Img Share来创建 OneDrive 图床，**首先需要提供给 Img Share 我们的 OneDrive 的 authkey**，OneDrive 通过这个 authkey 来验证我们的请求。作者也十分贴心，在第一次进入应用时就会告诉我们如何添加这个 authkey。  
 
 **作者的说明：[单击此处](https://blog.richasy.cn/document/basic/onedrive_authkey.html)**  
 
@@ -47,8 +47,9 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 放两张图示意一下，**authkey 字段后面的字符串就是我们需要的 authkey（不需要复制两边的双引号)**
 
-![howtoauth-1.png](https://storage.live.com/items/5582C1D07E2893FB!83090?authkey=APiqr1tjl5KIc1Q "注意红框标注的位置")  
-![howtoauth-2.png](https://storage.live.com/items/5582C1D07E2893FB!83084?authkey=APiqr1tjl5KIc1Q "画红线的地方，authkey=之后的一串字符就是我们需要的authkey")  
+![注意红框标注的位置](https://storage.live.com/items/5582C1D07E2893FB!83090?authkey=APiqr1tjl5KIc1Q "注意红框标注的位置")  
+
+![画红线的地方，authkey=之后的一串字符就是我们需要的authkey](https://storage.live.com/items/5582C1D07E2893FB!83084?authkey=APiqr1tjl5KIc1Q "画红线的地方，authkey=之后的一串字符就是我们需要的authkey")  
 
 然后将这一串字符串复制到 Img Share 弹出的窗口中，单击“确定”，等待 Img Share 验证完成即可。  
 
@@ -56,15 +57,15 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 一切准备就绪之后，接下来就可以添加图片了，**将图片拖拽到红框所示区域内：**  
 
-![addpic.png](https://storage.live.com/items/5582C1D07E2893FB!83086?authkey=APiqr1tjl5KIc1Q "添加图片")  
+![添加图片](https://storage.live.com/items/5582C1D07E2893FB!83086?authkey=APiqr1tjl5KIc1Q "添加图片")  
 
 这里会让你选择一个分组，**如果没有存在任意一个分组，那么 Img Share 会要求你首先新建一个**，然后继续。这里也是我觉得做的非常好的一个地方，在**之后查找图片的时候，只需要找到对应的分组即可，不需要乱翻了**。  
 
-![addgroup.png](https://storage.live.com/items/5582C1D07E2893FB!83085?authkey=APiqr1tjl5KIc1Q "在输入框内输入分组名称")  
+![在输入框内输入分组名称](https://storage.live.com/items/5582C1D07E2893FB!83085?authkey=APiqr1tjl5KIc1Q "在输入框内输入分组名称")  
 
 一切完成之后，等待 Img Share 将图片上传，然后就会自动生成 OneDrive 的外链：  
 
-![picinfo.png](https://storage.live.com/items/5582C1D07E2893FB!83087?authkey=APiqr1tjl5KIc1Q "支持普通链接、Markdown链接和HTML嵌入")  
+![支持普通链接、Markdown链接和HTML嵌入](https://storage.live.com/items/5582C1D07E2893FB!83087?authkey=APiqr1tjl5KIc1Q "支持普通链接、Markdown链接和HTML嵌入")  
 
 可以看到，**Img Share 不仅会生成普通的图片外链链接，还提供了生成 Markdown 图片链接格式和 HTML 内嵌入格式的选项**，可谓十分贴心，考虑到不同的情况。  
 
@@ -78,6 +79,6 @@ UWP 的生态目前的境况很多人都是有目共睹，而这种情况下 Img
 
 **更新：由于作者无法提交软件更新，原 Img Share 更名为 Picture Share 重新发布。微软商店中即可搜索到，同时作者已将此项目[开源](https://github.com/Richasy/Img-Share?files=1)**  
 
-**12 月 22 日更新：部分图片添加为外链后可能不是 HTTPS 链接，浏览器控制台会报 https 错误，解决方法为自行在图片外链接中将 http 改为 https 即可。**  
+**12 月 22 日更新：部分图片添加为外链后可能不是 HTTPS 链接，浏览器控制台会报 https 错误，解决方法为自行在图片外链接中将 http 改为 https 即可**。  
 
 <style>.post-block br {display: none}</style>

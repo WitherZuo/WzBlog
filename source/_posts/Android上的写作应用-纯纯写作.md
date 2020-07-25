@@ -54,6 +54,7 @@ keywords: [纯纯写作, Markdown, 移动端, Android, 安卓]
 除了自带一个 Markdown 标记符号键盘，下面的底栏还有两个图标：分别是**快速格式化**和**模式设置**，**快速格式化**可以快速处理当前文章的格式，比如在文章的每一段自动空出一行等等，而**模式设置**则可以调整模式设置，在打字机模式和状态栏专注模式相互切换，也可以选择强制黑色字体还是白色字体。  
 
 ![快速格式化](https://storage.live.com/items/5582C1D07E2893FB!85623?authkey=APiqr1tjl5KIc1Q "快速格式化")  
+
 ![模式设置](https://storage.live.com/items/5582C1D07E2893FB!85622?authkey=APiqr1tjl5KIc1Q "模式设置")  
 
 ## 更清晰的文章层级管理
@@ -68,9 +69,10 @@ keywords: [纯纯写作, Markdown, 移动端, Android, 安卓]
 
 ![设置界面](https://storage.live.com/items/5582C1D07E2893FB!85614?authkey=APiqr1tjl5KIc1Q "设置界面")  
 
-在最后，你可以从酷安和 Google Play 上获取“纯纯写作”，**“纯纯写作”包含付费功能，但本身可以免费使用（部分功能需付费解锁）**，可以通过支付**宝向作者转账或 Google Play 内购**方式解锁高级功能。<span style="background: #222; color: white">**作者在酷安上活动异常活跃，另外不用担心 App 停更甚至弃更的问题，作者的更新频率非常频繁，甚至出现了一天多更的情况。如果想在移动设备上体验单纯写作的快感，“纯纯写作”是一个不错的选择。**</span>  
+在最后，你可以从酷安和 Google Play 上获取“纯纯写作”，**“纯纯写作”包含付费功能，但本身可以免费使用（部分功能需付费解锁）**，可以通过支付**宝向作者转账或 Google Play 内购**方式解锁高级功能。<span style="background: red">**作者在酷安上活动异常活跃，另外不用担心 App 停更甚至弃更的问题，作者的更新频率非常频繁，甚至出现了一天多更的情况。如果想在移动设备上体验单纯写作的快感，“纯纯写作”是一个不错的选择**。</span>  
 
 ![酷安上的“纯纯写作”](https://storage.live.com/items/5582C1D07E2893FB!85616?authkey=APiqr1tjl5KIc1Q "酷安上的“纯纯写作”")  
+
 ![Google Play上的“纯纯写作”](https://storage.live.com/items/5582C1D07E2893FB!85617?authkey=APiqr1tjl5KIc1Q "Google Play上的“纯纯写作”")  
 
 <style>.post-block br {display: none}</style>
