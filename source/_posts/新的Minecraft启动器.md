@@ -61,5 +61,3 @@ keywords: [Minecraft, 我的世界，启动器]
 ![目前不支持更换皮肤](https://i.loli.net/2019/07/08/5d2353654d0e296728.png "目前不支持更换皮肤")  
 
 有人可能会说，既然这个新官方启动器只是又一次换了个皮，加了一个“更新日志选项卡”，然后又重新组织了一遍功能的位置，也没有新增如安装 Forge、OptiFine 这样的功能，那要这个官方启动器有何用？**其实这个全新的官方启动器不仅仅是 Minecraft Java 版的启动器，还将成为“Minecraft Universe”的启动器，Minecraft Universe，顾名思义即“Minecraft 宇宙”，微软和 Mojang 决定打造一个“Minecraft 宇宙”，以 Minecraft 这个知名 IP 为基础，创作出更多以 Minecraft 为内容的衍生游戏产品**，例如 Minecraft Earth 和 Minecraft Dungeons，前者为 AR 增强现实技术的 Minecraft，在十周年前夕公布；后者则是一款以经典地牢爬虫为灵感来源的全新动作冒险游戏，也是第一款以 Minecraft Universe 为背景的游戏，Minecon Earth 2018 中初次被提及，在今年的 Xbox E3 中公布了新的预告片和预计发售时间。**从 2009 年 Minecraft 诞生以来，直到 2019 年，已经走过了 10 个年头，这一次 Mojang 和微软的决定将会让 Minecraft 向一个全新的方向发展。不知你注意到这个新启动器左侧的侧边菜单，目前只有两项：“新闻”和“Minecraft：Java Edition”，而在 Minecraft Dungeons 发售后，这里极有可能会增加一个“Minecraft Dungeons”的菜单项目，黑绿的配色让人联想到了 Xbox 的主题色，微软和 Mojang 的野心已经逐渐显现。毕竟，Minecraft 已经不仅仅是一个游戏了**。  
-
-<style>.post-block br {display: none}</style>

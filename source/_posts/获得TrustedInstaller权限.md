@@ -71,5 +71,3 @@ keywords: [Windows, TrustedInstaller, 权限，帮助，WindowsApps]
 ## TrustedInstaller 是什么  
 
 TrustedInstaller 是从 Windows Vista 开始出现的一个内置安全主体，为 [Windows](https://baike.baidu.com/item/Windows/165458) 系统中众多系统内置安全主体中的一个，本身是系统重要服务，用户无法直接在此服务的上下文中运行程序或另一个 [服务](https://baike.baidu.com/item/服务/10393131)。它是操作系统上用来对系统进行维护、更新等操作的组。它的 SID 是 S-1-5-80-956008885-3418522649-1831038044-1853292631-2271478464。TrustedInstaller 权限的意义是用来防止程序或用户无意或恶意破坏系统文件。 这个安全主体本身是一个服务，名称为：Windows Modules Installer。  
-
-<style>.post-block br {display: none}</style>

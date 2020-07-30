@@ -1,21 +1,22 @@
-hexo: 4.2.0
-hexo-cli: 3.1.0
-os: Windows_NT 10.0.19041 win32 x64
-node: 13.11.0
-v8: 7.9.317.25-node.29
-uv: 1.34.2
+hexo: 5.0.0
+hexo-cli: 4.1.0
+os: Windows_NT 10.0.20180 win32 x64
+node: 12.18.0
+v8: 7.8.279.23-node.37
+uv: 1.37.0
 zlib: 1.2.11
 brotli: 1.0.7
-ares: 1.15.0
-modules: 79
-nghttp2: 1.40.0
+ares: 1.16.0
+modules: 72
+nghttp2: 1.41.0
 napi: 6
 llhttp: 2.0.4
-openssl: 1.1.1d
-cldr: 36.0
-icu: 65.1
+http_parser: 2.9.3
+openssl: 1.1.1g
+cldr: 37.0
+icu: 67.1
 tz: 2019c
-unicode: 12.1
+unicode: 13.0
 
-NexT: 7.7.2
+NexT: 8.0.0-rc4
 Rocket Loader: OFF

@@ -13,24 +13,14 @@
 }
 
 /* 改变导航栏菜单项目的基础样式 */
-.site-nav {
-    background: #222; 
-    border-color: #222;
+.menu-item {
+    margin: 0 20px;    
 }
 
-.menu {
-    margin-bottom: 0; 
-    text-align: center;
-}
-
-.menu li a {
-    color: #fff !important; 
-    padding: 0 12px;
-}
-
-.menu-item-active a, .menu .menu-item a:hover {
-    border-bottom: 1px solid transparent!important; 
-    background: #484848;
+@media (max-width: 767px) {
+    .site-nav {border-top: none; border-bottom: none;}
+    .menu {text-align: center;}
+    .menu .menu-item {margin: 0 20px;}
 }
 
 /* 修改站点标题样式 */
@@ -69,7 +59,6 @@ html {
 }
 
 .site-nav-toggle .toggle, .site-nav-right .toggle {
-    color: #fff; 
     font-size: 18px;
 }
 
@@ -102,10 +91,6 @@ html {
     transform: scale(1.4);
 }
 
-.sidebar-toggle .toggle-line {
-    margin-top: 1px;
-}
-
 .sidebar-inner {
     width: 230px;
     position: absolute;
@@ -114,16 +99,8 @@ html {
 }
 
 /* 分页指示器调整 */
-.pagination {
-    height: 33px !important; 
-    margin-bottom: 0; 
-    margin-top: 50px;
-}
-
-.pagination .page-number.current {
-    background: #222; 
-    border-top: 1px solid #222; 
-    border-bottom: 1px solid #222;
+nav.pagination {
+    margin-top: 80px;
 }
 
 /* 修改页面主体容器 取消部分页面上下内边距 取消归档、分类页面最后条目的底部外边距 */
@@ -163,6 +140,15 @@ html {
     .comments .vcopy.txt-right a {color: #bbb}
     .comments .vcopy.txt-right a:hover {color: #d7191a}
     ::-webkit-scrollbar {background: #444}
+}
+
+/* 文章内容显示优化 */
+.post-block br {
+    display: none;
+}
+
+figure.highlight br{
+    display: block !important;
 }
 
 /* PWA更新条样式 */

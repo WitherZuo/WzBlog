@@ -8,7 +8,7 @@ comments: false
 **如果在显示支持图表时出现“Error Getting JSON File”提示，那么你可能需要特殊的上网姿势，谢谢**
 {% endnote %}  
 
-### `prefers-color-scheme`  
+## `prefers-color-scheme`  
 
 <p class="ciu_embed" data-feature="prefers-color-scheme" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=prefers-color-scheme">
@@ -19,7 +19,7 @@ comments: false
     </a>
 </p>  
 
-### `Base64 Decoding/Encoding`  
+## `Base64 Decoding/Encoding`  
 
 <p class="ciu_embed" data-feature="atob-btoa" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=atob-btoa">
@@ -30,7 +30,7 @@ comments: false
     </a>
 </p>
 
-### `Canvas`  
+## `Canvas`  
 
 <p class="ciu_embed" data-feature="canvas" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=canvas">
@@ -41,7 +41,7 @@ comments: false
     </a>
 </p>  
 
-### `CSS: filter`  
+## `CSS: filter`  
 
 <p class="ciu_embed" data-feature="css-filters" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=css-filters">
@@ -52,7 +52,7 @@ comments: false
     </a>
 </p>  
 
-### `CSS: flexbox`  
+## `CSS: flexbox`  
 
 <p class="ciu_embed" data-feature="flexbox" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=flexbox">
@@ -63,7 +63,7 @@ comments: false
     </a>
 </p>  
 
-### `rel="preconnect"`  
+## `rel="preconnect"`  
 
 <p class="ciu_embed" data-feature="link-rel-preconnect" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=link-rel-preconnect">
@@ -74,7 +74,7 @@ comments: false
     </a>
 </p>  
 
-### `Service Workers`  
+## `Service Workers`  
 
 <p class="ciu_embed" data-feature="serviceworkers" data-periods="future_1,current,past_1,past_2,past_3,past_4,past_5" data-accessible-colours="false">
     <a href="http://caniuse.com/#feat=serviceworkers">
