@@ -164,6 +164,10 @@ comments:
     #gitalk:
     #  order: -2
 
+# Easily enable fast Ajax navigation on your website.
+# For more information: https://github.com/next-theme/pjax
+pjax: false
+
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
@@ -208,6 +212,10 @@ vendors:
   # valine: //cdn.jsdelivr.net/npm/valine@1/dist/Valine.min.js
   # valine: //cdnjs.cloudflare.com/ajax/libs/valine/1.3.10/Valine.min.js
   valine: https://unpkg.com/valine/dist/Valine.min.js
+
+  # Recommended version: 0.4.0
+  # pjax: //cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
+  pjax: https://cdn.jsdelivr.net/gh/next-theme/pjax@0/pjax.min.js
 
 # Dark Mode
 darkmode: true
