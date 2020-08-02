@@ -94,7 +94,7 @@ Plugins:
 sitemap:
   path: sitemap.xml
 
-theme: hexo-theme-next-8.0.0-rc.4
+theme: hexo-theme-next-8.0.0-rc.5
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
