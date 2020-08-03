@@ -38,7 +38,7 @@ wzblog.fun is watching you
 
 ---
 
-**建议使用基于Chromium/Webkit内核的浏览器访问本站**  
+**建议使用基于 Chromium/Webkit 内核的浏览器访问本站**  
 
 **注意：**由于 CDN 缓存的原因，有时候对 Blog 的修改可能不会即时生效，建议等待一段时间 (**2h**)  
 
