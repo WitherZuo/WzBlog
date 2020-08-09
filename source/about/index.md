@@ -46,6 +46,6 @@ wzblog.fun is watching you
 
 <a class="btn" href="feature-stats.html">查看各浏览器对特性/标准的支持</a>  
 
-<a class="btn" href="version.txt">查看其它信息</a>    
+<a class="btn" href="version.html">查看其它信息</a>    
 
 <style>.main-inner {padding-bottom: 50px !important} p {text-align: center; margin-bottom: 6px} .btn {margin-top: 20px} hr {width: 40px; margin-left: auto; margin-right: auto}</style>
