@@ -182,7 +182,7 @@ valine:
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: true # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  serverURLs: https://cph4mggq.lc-cn-n1-shared.com # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   #post_meta_order: 0
 
 # Local Search
@@ -239,9 +239,8 @@ font:
 
 # Favicons
 favicon:
-  small: /images/favicon-16x16-next.ico
-  medium: /images/favicon-32x32-next.ico
-  apple_touch_icon: /images/apple-touch-icon-next.png
-  safari_pinned_tab: /images/logo.svg
+  small: /images/favicon-16x16-wzblog.png
+  medium: /images/favicon-32x32-wzblog.png
+  apple_touch_icon: /images/apple-touch-icon-wzblog.png
+  safari_pinned_tab: /images/logo-wzblog.svg
   #android_manifest: /images/manifest.json
-  #ms_browserconfig: /images/browserconfig.xml
