@@ -39,6 +39,11 @@ skip_render:
   - version.txt
   - assetlinks.json
 
+# Include/Exclude Files/Folders
+include:
+  - ".well-known"
+  - ".well-known/assetlinks.json"
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
