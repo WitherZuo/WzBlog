@@ -145,25 +145,6 @@ back2top:
   # Scroll percent label in b2t button.
   scrollpercent: false
 
-# Multiple Comment System Support
-comments:
-  # Available values: tabs | buttons
-  style: tabs
-  # Choose a comment system to be displayed by default.
-  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active:
-  # Setting `true` means remembering the comment system selected by the visitor.
-  storage: true
-  # Lazyload all comment systems.
-  lazyload: true
-  # Modify texts or order for any navs, here are some examples.
-  nav:
-    #disqus:
-    #  text: Load Disqus
-    #  order: -1
-    #gitalk:
-    #  order: -2
-
 # Easily enable fast Ajax navigation on your website.
 # For more information: https://github.com/next-theme/pjax
 pjax: false
