@@ -227,3 +227,29 @@ favicon:
   apple_touch_icon: /images/apple-touch-icon-wzblog.png
   safari_pinned_tab: /images/logo-wzblog.svg
   #android_manifest: /images/manifest.json
+
+# Preconnect CDN for fonts and plugins.
+# For more information: https://www.w3.org/TR/resource-hints/#preconnect
+preconnect: true
+
+# Reading progress bar
+reading_progress:
+  enable: true
+  # Available values: top | bottom
+  position: top
+  color: "#ff0000"
+  height: 3px
+
+# Use Animate.css to animate everything.
+# For more information: https://animate.style
+motion:
+  enable: false
+  async: false
+  transition:
+    # All available transition variants: https://theme-next.js.org/animate/
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: fadeInDown
+    coll_header: fadeInLeft
+    # Only for Pisces | Gemini.
+    sidebar: fadeInUp
