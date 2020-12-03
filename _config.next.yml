@@ -253,3 +253,6 @@ motion:
     coll_header: fadeInLeft
     # Only for Pisces | Gemini.
     sidebar: fadeInUp
+
+# Automatically add external URL with Base64 encrypt & decrypt.
+exturl: true
