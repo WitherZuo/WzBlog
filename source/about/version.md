@@ -18,7 +18,7 @@ Documentation: https://theme-next.js.org
 ========================================
 hexo: 5.2.0  
 hexo-cli: 4.2.0  
-os: Windows_NT 10.0.20262 win32 x64  
+os: Windows_NT 10.0.20270 win32 x64  
 node: 14.13.1  
 v8: 8.4.371.19-node.16  
 uv: 1.40.0  
