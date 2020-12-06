@@ -1,6 +1,6 @@
 const workboxVersion = '5.1.4';
 
-importScripts(`https://cdn.jsdelivr.net/npm/workbox-sw@${workboxVersion}/build/workbox-sw.min.js`);
+importScripts(`https://cdn.jsdelivr.net/npm/workbox-cdn@${workboxVersion}/workbox/workbox-sw.js`);
 
 workbox.core.setCacheNameDetails({
     prefix: "WzBlog"
