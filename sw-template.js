@@ -1,21 +1,12 @@
-const workboxVersion = '6.0.2';
+const workboxVersion = '5.1.4';
 
-importScripts(`https://storage.googleapis.com/workbox-cdn/releases/${workboxVersion}/workbox-sw.js`);
+importScripts(`https://cdn.jsdelivr.net/npm/workbox-sw@${workboxVersion}/build/workbox-sw.min.js`);
 
 workbox.core.setCacheNameDetails({
     prefix: "WzBlog"
 });
 
-// workbox.core.skipWaiting();
-if (skipWaiting) {
-    self.skipWaiting();
-} else {
-    self.addEventListener('message', (event) => {
-        if (event.data && event.data.type === 'SKIP_WAITING') {
-            self.skipWaiting();
-        }
-    })
-}
+workbox.core.skipWaiting();
 
 workbox.core.clientsClaim();
 
