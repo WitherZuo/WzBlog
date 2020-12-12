@@ -63,6 +63,21 @@ workbox.routing.registerRoute(
         ]
     })
 );
+workbox.routing.registerRoute(
+    /^https:\/\/s3\.ax1x\.com/,
+    new workbox.strategies.CacheFirst({
+        cacheName: "external-images",
+        plugins: [
+            new workbox.expiration.ExpirationPlugin({
+                maxEntries: 1000,
+                maxAgeSeconds: 60 * 60 * 24 * 30
+            }),
+            new workbox.cacheableResponse.CacheableResponsePlugin({
+                statuses: [0, 200]
+            })
+        ]
+    })
+);
 
 // Fonts
 // Internal Fonts
