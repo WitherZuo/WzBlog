@@ -63,6 +63,7 @@ workbox.routing.registerRoute(
         ]
     })
 );
+
 workbox.routing.registerRoute(
     /^https:\/\/(?:s1|s2|s3)\.ax1x\.com/,
     new workbox.strategies.CacheFirst({
