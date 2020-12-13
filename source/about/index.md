@@ -44,7 +44,7 @@ wzblog.fun is watching you
 
 **还有，网站备案，连服务器都没有，你在想 peach 嘛**  
 
-![rZcbRO.png](https://s3.ax1x.com/2020/12/12/rZcbRO.png)  
+![ComicPage.png](ComicPage.png)  
 
 <a class="btn" href="feature-stats.html">查看各浏览器对特性/标准的支持</a>  
 
