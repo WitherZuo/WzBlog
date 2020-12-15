@@ -19,11 +19,11 @@ keywords: [Google, 谷歌，项目]
 
 先上一张网站的图片，每个死亡的项目名字左边都有一个墓碑图标，看着形象贴切多了   
 
-![Killed by Google 的主页](https://i.loli.net/2018/12/01/5c01f504d37a5.png "Killed by Google 的主页")  
+![Killed by Google 的主页](https://s3.ax1x.com/2020/12/14/rnZSEV.png "Killed by Google 的主页")  
 
 整个网站风格简约大方，顺带一提，目前此站已收录了 149 个“被 Google 死亡”的项目。可以看到下方的分类统计数字，能有一个比较直观的认识：  
 
-![确实... 很直观](https://storage.live.com/items/5582C1D07E2893FB!133078?authkey=APiqr1tjl5KIc1Q "确实... 很直观")  
+![确实... 很直观](https://s3.ax1x.com/2020/12/14/rnVxH0.png "确实... 很直观")  
 
 **Killed by Google 不仅标出了每个已死亡项目的名字，还包括这个项目的用途、项目的诞生时间和死亡时间以及项目的持续时间**。可以说颇为用心 + 信息全面。**QuickOffice 的四个月寿命让它荣登 Google 最快夭折和最短命的产品榜首，而第一个已有公开信息的 Google 死亡项目是 Google Deskbar**，其用途主要是在用户的 Windows 工具栏上显示一个 Google 的搜索栏从而让用户不离开桌面直接发起搜索；**目前最近的死亡产品（或濒死产品）是 Google+，原因是 Google+ 泄露了大量用户的个人资料且 Google 瞒报了这件事情，再加上 Google+ 本身就是一个失败的社交产品，被砍掉也就在意料之中了**。  
 

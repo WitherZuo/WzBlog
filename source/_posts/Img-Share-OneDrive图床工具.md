@@ -19,13 +19,13 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 作者对这款软件的介绍也很直接，**最不错的一点是：这软件是 UWP 应用，意味着 UWP 平台上也出现了一款好用的图床工具**。  
 
-![Img Share的宣传图，很心动有木有？](https://storage.live.com/items/5582C1D07E2893FB!83088?authkey=APiqr1tjl5KIc1Q "Img Share的宣传图，很心动有木有？")  
+![Img Share的宣传图，很心动有木有？](https://s3.ax1x.com/2020/12/14/rmXVFP.png "Img Share的宣传图，很心动有木有？")  
 
 > 这软件功能很简单
 > 
 > OneDrive 图床
 > 简单，直接，好看还TM好用。我做的东西，设计上不用担心
-> 目前这款工具仅针对 OneDrive 设计，因为你可以确保 OneDrive 的稳定性和私密性，而其它云服务本钦件不予考虑
+> 目前这款工具仅针对 OneDrive 设计，因为你可以确保 OneDrive 的稳定性和私密性，而其它云服务本软件不予考虑
 
 三言两语便将这款应用的特点概括出来：**简单直接、界面漂亮、设计流畅、仅支持 OneDrive**。  
 
@@ -47,9 +47,9 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 放两张图示意一下，**authkey 字段后面的字符串就是我们需要的 authkey（不需要复制两边的双引号)**
 
-![注意红框标注的位置](https://storage.live.com/items/5582C1D07E2893FB!83090?authkey=APiqr1tjl5KIc1Q "注意红框标注的位置")  
+![注意红框标注的位置](https://s3.ax1x.com/2020/12/14/rmXkdI.png "注意红框标注的位置")  
 
-![画红线的地方，authkey=之后的一串字符就是我们需要的authkey](https://storage.live.com/items/5582C1D07E2893FB!83084?authkey=APiqr1tjl5KIc1Q "画红线的地方，authkey=之后的一串字符就是我们需要的authkey")  
+![画红线的地方，authkey=之后的一串字符就是我们需要的authkey](https://s3.ax1x.com/2020/12/14/rmXCsH.png "画红线的地方，authkey=之后的一串字符就是我们需要的authkey")  
 
 然后将这一串字符串复制到 Img Share 弹出的窗口中，单击“确定”，等待 Img Share 验证完成即可。  
 
@@ -57,15 +57,15 @@ keywords: [OneDrive, 图床, UWP, 使用体验]
 
 一切准备就绪之后，接下来就可以添加图片了，**将图片拖拽到红框所示区域内：**  
 
-![添加图片](https://storage.live.com/items/5582C1D07E2893FB!83086?authkey=APiqr1tjl5KIc1Q "添加图片")  
+![添加图片](https://s3.ax1x.com/2020/12/14/rmXFeA.png "添加图片")  
 
 这里会让你选择一个分组，**如果没有存在任意一个分组，那么 Img Share 会要求你首先新建一个**，然后继续。这里也是我觉得做的非常好的一个地方，在**之后查找图片的时候，只需要找到对应的分组即可，不需要乱翻了**。  
 
-![在输入框内输入分组名称](https://storage.live.com/items/5582C1D07E2893FB!83085?authkey=APiqr1tjl5KIc1Q "在输入框内输入分组名称")  
+![在输入框内输入分组名称](https://s3.ax1x.com/2020/12/14/rmXAot.png "在输入框内输入分组名称")  
 
 一切完成之后，等待 Img Share 将图片上传，然后就会自动生成 OneDrive 的外链：  
 
-![支持普通链接、Markdown链接和HTML嵌入](https://storage.live.com/items/5582C1D07E2893FB!83087?authkey=APiqr1tjl5KIc1Q "支持普通链接、Markdown链接和HTML嵌入")  
+![支持普通链接、Markdown链接和HTML嵌入](https://s3.ax1x.com/2020/12/14/rmXPLd.png "支持普通链接、Markdown链接和HTML嵌入")  
 
 可以看到，**Img Share 不仅会生成普通的图片外链链接，还提供了生成 Markdown 图片链接格式和 HTML 内嵌入格式的选项**，可谓十分贴心，考虑到不同的情况。  
 

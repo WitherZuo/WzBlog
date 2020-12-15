@@ -19,13 +19,13 @@ keywords: [OneNote, 使用体验, 介绍, 笔记, 应用]
 
 下面贴几张 OneNote 在不同平台的截图，看看**以紫色为界面主色调**的 OneNote 能不能俘获你的芳心？😜 （因为我没有 iOS 的设备，所以...iOS 端的 OneNote 截图暂缺）<!--more-->
 
-![图1：UWP版OneNote的界面](https://i.loli.net/2018/11/11/5be7ff1d6b127.png "图1：UWP版OneNote的界面")  
+![图1：UWP版OneNote的界面](https://s3.ax1x.com/2020/12/14/rmjU4P.png "图1：UWP版OneNote的界面")  
 
-![图2：桌面版OneNote 2016的界面](https://i.loli.net/2018/11/11/5be7ffe1bb95b.png "图2：桌面版OneNote 2016的界面")  
+![图2：桌面版OneNote 2016的界面](https://s3.ax1x.com/2020/12/14/rmjNNt.png "图2：桌面版OneNote 2016的界面")  
 
-![图3：安卓端的OneNote界面](https://i.loli.net/2019/12/30/RJMkTY5tBvmlNcp.jpg "图3：安卓端的OneNote界面")  
+![图3：安卓端的OneNote界面](https://s3.ax1x.com/2020/12/14/rmj1je.jpg "图3：安卓端的OneNote界面")  
 
-![图4：在线版的OneNote Online的界面](https://i.loli.net/2018/11/11/5be80fc393bf9.png "图4：在线版的OneNote Online的界面")  
+![图4：在线版的OneNote Online的界面](https://s3.ax1x.com/2020/12/14/rmjtAI.png "图4：在线版的OneNote Online的界面")  
 
 ## 2. OneNote 的优势
 
@@ -33,7 +33,7 @@ keywords: [OneNote, 使用体验, 介绍, 笔记, 应用]
 
 **② 与 Office 其它组件的关联性**：</span>在前面提到过，OneNote 在 Office 2016 及之前的版本中是随附安装进去的，虽然在 Office 2019 中 OneNote 默认不再安装进入 Office 中，但你仍然可以单独安装 OneNote 2016，同样也可以与其它已安装的 Office 组件联动。例如你可以将 Word 或 Excel 的内容直接插入到 OneNote 的笔记当中，将你在 Visio 中创建的图表直接插入到 OneNote 笔记里，省去了来回折腾的时间和精力。
 
-![图5：OneNote与其它Office组建的联动性](https://i.loli.net/2018/11/14/5bec2e10af3e3.png "图5：OneNote与其它Office组建的联动性")  
+![图5：OneNote与其它Office组建的联动性](https://s3.ax1x.com/2020/12/14/rmj8nH.png "图5：OneNote与其它Office组建的联动性")  
 
 **③ 笔记的层级划分**：在组织笔记的内容时，我们有必要对笔记的层级进行划分。OneNote 的笔记层级可以按照“笔记本-分区组-笔记单页”来看，每一个笔记本可以包含无数的笔记分区，而每一个分区下面又可以包含无数个笔记页面，从理论上来说，你可以无限创建笔记（前提是你的本地空间或云存储空间足够），除此之外，你还可以创建多层级嵌套的笔记分区。  
 
@@ -90,7 +90,7 @@ emmmmm，好吧（同情这位用户）
 
 详情页面（英文版本）：[单击此处](https://support.office.com/zh-cn/article/what-s-the-difference-between-onenote-and-onenote-2016-a624e692-b78b-4c09-b07f-46181958118f)  
 
-![两个版本的OneNote的不同](https://i.loli.net/2018/11/14/5bec1996c27c2.png "两个版本的OneNote的不同")  
+![两个版本的OneNote的不同](https://s3.ax1x.com/2020/12/14/rmjGBd.png "两个版本的OneNote的不同")  
 
 **简单来说，OneNote for Windows 10 的命运，接下来是这样的：**  
 
@@ -124,6 +124,6 @@ emmmmm，好吧（同情这位用户）
 
 从上表中可以看到，与传统桌面版的 OneNote 相比较，<span style="background: red">**全新的应用商店版本 OneNote** 可以**获得持续的功能更新、质量更新和安全更新；能够拥有更加先进的同步引擎，进一步提升同步的体验；能够拥有更加现代化的用户界面体验；对于触屏和手写以及墨迹功能的支持更加完善等等**；**不足之处**则是**只能使用 OneDrive 作为笔记本保存的唯一位置**，</span>这意味着<span style="background: red">OneDrive的同步速度将是决定应用商店版OneNote的重要因素</span>；目前<span style="background: red">**应用商店版本的 OneNote 支持的插件较少，原版功能和传统桌面版仍然有不少的差距**；**获取途径则仅限应用商店本身**</span>。而<span style="background: red">**传统桌面版的 OneNote**，在之后**其界面和功能都不再会有大的改动**</span>，相较于商店版OneNote，<span style="background: red">桌面版**可以将笔记保存在本地位置，也可以选择上传到云上同步**；同时**拥有大量功能扩展插件，其原版功能也更加完善**。**两者共同的优点**则是**免费和对 Office 365 的支持较好**</span>。  
 
-![OneNote官网](https://i.loli.net/2018/11/14/5bec29664168d.png "OneNote官网")  
+![OneNote官网](https://s3.ax1x.com/2020/12/14/rmjJHA.png "OneNote官网")  
 
-因此，<span style=background: red>**如果你对本地保存和功能更加看重**，**目前来说传统桌面版的 OneNote 可能更加适合你**，如果你**经常在触屏上进行手写画画**，那么**应用商店版本的 OneNote 可能更加适合你**，但**随着微软逐渐将开发重心转移到应用商店版的 OneNote，在未来应用商店版本的 OneNote 可能会迎来更加快速稳定的发展**。</span>  
+因此，<span style="background: red">**如果你对本地保存和功能更加看重**，**目前来说传统桌面版的 OneNote 可能更加适合你**，如果你**经常在触屏上进行手写画画**，那么**应用商店版本的 OneNote 可能更加适合你**，但**随着微软逐渐将开发重心转移到应用商店版的 OneNote，在未来应用商店版本的 OneNote 可能会迎来更加快速稳定的发展**。</span>  

@@ -14,7 +14,7 @@ keywords: [OneDrive, 同步盘, 使用体验]
 
 11 月份刚刚经历过期中考试，期间看了看存放在本地的课程资料，已经存了有不下 1 个 G，而我在 OneDrive 上也存放了大量的课程资料，其中很大一部分是为了能够在其它设备上也能查阅。这就提出了一个“同步”的需求。然而微软的操作至今让不少人为之费解：**OneDrive 被微软定义为“同步盘”，却不具备同步盘应该有的一个重要特性，那就是文件自动实时同步**。到目前为止，**如果你想让你的本地文件能够在 OneDrive 上自动同步，那么唯一的方法就是将这个文件放入 OneDrive 在此电脑的本地文件夹位置，然后 OneDrive 才能够识别此文件并开始上传和同步**。这样的操作麻烦不说（每次都要手动移动文件），还有可能因为一时疏忽忘记掉。  <!--more-->  
 
-![One place for everything in your life](https://i.loli.net/2018/11/23/5bf7fa80b765e.jpg "One place for everything in your life")  
+![One place for everything in your life](https://s3.ax1x.com/2020/12/14/rnM8Kg.jpg "One place for everything in your life")  
 
 期间也尝试了不少同步盘软件，国内坚果云做的非常不错，不仅具有同步盘的特性，由于其服务器在国内，速度自然没得说，缺点就是空间和每月同步流量较少，但如果你只是需要同步一些普通的文档等，这些流量和空间已经足够了；而国外 DropBox 不失为一个好的选择，然而它的缺点也跟坚果云一样，除此之外由于众所周知的原因，DropBox 服务在国内必须要科学上网才能正常访问，如果你不是 24 小时全天挂梯子，那体验定会大打折扣，况且作为将 OneDrive 引荐奖励全部刷满的我来说，还舍不得那 25 个 G 的免费空间（15G+10G），既能存储一些个人文件，又能当同步盘用，可谓一举两得。  
 
@@ -31,7 +31,7 @@ keywords: [OneDrive, 同步盘, 使用体验]
 
 **关于 mklink 命令的介绍：（图片来源：微软 IT 支持中心）**  
 
-![微软对mklink的介绍](https://i.loli.net/2018/11/23/5bf7d81e5f2a0.png "微软对mklink的介绍")  
+![微软对mklink的介绍](https://s3.ax1x.com/2020/12/14/rnMcZ9.png "微软对mklink的介绍")  
 
 跟其它大多数命令一样，**mklink 也有自己的功能参数，例如`mklink /d`,`mklink /j`等**，用一张表格来说明这些命令参数的意义：  
 
@@ -76,17 +76,17 @@ mklink /d "G:\SyncDir" "C:\Users\<你的用户名>\OneDrive\SyncDir"
 
 如果出现如下图示，就表明创建链接成功：  
 
-![命令执行结果](https://i.loli.net/2018/11/23/5bf7efa2c3e9a.png "命令执行结果")  
+![命令执行结果](https://s3.ax1x.com/2020/12/14/rnM2I1.png "命令执行结果")  
 
 进入 G:\ 和 OneDrive 来看一下：  
 
-![显示结果](https://i.loli.net/2018/11/23/5bf7f190936dd.png "显示结果")  
+![显示结果](https://s3.ax1x.com/2020/12/14/rnM4xO.png "显示结果")  
 
 在创建完成后，**这两个文件夹相互之间建立了链接关系，在本地文件夹中创建文件或进行其它更改，对应的 OneDrive 位置也会进行自动同步**。  
 
 **示意动图：**  
 
-![示意动图](https://i.loli.net/2018/11/23/5bf7f3a889201.gif "示意动图")  
+![示意动图](https://s3.ax1x.com/2020/12/14/rnMbdA.gif "示意动图")  
 
 顺带提一下，我还看了看其它网站上对 mklink 和 OneDrive 同步的文章，这些文章的命令都写成`mklink /d <待同步文件夹在OneDrive上的位置> <要同步的本地文件夹>`，然而经过我亲自测试，这样做无法将本地文件夹自动上传到 OneDrive 上，除非你手动重启 OneDrive 客户端，然而这已经偏离了“要 OneDrive 自动实时同步”的初衷，不知道是我系统的问题还是他们一水儿相互照抄的问题了...   
 
