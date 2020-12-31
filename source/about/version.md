@@ -16,7 +16,7 @@ INFO  ==================================
 NexT version 8.1.0
 Documentation: https://theme-next.js.org
 ========================================
-hexo: 5.2.0  
+hexo: 5.3.0  
 hexo-cli: 4.2.0  
 os: Windows_NT 10.0.20270 win32 x64  
 node: 14.13.1  
