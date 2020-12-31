@@ -1,4 +1,4 @@
-echo Publishing blog to GitLab Pages.
+echo Publishing blog source-code to GitHub repo.
 read -p "PLEASE ENTER COMMIT DESCRIPTION TEXT:" content
 echo -e " \n"
 echo "YOUR COMMIT DESCRIPTION IS: $content"
@@ -8,11 +8,11 @@ echo Checking status of all files before committing.
 git status
 echo Commit all files.
 git commit -m "$content"
-echo Push all commits to GitLab repo.
+echo Push all commits to GitHub repo.
 git push origin master --force
-echo Published all files to GitLab!
+echo Published all files to GitHub!
 echo ======FINISHED!======
-echo GitLab was Done!
+echo GitHub was Done!
 echo -e "\n"
 echo Submitting all urls to Baidu.
 echo Generating url file with hexo g.
