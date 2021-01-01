@@ -49,9 +49,6 @@ menu:
   #commonweal: /404/ || fa fa-heartbeat
   公众号: /wx-gongzhonghao/ || fab fa-weixin
 
-# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
-baidu_push: true
-
 # Baidu Analytics
 baidu_analytics: 8440904f0d692fb65630d4866571ae22
 
