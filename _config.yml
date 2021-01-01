@@ -88,7 +88,7 @@ meta_generator: false
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-updated_option: mtime
+updated_option: 'date'
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

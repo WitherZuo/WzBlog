@@ -1,4 +1,8 @@
 echo Publishing blog source-code to GitHub repo.
+echo Switching branch to master and merging from develop...
+git checkout master
+git branch
+git merge develop
 read -p "PLEASE ENTER COMMIT DESCRIPTION TEXT:" content
 echo -e " \n"
 echo "YOUR COMMIT DESCRIPTION IS: $content"
@@ -24,4 +28,5 @@ echo Submit urls to Baidu with Curl-cli.
 curl -H 'Content-Type:text/plain' --data-binary @urls.txt "http://data.zz.baidu.com/urls?site=https://wzblog.fun&token=TwFhN5gM4BMIe0a9"
 echo Submitted all urls to Baidu!
 echo ======FINISHED!======
+git checkout develop
 read -p "Press any key to continue." var

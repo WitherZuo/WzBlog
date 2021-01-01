@@ -1,7 +1,7 @@
 ---
 title: PowerShell 脚本更新 Bing 壁纸
 date: 2020-12-11 21:51:36
-updated: 
+updated: {{ date }}
 tags: 
   - PowerShell
   - Bing
