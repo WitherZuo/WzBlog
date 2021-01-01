@@ -3,9 +3,11 @@ echo Switching branch to master and merging from develop...
 git checkout master
 git branch
 git merge develop
+
 read -p "PLEASE ENTER COMMIT DESCRIPTION TEXT:" content
 echo -e " \n"
 echo "YOUR COMMIT DESCRIPTION IS: $content"
+
 echo Adding all files modified to prepare commits.
 git add -A
 echo Checking status of all files before committing.
@@ -18,6 +20,7 @@ echo Published all files to GitHub!
 echo ======FINISHED!======
 echo GitHub was Done!
 echo -e "\n"
+
 echo Submitting all urls to Baidu.
 echo Generating url file with hexo g.
 hexo g
