@@ -145,10 +145,6 @@ back2top:
   # Scroll percent label in b2t button.
   scrollpercent: false
 
-# Easily enable fast Ajax navigation on your website.
-# For more information: https://github.com/next-theme/pjax
-pjax: false
-
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
