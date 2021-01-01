@@ -5,7 +5,7 @@ comments: false
 <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js"></script>
 
 {% note danger %}  
-**如果在显示支持图表时出现“Error Getting JSON File”提示，那么你可能需要特殊的上网姿势，谢谢**
+**如果在显示支持图表时出现错误提示，那么你可能需要特殊的上网姿势，谢谢**
 {% endnote %}  
 
 ## `prefers-color-scheme`  
