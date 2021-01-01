@@ -1,4 +1,6 @@
-![Blog Framework](https://img.shields.io/badge/BLOG%20FRAMEWORK-Hexo-blue?style=for-the-badge&logo=hexo&logoColor=white)  
+![blog icon](https://s3.ax1x.com/2021/01/01/rzu12R.png)  
+
+![Blog Framework](https://img.shields.io/badge/BLOG%20FRAMEWORK-Hexo-blue?style=for-the-badge&logo=hexo&logoColor=white)
 ![Hosting server](https://img.shields.io/badge/HOSTING-vercel-%23222?style=for-the-badge&logo=vercel&logoColor=white)  
 
 我的个人博客站点，这里是存放源文件的地方...  
