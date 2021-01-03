@@ -14,8 +14,7 @@ workbox.precaching.precacheAndRoute(self.__WB_MANIFEST);
 
 workbox.precaching.cleanupOutdatedCaches();
 
-// Images
-// Internal Images
+// 同域范围内的图片资源
 workbox.routing.registerRoute(
     /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
     new workbox.strategies.CacheFirst({
@@ -32,7 +31,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// External Images
+// 第三方图床图片资源
 workbox.routing.registerRoute(
     /^https:\/\/(?:s1|s2|s3)\.ax1x\.com/,
     new workbox.strategies.CacheFirst({
@@ -49,8 +48,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// Fonts
-// Internal Fonts
+// 同域范围内的字体文件
 workbox.routing.registerRoute(
     /\.(?:eot|ttf|woff|woff2)$/,
     new workbox.strategies.CacheFirst({
@@ -67,7 +65,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// External Fonts - Google Fonts
+// 第三方谷歌字体库文件
 workbox.routing.registerRoute(
     /^https:\/\/fonts\.loli\.net/,
     new workbox.strategies.StaleWhileRevalidate({
@@ -90,11 +88,10 @@ workbox.routing.registerRoute(
     })
 );
 
-// Static Libraries
-// Internal Static Libraries
+// 同域范围内的 Javascript 功能库
 workbox.routing.registerRoute(
     /\.(?:js)$/,
-    new workbox.strategies.StaleWhileRevalidate({
+    new workbox.strategies.CacheFirst({
         cacheName: "internal-libraries",
         plugins: [
             new workbox.expiration.ExpirationPlugin({
@@ -108,7 +105,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// External Static Libraries - JsDelivr Static Libraries
+// 第三方 CDN 下的 Javascript 功能库
 workbox.routing.registerRoute(
     /^https:\/\/cdn\.jsdelivr\.net/,
     new workbox.strategies.CacheFirst({
@@ -125,26 +122,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// Others (HTML, CSS, XML...)
-// Cached example.com/index.html
-workbox.routing.registerRoute(
-    /\/$/,
-    new workbox.strategies.NetworkFirst({
-        networkTimeoutSeconds: 6,
-        cacheName: "static-index",
-        plugins: [
-            new workbox.expiration.ExpirationPlugin({
-                maxEntries: 1000,
-                maxAgeSeconds: 60 * 60 * 24 * 30
-            }),
-            new workbox.cacheableResponse.CacheableResponsePlugin({
-                statuses: [0, 200]
-            })
-        ]
-    })
-);
-
-// HTML and CSS Static Files
+// 同域范围内的 HTML 网页和 CSS 样式表
 workbox.routing.registerRoute(
     /\.(?:html|css)$/,
     new workbox.strategies.NetworkFirst({
@@ -162,7 +140,7 @@ workbox.routing.registerRoute(
     })
 );
 
-// XML Static Files
+// 同域范围内的 XML 结构化内容文件
 workbox.routing.registerRoute(
     /\.(?:xml)$/,
     new workbox.strategies.NetworkFirst({
@@ -180,4 +158,5 @@ workbox.routing.registerRoute(
     })
 );
 
+// 谷歌统计
 workbox.googleAnalytics.initialize({});
