@@ -23,7 +23,7 @@ gulp.task('minify-css', function() {
 // 压缩 public 目录内 html
 gulp.task('minify-html', function() {
     return gulp.src('./public/**/*.html')
-        .pipe(htmlclean())
+        // .pipe(htmlclean())
         .pipe(htmlmin({
             removeComments: true,//清除 HTML 注释
             // collapseWhitespace: true,//压缩 HTML，当前已禁用
