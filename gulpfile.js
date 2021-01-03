@@ -6,6 +6,7 @@ const uglify = composer(uglifyes, console);
 const pipeline = require('readable-stream').pipeline;
 const minifycss = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
+const htmlclean = require('gulp-htmlmin');
 
 // 压缩 public 目录内 css
 gulp.task('minify-css', function() {
@@ -22,10 +23,10 @@ gulp.task('minify-css', function() {
 // 压缩 public 目录内 html
 gulp.task('minify-html', function() {
     return gulp.src('./public/**/*.html')
-        //.pipe(htmlclean())
+        .pipe(htmlclean())
         .pipe(htmlmin({
             removeComments: true,//清除 HTML 注释
-            //collapseWhitespace: true,//压缩 HTML，当前已禁用
+            collapseWhitespace: true,//压缩 HTML，当前已禁用
             collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
             removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
             removeScriptTypeAttributes: true,//删除 <script> 的 type="text/javascript"
