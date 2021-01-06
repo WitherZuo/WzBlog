@@ -49,9 +49,6 @@ menu:
   #commonweal: /404/ || fa fa-heartbeat
   公众号: /wx-gongzhonghao/ || fab fa-weixin
 
-# Baidu Analytics
-baidu_analytics: 8440904f0d692fb65630d4866571ae22
-
 # Sidebar Avatar
 avatar:
   # In theme directory (source/images): /images/avatar.gif
@@ -246,3 +243,11 @@ motion:
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: true
+
+# Google Analytics
+# See: https://analytics.google.com
+google_analytics:
+  tracking_id: G-3L1FPESVNP
+  # By default, NexT will load an external gtag.js script on your site.
+  # If you only need the pageview feature, set the following option to true to get a better performance.
+  only_pageview: false
