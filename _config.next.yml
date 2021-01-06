@@ -244,10 +244,6 @@ motion:
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: true
 
-# Google Analytics
-# See: https://analytics.google.com
-google_analytics:
-  tracking_id: G-3L1FPESVNP
-  # By default, NexT will load an external gtag.js script on your site.
-  # If you only need the pageview feature, set the following option to true to get a better performance.
-  only_pageview: false
+# Baidu Analytics
+# See: https://tongji.baidu.com
+baidu_analytics: 8440904f0d692fb65630d4866571ae22
