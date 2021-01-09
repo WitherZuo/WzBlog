@@ -1,7 +1,7 @@
 # 显示提示信息、切换分支为 develop
 echo This script will push all commits to remote develop branch,
 echo if you want to publish your blog for everyone, please use 
-echo 'npm run publish' command.
+echo 'npm run push' command.
 echo -e "\n"
 git branch
 git checkout develop
