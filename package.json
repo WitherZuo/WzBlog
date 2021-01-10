@@ -8,10 +8,10 @@
     "server": "npm run build && hexo s --debug",
     "push-dev": "run-script-os",
     "push-dev:win32": ".\\push\\push-dev-windows.bat",
-    "push-dev:nix": "sh push-dev-linux.sh",
+    "push-dev:nix": "sh ./push/push-dev-linux.sh",
     "push": "run-script-os",
-    "push:win32": "publish.bat",
-    "push:nix": "sh publish.sh"
+    "push:win32": ".\\push\\push-windows.bat",
+    "push:nix": "sh ./push/push-linux.sh"
   },
   "hexo": {
     "version": "5.3.0"
