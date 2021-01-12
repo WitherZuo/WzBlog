@@ -2,7 +2,6 @@
 echo Publishing blog source-code to GitHub repo.
 echo Switching branch to master and merging from develop...
 git checkout master
-git branch
 git merge develop
 # 输入 commit 的描述内容文本
 echo -e "\n"

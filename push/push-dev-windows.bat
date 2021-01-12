@@ -5,9 +5,7 @@ echo This script will push all commits to remote develop branch,
 echo --if you want to publish your blog to everyone, please use 
 echo 'npm run push' command.--
 echo.
-git branch 
 git checkout develop
-git branch
 :: 输入 commit 的描述内容文本
 echo.
 set /p content=PLEASE ENTER COMMIT DESCRIPTION TEXT: 
