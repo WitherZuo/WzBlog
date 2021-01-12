@@ -89,14 +89,11 @@ html {
     font-size: 15px;
 }
 
-/* 侧边栏阴影效果取消和背景颜色修改 */
-.sidebar {
-    background: #111;
-}
-
 /* 侧边栏切换按钮及侧边栏样式修改 */
-.sidebar-toggle {
+.sidebar-toggle,
+.back-to-top  {
     transform: scale(1.4);
+    opacity: 1;
 }
 
 .sidebar-inner {
@@ -135,8 +132,15 @@ nav.pagination {
 
 /* 返回顶部 */
 .back-to-top {
-    font-size: 38px;    
-    margin: 20px -10px -20px;
+    transform: scale(1.4);
+    bottom: 45px !important;
+    left: 75px;
+    width: 62px;
+    text-align: center;
+
+    @media (max-width: 991px) {
+        left: 65px;    
+    }
 }
 
 /* 亮色和暗色模式微调 */
