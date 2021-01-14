@@ -1,6 +1,13 @@
 @echo off
 chcp 65001
 title publish
+echo 请选择要提交哪一个分支？[master/develop]
+set /p branch_name=请输入分支名[master/develop]：
+
+if %branch_name%==master goto master
+if %branch_name%==develop goto develop
+
+:master
 :: 切换本地分支为 master 分支，并将 develop 分支合并至 master 分支
 echo 该脚本将会提交【所有本地 master 分支的内容改动】到远端 master 分支
 echo 【请注意：master 分支主要用于公开浏览而非开发预览】
@@ -41,4 +48,26 @@ echo 已提交网址到百度站长平台！
 echo ======FINISHED!======
 :: 将本地分支由 master 分支切换为 develop 分支，结束
 git checkout develop
+goto okay
+
+:develop
+:: 显示提示信息、切换分支为 develop
+echo 该脚本将会提交【所有本地 develop 分支的内容改动】到远端 develop 分支
+echo.
+git checkout develop
+:: 输入 commit 的描述内容文本
+echo.
+set /p content=请输入本次 commit 的简短描述：
+cls
+:: 显示 commit 的描述内容文本、提交并推送更改至远程分支
+echo 你输入的本次 commit 的简短描述是：%content%
+git status
+git add -A
+git status
+git commit -m "%content%"
+git push
+echo 所有改动已提交到远端 develop 分支。
+goto okay
+
+:okay
 pause
