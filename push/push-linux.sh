@@ -1,6 +1,7 @@
 echo 请选择要提交哪一个分支？[master/develop]
 read -p "请输入分支名[master/develop]：" branch_name
 case $branch_name in
+    # 提交到 master 分支
     master)
     # 切换本地分支为 master 分支，并将 develop 分支合并至 master 分支
     echo 该脚本将会提交【所有本地 master 分支的内容改动】到远端 master 分支
@@ -44,6 +45,7 @@ case $branch_name in
     git checkout develop
     ;;
 
+    # 提交到 develop 分支
     develop)
     # 显示提示信息、切换分支为 develop
     echo 该脚本将会提交【所有本地 develop 分支的内容改动】到远端 develop 分支
@@ -69,3 +71,4 @@ case $branch_name in
 esac
     
 read -p "请按任意键继续..." var
+exit

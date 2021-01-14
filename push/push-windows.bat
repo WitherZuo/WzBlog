@@ -6,7 +6,11 @@ set /p branch_name=请输入分支名[master/develop]：
 
 if %branch_name%==master goto master
 if %branch_name%==develop goto develop
+:: 若传入的参数非 master 和 develop，则直接跳出
+echo 传入的参数错误，请重新运行脚本，然后再试一次。&& pause
+exit
 
+:: 提交到 master 分支
 :master
 :: 切换本地分支为 master 分支，并将 develop 分支合并至 master 分支
 echo 该脚本将会提交【所有本地 master 分支的内容改动】到远端 master 分支
@@ -50,6 +54,7 @@ echo ======FINISHED!======
 git checkout develop
 goto okay
 
+:: 提交到 develop 分支
 :develop
 :: 显示提示信息、切换分支为 develop
 echo 该脚本将会提交【所有本地 develop 分支的内容改动】到远端 develop 分支
@@ -71,3 +76,4 @@ goto okay
 
 :okay
 pause
+exit
