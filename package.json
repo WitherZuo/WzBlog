@@ -11,7 +11,8 @@
     "push-dev:nix": "sh ./push/push-dev-linux.sh",
     "push": "run-script-os",
     "push:win32": ".\\push\\push-windows.bat",
-    "push:nix": "sh ./push/push-linux.sh"
+    "push:nix": "sh ./push/push-linux.sh",
+    "pull": "git checkout develop && git pull && git checkout master && git pull && git checkout develop"
   },
   "hexo": {
     "version": "5.3.0"
