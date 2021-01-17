@@ -38,3 +38,16 @@ unicode: 13.0
 ROCKET LOADER: OFF
 ~/HexoBlog> 
 ```
+
+<div class="post-eof"></div>
+
+```javascript
+atob('aHR0cHM6Ly9zMy5heDF4LmNvbS8yMDIwLzEyLzMxL3JqMWx6bi5wbmc=')
+```
+
+<style>
+  div.post-eof {
+    margin: 40px 0;
+    width: 100%;
+  }
+</style>

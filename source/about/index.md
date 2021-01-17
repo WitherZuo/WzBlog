@@ -28,7 +28,7 @@ comments: false
 
 **（未完待续）**   
 
----
+<div class="post-eof"></div>
 
 <u>**致谢列表**</u>  
 
@@ -36,7 +36,7 @@ comments: false
 
 wzblog.fun is watching you  
 
----
+<div class="post-eof"></div>
 
 **建议使用基于 Chromium/Webkit 内核的浏览器访问本站**  
 
@@ -44,10 +44,38 @@ wzblog.fun is watching you
 
 **还有，网站备案，连服务器都没有，你在想 peach 嘛**  
 
-![Comic Page](https://s3.ax1x.com/2020/12/31/rj1lzn.png)  
-
 <a class="btn" href="feature-stats.html">查看各浏览器对特性/标准的支持</a>  
 
-<a class="btn" href="version.html">查看其它信息</a>    
+<a class="btn" href="version.html">查看其它信息</a>  
 
-<style>.main-inner {padding-bottom: 50px !important} p {text-align: center; margin-bottom: 6px} .btn {margin-top: 20px} hr {width: 40px; margin-left: auto; margin-right: auto}</style>
+<span>（以上有惊喜~）</span>  
+
+<style>
+    .main-inner {
+        padding-bottom: 50px !important;
+    } 
+    
+    p {
+        text-align: center; 
+        margin-bottom: 6px;
+    } 
+
+    .post-block p:last-of-type {
+        margin-top: -10px;
+    }
+    
+    .btn {
+        margin-top: 20px;
+    } 
+    
+    div.post-eof {
+        display: block !important;
+        width: 40px; 
+        margin: 40px auto 40px; 
+    }
+
+    .post-block span {
+        font-size: 14px;
+        opacity: 0.6;
+    }
+</style>

@@ -3,7 +3,6 @@
   "version": "1.3.0",
   "private": true,
   "scripts": {
-    "build-vercel": "bash ./vercel.sh",
     "build": "hexo clean && hexo g && gulp build",
     "server": "npm run build && hexo s --debug",
     "push": "run-script-os",

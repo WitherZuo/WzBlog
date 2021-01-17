@@ -1,264 +1,207 @@
 ﻿/* 优化部分元素字号，尝试增强其可读性 */
-.post-body, 
-.btn, 
-.pagination,
-.menu li a, 
-table, 
-pre code {
-    font-size: 1em;  
-}
+fontSize1em = '.post-body, .btn, .pagination, .menu li a, table, pre code'
+{fontSize1em}
+    font-size: 1em
 
 /* 修改顶部栏上下边距和背景颜色 */
-.header {
-    background: #222;
-}
-
-.header-inner {
-    padding: 60px 0;
-}
+.header
+    background: #222
+    &-inner 
+        padding: 60px 0
 
 /* 改变导航栏菜单项目的基础样式 */
-.menu-item {
-    margin: 0 20px;    
-}
+.menu-item 
+    margin: 0 20px    
 
-@media (max-width: 767px) {
-    .site-nav {
-        border-top: none; 
-        border-bottom: none;
-    }
-
-    .menu {
-        text-align: center;
-    }
-
-    .menu .menu-item {
-        margin: 0 20px;
-    }
-}
-
+@media (max-width: 767px) 
+    .site-nav 
+        border-top: none 
+        border-bottom: none
+    
+    .menu 
+        text-align: center
+        & .menu-item 
+            margin: 0 20px
+    
 /* 修改站点标题样式 */
-.site-title {
-    font-weight: 700; 
-    font-size: 25.5px;
-}
+.site-title 
+    font-weight: 700 
+    font-size: 25.5px
 
-a.brand {
-    padding: 0;
-}
-
-/* 文章标题加粗 */
-.post-header .post-title {
-    font-weight: 700;
-}
+a.brand 
+    padding: 0
 
 /* 减小文章属性下方边距 */
-header.post-header {
-    margin: 3px 0 20px !important;
-}
+.post-header 
+    margin: 3px 0 20px !important
+    /* 文章标题加粗 */
+    & .post-title 
+        font-weight: 700
 
 /* 滚动条样式 */
-::-webkit-scrollbar {
-    width: 15px; 
-    background: #BFBFBF;
-}
+::-webkit-scrollbar 
+    width: 15px 
+    background: #BFBFBF
+    &-thumb 
+        background: #222
 
-::-webkit-scrollbar-thumb {
-    background: #222;
-}
-
-html {
-    scrollbar-color: #767676 #1e1e1f;
-}
+html 
+    scrollbar-color: #767676 #1e1e1f
 
 /* 强化移动端导航按钮显示效果 */
-.toggle {
-    opacity: 1 !important;
-}
+.toggle 
+    opacity: 1 !important
 
 /* 分类页面优化 */
-.category-all-page {
-    text-align: center;
-}
+.category-all-page 
+    text-align: center
 
 /* 修改底部说明文字块样式 */
 .footer, 
-.footer a {
-    color: #fff; 
-    background: #222; 
-    font-size: 15px;
-}
+.footer a 
+    color: #fff 
+    background: #222 
+    font-size: 15px
 
 /* 侧边栏切换按钮及侧边栏样式修改 */
 .sidebar-toggle,
-.back-to-top  {
-    transform: scale(1.4);
-    opacity: 1;
-}
-
-.sidebar-inner {
-    width: 230px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);    
-}
-
-/* 分页指示器调整 */
-nav.pagination {
-    margin-top: 80px;
-}
-
-/* 修改页面主体容器 取消部分页面上下内边距 取消归档、分类页面最后条目的底部外边距 */
-.main-inner {
-    padding-top: 40px; 
-    padding-bottom: 56px;
-}
-
-.post-block:first-of-type,
-.content {
-    padding-top: 0;    
-}
-
-.main-inner .posts-expand, 
-.main-inner .posts-collapse {
-    padding-top: 0; 
-    padding-bottom: 0;
-}
-
-.posts-collapse article:last-of-type .post-header, 
-.category-list-item:last-of-type {
-    margin-bottom: 0 !important;
-}
+.back-to-top  
+    transform: scale(1.4)
+    opacity: 1
 
 /* 返回顶部 */
-.back-to-top {
-    bottom: 45px !important;
-    left: 75px;
-    width: 62px;
-    text-align: center;
-    z-index: 1;
+.back-to-top 
+    bottom: 45px !important
+    left: 75px
+    width: 62px
+    text-align: center
+    z-index: 1
 
-    @media (max-width: 991px) {
-        left: 65px;    
-    }
-}
+    @media (max-width: 991px) 
+        left: 65px    
+
+.sidebar-inner 
+    width: 230px
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)    
+
+/* 分页指示器调整 */
+.pagination 
+    margin-top: 80px
+
+/* 修改页面主体容器 取消部分页面上下内边距 取消归档、分类页面最后条目的底部外边距 */
+.main-inner 
+    padding-top: 40px 
+    padding-bottom: 56px
+    & .posts-expand, 
+    & .posts-collapse 
+        padding-top: 0 
+        padding-bottom: 0
+
+.post-block:first-of-type,
+.content 
+    padding-top: 0    
+
+.posts-collapse article:last-of-type .post-header, 
+.category-list-item:last-of-type 
+    margin-bottom: 0 !important
 
 /* 亮色和暗色模式微调 */
-@media (prefers-color-scheme: dark) {
-    .search-popup .search-header {
-        background: #333;
-    }
+@media (prefers-color-scheme: dark) 
+    .search-popup 
+        .search-header 
+            background: #333
+        & input.search-input,
+        & .popup-btn-close:hover .fa 
+            color: #f5f5f5
 
-    .search-popup input.search-input,
-    .search-popup .popup-btn-close:hover .fa {
-        color: #f5f5f5;
-    }
+    .comments .vcopy.txt-right a 
+        color: #bbb
+        &:hover 
+            color: #d7191a
 
-    .comments .vcopy.txt-right a {
-        color: #bbb;
-    }
+    ::-webkit-scrollbar 
+        background: #444
 
-    .comments .vcopy.txt-right a:hover {
-        color: #d7191a;
-    }
-
-    ::-webkit-scrollbar {
-        background: #444;
-    }
-}
-
-@media (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) 
     .site-brand-container i,
-    .menu a {
-        color: #f5f5f5;
-    }
+    .menu a 
+        color: #f5f5f5
 
-    .site-brand-container .toggle .toggle-line {
-        background: #f5f5f5;
-    }
+    .site-brand-container .toggle .toggle-line 
+        background: #f5f5f5
 
-    .menu .menu-item a:hover, 
-    .menu .menu-item span.exturl:hover, 
-    .menu .menu-item a.menu-item-active, 
-    .menu .menu-item span.exturl.menu-item-active {
-        color: #fff; 
-        border-bottom: 1px solid #f5f5f5;
-    }
+    .menu .menu-item 
+        & a:hover, 
+        & span.exturl:hover, 
+        & a.menu-item-active, 
+        & span.exturl.menu-item-active
+            color: #fff
+            border-bottom: 1px solid #f5f5f5
 
-    .pagination, 
-    .pagination .prev, 
-    .pagination .next, 
-    .pagination .page-number {
-        border-top: 1px solid #222;
-    }
+    .post-eof 
+        background: #555
 
-    .pagination .page-number.current {
-        background: #222; 
-        border-color: #222;
-    }
+    .pagination
+        &,
+        & .prev,
+        & .next,
+        & .page-number
+            border-top: 1px solid #222;
+
+        & .page-number.current
+            background: #222; 
+            border-color: #222;
 
     .footer a:hover, 
-    .footer span.exturl:hover {
-        border-bottom-color: #fff;
-    }
+    .footer span.exturl:hover 
+        border-bottom-color: #fff
 
-    @media (max-width: 767px) {
-        .menu .menu-item a:hover, 
-        .menu .menu-item span.exturl:hover, 
-        .menu .menu-item a.menu-item-active, 
-        .menu .menu-item span.exturl.menu-item-active {
-            color: #fff; 
-            border-bottom: 1px dotted #f5f5f5;
-        }
+    @media (max-width: 767px) 
+        .menu .menu-item 
+            & a:hover, 
+            & span.exturl:hover, 
+            & a.menu-item-active, 
+            & span.exturl.menu-item-active
+                color: #fff
+                border-bottom: 1px dotted #f5f5f5
 
-        .pagination, 
-        .pagination .prev, 
-        .pagination .next, 
-        .pagination .page-number {
-            border-top: 0;
-        }        
-
-        .pagination .prev, 
-        .pagination .next, 
-        .pagination .page-number {
-            border-bottom: 1px solid #222;
-        }
-    }
-}
+        .pagination
+            & 
+                border-top: 0
+            & .prev,
+            & .next,
+            & .page-number
+                border-top: 0
+                border-bottom: 1px solid #222
 
 /* 文章内容显示优化 */
-.post-block br {
-    display: none;
-}
+.post-block br 
+    display: none
 
-figure.highlight br {
-    display: block !important;
-}
+figure.highlight br 
+    display: block !important
 
 /* PWA更新条样式 */
-.app-refresh {
-    background: #000; 
-    height: 0; 
-    line-height: 3em; 
-    overflow: hidden; 
-    position: fixed; 
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    z-index: 42; 
-    padding: 0 1em; 
-    transition: all .3s ease;
-}
+.app-refresh 
+    background: #000 
+    height: 0 
+    line-height: 3em 
+    overflow: hidden 
+    position: fixed 
+    top: 0 
+    left: 0 
+    right: 0 
+    z-index: 42 
+    padding: 0 1em 
+    transition: all .3s ease
 
-.app-refresh-wrap {
-    display: flex; 
-    color: #fff;
-}
+    &-wrap 
+        display: flex 
+        color: #fff
+        & label 
+            flex: 1
 
-.app-refresh-wrap label {
-    flex: 1;
-}
-
-.app-refresh-show {
-    height: 3em;
-}
+    &-show 
+        height: 3em
