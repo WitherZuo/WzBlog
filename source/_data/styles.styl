@@ -64,6 +64,9 @@ html
     font-size: 15px
 
 /* 侧边栏切换按钮及侧边栏样式修改 */
+.sidebar 
+    background: #000
+
 .sidebar-toggle,
 .back-to-top  
     transform: scale(1.4)
@@ -124,6 +127,38 @@ html
     ::-webkit-scrollbar 
         background: #444
 
+    .pagination
+        border-top: 1px solid #ccc
+        color: #ccc
+        .prev,
+        .next,
+        .page-number
+            border-top: 1px solid #ccc
+            color: #ccc
+            &:hover
+                border-top: 1px solid #ccc
+                background: #ccc
+                color: #333
+        
+        & .page-number.current
+            background: #ccc
+            border-color: #ccc
+
+    @media (max-width: 767px)
+        .pagination
+            border-top: 0 !important
+            .prev,
+            .next,
+            .page-number
+                border-top: 0
+                border-bottom: 1px solid #ccc
+                color: #ccc
+                &:hover
+                    border-top: 0
+                    border-bottom: 1px solid #ccc
+                    background: #ccc
+                    color: #333
+
 @media (prefers-color-scheme: light) 
     .site-brand-container i,
     .menu a 
@@ -144,15 +179,21 @@ html
         background: #555
 
     .pagination
-        &,
-        & .prev,
-        & .next,
-        & .page-number
-            border-top: 1px solid #222;
+        border-top: 1px solid #222
+        color: #222
+        .prev,
+        .next,
+        .page-number
+            border-top: 1px solid #222
+            color: #222
+            &:hover
+                border-top: 1px solid #222
+                background: #222
+                color: #f5f5f5
 
         & .page-number.current
-            background: #222; 
-            border-color: #222;
+            background: #222
+            border-color: #222
 
     .footer a:hover, 
     .footer span.exturl:hover 
@@ -168,13 +209,18 @@ html
                 border-bottom: 1px dotted #f5f5f5
 
         .pagination
-            & 
-                border-top: 0
-            & .prev,
-            & .next,
-            & .page-number
+            border-top: 0 !important
+            .prev,
+            .next,
+            .page-number
                 border-top: 0
                 border-bottom: 1px solid #222
+                color: #222
+                &:hover
+                    border-top: 0
+                    border-bottom: 1px solid #222
+                    background: #222
+                    color: #f5f5f5
 
 /* 文章内容显示优化 */
 .post-block br 
