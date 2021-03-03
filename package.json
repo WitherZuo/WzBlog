@@ -6,7 +6,7 @@
     "build": "hexo clean && hexo g && gulp build",
     "server": "npm run build && hexo s --debug",
     "push": "run-script-os",
-    "push:win32": ".\\push\\push-windows.bat",
+    "push:win32": ".\\push\\push-windows.ps1",
     "push:nix": "sh ./push/push-linux.sh",
     "pull": "git checkout develop && git pull && git checkout master && git pull && git checkout develop"
   },
