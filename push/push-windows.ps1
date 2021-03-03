@@ -1,3 +1,5 @@
+Clear-Host
+
 Write-Host "请选择要提交哪一个分支？[master/develop]"
 
 $BranchName = Read-Host -Prompt "请输入分支名[master/develop]"
@@ -38,7 +40,7 @@ switch ($BranchName) {
         Set-Location public
         Get-ChildItem
         Write-Output "使用 curl 命令行工具提交网址到百度站长平台..."
-        cmd /c "curl -H 'Content-Type:text/plain' --data-binary @urls.txt 'http://data.zz.baidu.com/urls?site=https://wzblog.fun&token=TwFhN5gM4BMIe0a9'"
+        Start-Process -FilePath "baidu-url-submit.bat" -WorkingDirectory "$env:wzblog"
         Write-Output "已提交网址到百度站长平台！"
         Write-Output "======FINISHED!======"
         # 将本地分支由 master 分支切换为 develop 分支，结束

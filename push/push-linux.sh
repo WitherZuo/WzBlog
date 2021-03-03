@@ -1,3 +1,5 @@
+clear
+
 echo 请选择要提交哪一个分支？[master/develop]
 read -p "请输入分支名[master/develop]：" branch_name
 case $branch_name in
