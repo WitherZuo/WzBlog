@@ -40,7 +40,7 @@ switch ($BranchName) {
         Set-Location public
         Get-ChildItem
         Write-Output "使用 curl 命令行工具提交网址到百度站长平台..."
-        Start-Process -FilePath "baidu-url-submit.bat" -WorkingDirectory "$env:wzblog"
+        Start-Process -FilePath "baidu-url-submit.bat" -WorkingDirectory "$env:wzblog/public"
         Write-Output "已提交网址到百度站长平台！"
         Write-Output "======FINISHED!======"
         # 将本地分支由 master 分支切换为 develop 分支，结束
