@@ -16,8 +16,7 @@ exit
 echo 该脚本将会提交【所有本地 master 分支的内容改动】到远端 master 分支
 echo 【请注意：master 分支主要用于公开浏览而非开发预览】
 echo.
-echo 正在从本地 develop 分支切换到本地 master 分支，并将 develop 分支
-echo 合并到 master 分支中...
+echo 正在从本地 develop 分支切换到本地 master 分支，并将 develop 分支合并到 master 分支中...
 git checkout master
 git merge develop
 :: 输入 commit 的描述内容文本
@@ -38,7 +37,7 @@ git push origin master --force
 echo 已推送。
 echo ======FINISHED!======
 echo GitHub 任务结束。
-:: 提交网址到百度站长平台
+:: 提交网址
 echo.
 echo 正在提交网址到百度站长平台...
 echo 使用 'hexo g' 生成 urls.txt 文件...
