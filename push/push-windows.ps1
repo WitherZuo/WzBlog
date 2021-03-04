@@ -73,5 +73,6 @@ switch ($BranchName) {
     }
 }
 
-Read-Host -Prompt 按任意键继续……
+Write-Host "按任意键继续……"
+Read-Host | Out-Null
 Exit
