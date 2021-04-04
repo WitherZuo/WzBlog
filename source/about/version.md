@@ -13,12 +13,12 @@ INFO  ==================================
   ██║ ╚████║███████╗██╔╝ ██╗   ██║
   ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝   ╚═╝
 ========================================
-NexT version 8.2.2
+NexT version 8.3.0
 Documentation: https://theme-next.js.org
 ========================================
 hexo: 5.4.0
 hexo-cli: 4.2.0
-os: Windows_NT 10.0.21322 win32 x64
+os: Windows_NT 10.0.21343 win32 x64
 node: 14.15.5
 v8: 8.4.371.19-node.18
 uv: 1.40.0
@@ -34,7 +34,6 @@ cldr: 37.0
 icu: 67.1
 tz: 2020a
 unicode: 13.0
-
 ROCKET LOADER: OFF
 ~/HexoBlog> 
 ```
