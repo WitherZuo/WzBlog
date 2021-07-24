@@ -33,7 +33,7 @@ workbox.routing.registerRoute(
 
 // 第三方图床图片资源
 workbox.routing.registerRoute(
-    /^https:\/\/(?:s1|s2|s3)\.ax1x\.com/,
+    /^https:\/\/(?:s1|s2|s3|z3)\.ax1x\.com/,
     new workbox.strategies.CacheFirst({
         cacheName: "external-images",
         plugins: [
