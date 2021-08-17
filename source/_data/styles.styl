@@ -1,15 +1,32 @@
-﻿/* 优化部分元素字号，尝试增强其可读性 */
+﻿// 优化部分元素字号，尝试增强其可读性 
 fontSize1em = '.post-body, .btn, .pagination, .menu li a, table, pre code'
 {fontSize1em}
     font-size: 1em
 
-/* 修改顶部栏上下边距和背景颜色 */
+// <details> 显示详情样式
+.post-body details 
+    padding: 10px 0
+    summary 
+        cursor: pointer
+        background: var(--btn-default-bg);
+        border: 2px solid var(--btn-default-border-color);
+        border-radius: 0;
+        color: var(--btn-default-color);
+        line-height: 2;
+        padding: 0 20px;
+        transition: background-color 0.2s ease-in-out;
+        &:hover
+            background: var(--btn-default-hover-bg);
+            border-color: var(--btn-default-hover-border-color);
+            color: var(--btn-default-hover-color);
+
+// 修改顶部栏上下边距和背景颜色 
 .header
     background: #222
     &-inner 
         padding: 60px 0
 
-/* 改变导航栏菜单项目的基础样式 */
+// 改变导航栏菜单项目的基础样式 
 .menu-item 
     margin: 0 20px    
 
@@ -23,7 +40,7 @@ fontSize1em = '.post-body, .btn, .pagination, .menu li a, table, pre code'
         & .menu-item 
             margin: 0 20px
     
-/* 修改站点标题样式 */
+// 修改站点标题样式 
 .site-title 
     font-weight: 700 
     font-size: 25.5px
@@ -31,14 +48,14 @@ fontSize1em = '.post-body, .btn, .pagination, .menu li a, table, pre code'
 a.brand 
     padding: 0
 
-/* 减小文章属性下方边距 */
+// 减小文章属性下方边距 
 .post-header 
     margin: 3px 0 20px !important
-    /* 文章标题加粗 */
+    // 文章标题加粗 
     & .post-title 
         font-weight: 700
 
-/* 滚动条样式 */
+// 滚动条样式 
 ::-webkit-scrollbar 
     width: 15px 
     background: #BFBFBF
@@ -48,22 +65,22 @@ a.brand
 html 
     scrollbar-color: #767676 #1e1e1f
 
-/* 强化移动端导航按钮显示效果 */
+// 强化移动端导航按钮显示效果 
 .toggle 
     opacity: 1 !important
 
-/* 分类页面优化 */
+// 分类页面优化 
 .category-all-page 
     text-align: center
 
-/* 修改底部说明文字块样式 */
+// 修改底部说明文字块样式 
 .footer, 
 .footer a 
     color: #fff 
     background: #222 
     font-size: 15px
 
-/* 侧边栏切换按钮及侧边栏样式修改 */
+// 侧边栏切换按钮及侧边栏样式修改 
 .sidebar 
     background: #000
 
@@ -72,7 +89,7 @@ html
     transform: scale(1.4)
     opacity: 1
 
-/* 返回顶部 */
+// 返回顶部 
 .back-to-top 
     bottom: 45px !important
     left: 75px
@@ -89,11 +106,11 @@ html
     top: 50%
     transform: translateY(-50%)    
 
-/* 分页指示器调整 */
+// 分页指示器调整 
 .pagination 
     margin-top: 80px
 
-/* 修改页面主体容器 取消部分页面上下内边距 取消归档、分类页面最后条目的底部外边距 */
+// 修改页面主体容器 取消部分页面上下内边距 取消归档、分类页面最后条目的底部外边距 
 .main-inner 
     padding-top: 40px 
     padding-bottom: 56px
@@ -110,7 +127,7 @@ html
 .category-list-item:last-of-type 
     margin-bottom: 0 !important
 
-/* 亮色和暗色模式微调 */
+// 亮色和暗色模式微调 
 @media (prefers-color-scheme: dark) 
     .search-popup 
         .search-header 
@@ -222,14 +239,14 @@ html
                     background: #222
                     color: #f5f5f5
 
-/* 文章内容显示优化 */
+// 文章内容显示优化 
 .post-block br 
     display: none
 
 figure.highlight br 
     display: block !important
 
-/* PWA更新条样式 */
+// PWA更新条样式 
 .app-refresh 
     background: #000 
     height: 0 

@@ -444,11 +444,14 @@ sudo usermod -a -G redis www-data
 
 ## 引用参考  
 
-[^1]:https://blog.csdn.net/qq_30754565/article/details/81591812
-[^2]:https://blog.csdn.net/username666/article/details/105293770
-[^3]:https://blog.csdn.net/jacson_bai/article/details/107116050
-[^4]:https://docs.nextcloud.com/server/21/admin_manual/issues/general_troubleshooting.html#service-discovery
-[^5]:https://docs.nextcloud.com/server/21/admin_manual/configuration_server/caching_configuration.html
-[^6]:https://docs.nextcloud.com/server/21/admin_manual/installation/installation_wizard.html
-[^7]:https://www.shangmayuan.com/a/3dae555349e840e29413da4e.html
-[^8]:https://help.nextcloud.com/t/nc13-memcache-oc-memcache-apcu-not-available-for-local-cache/31027  
+<details>
+   <summary>点击以展开下面的内容</summary>
+   [^1]:https://blog.csdn.net/qq_30754565/article/details/81591812
+   [^2]:https://blog.csdn.net/username666/article/details/105293770
+   [^3]:https://blog.csdn.net/jacson_bai/article/details/107116050
+   [^4]:https://docs.nextcloud.com/server/21/admin_manual/issues/general_troubleshooting.html#service-discovery
+   [^5]:https://docs.nextcloud.com/server/21/admin_manual/configuration_server/caching_configuration.html
+   [^6]:https://docs.nextcloud.com/server/21/admin_manual/installation/installation_wizard.html
+   [^7]:https://www.shangmayuan.com/a/3dae555349e840e29413da4e.html
+   [^8]:https://help.nextcloud.com/t/nc13-memcache-oc-memcache-apcu-not-available-for-local-cache/31027  
+</details>
