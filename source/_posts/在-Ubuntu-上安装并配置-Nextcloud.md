@@ -440,12 +440,8 @@ sudo usermod -a -G redis www-data
 
 将 `网络服务器` 用户添加到 `Redis` 用户组中，确保 `redis.sock` 可被服务器正常读写。然后重新启动 `Redis` 服务和 `Apache` 服务，检查内存缓存工作是否正常。  
 
----
-
-## 引用参考  
-
 <details>
-   <summary>点击以展开下面的内容</summary>
+   <summary>引用参考：</summary>
    [^1]:https://blog.csdn.net/qq_30754565/article/details/81591812
    [^2]:https://blog.csdn.net/username666/article/details/105293770
    [^3]:https://blog.csdn.net/jacson_bai/article/details/107116050
